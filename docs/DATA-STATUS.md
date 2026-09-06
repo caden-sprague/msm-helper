@@ -81,9 +81,35 @@ disagree. Bowgart's best pick, Furcorn + Toe Jammer, costs 8h 1m; the runner-up 
 Potbelly costs 2h 30m. Sorting by cost alone would invert them. The explicit `rank`
 is what puts them in the wiki's order; cost only orders the unranked remainder.
 
+## Cold Island — verified
+
+52 monsters (22 common, 15 rare, 15 epic) and
+100 combos, extracted from the wiki API with `scripts/wiki.py`.
+
+Elements are **Air, Plant, Water, Cold** — no Earth, confirmed by the island infobox
+and by the roster shape: 4 singles + 6 doubles + 4 triples + 1 quad = 15 naturals.
+Seven of those (Potbelly, Mammott, Toe Jammer, Furcorn, Oaktopus, Maw, Bowgart) already
+existed from Plant Island and gained `"cold"` in their `islands`, which is the whole
+point of modelling availability per monster.
+
+Specials: Grumpyre (Shadow), Yool (Festival of Yay), bbli$zard and Maggpi (Legendary),
+Strombonin (Mythical), plus Wubbox and Tawkerr gaining Cold. Two new elements were
+added: `shadow` and `festival-of-yay`.
+
+### Two extraction bugs the invariants caught
+
+1. **Quibble + Shugabush -> Quibble.** Real, but it only applies on Shugabush Island,
+   which isn't in the dataset. The parser now cuts at prose introducing *another*
+   island's combos.
+2. **The same cut initially ate Yool and Strombonin entirely**, because their Breeding
+   sections *open* with "On [[Cold Island]], ...". The cut is now island-aware: it
+   ignores prose naming the island being extracted.
+
+Both are fixed in `scripts/wiki.py` and matter for every island still to come.
+
 ## Not yet done
 
-- Other islands: Cold, Air, Water, Earth, Shugabush. Note that many rows already in
+- Other islands: Air, Water, Earth, Shugabush. Note that many rows already in
   the dataset list combos for those islands on the wiki; only the Plant Island
   combination was taken.
 - Dipsters (3 group entries on the Plant Island roster) — see DATA-CONTRIBUTION.md for

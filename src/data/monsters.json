@@ -1,5 +1,61 @@
 [
   {
+    "id": "gjoob",
+    "name": "G'joob",
+    "rarity": "common",
+    "elements": [
+      "mythical"
+    ],
+    "islands": [
+      "plant"
+    ],
+    "breedingTime": "PT18H",
+    "buyable": false,
+    "verified": true
+  },
+  {
+    "id": "ghazt",
+    "name": "Ghazt",
+    "rarity": "common",
+    "elements": [
+      "plasma"
+    ],
+    "islands": [
+      "plant"
+    ],
+    "breedingTime": "P1DT12H",
+    "buyable": false,
+    "verified": true
+  },
+  {
+    "id": "grumpyre",
+    "name": "Grumpyre",
+    "rarity": "common",
+    "elements": [
+      "shadow"
+    ],
+    "islands": [
+      "cold"
+    ],
+    "buyable": false,
+    "verified": true,
+    "breedingTime": "P1DT12H"
+  },
+  {
+    "id": "maggpi",
+    "name": "Maggpi",
+    "rarity": "common",
+    "elements": [
+      "legendary"
+    ],
+    "islands": [
+      "cold"
+    ],
+    "buyable": true,
+    "verified": true,
+    "breedingTime": "PT8H"
+  },
+  {
     "id": "mammott",
     "name": "Mammott",
     "rarity": "common",
@@ -7,7 +63,8 @@
       "cold"
     ],
     "islands": [
-      "plant"
+      "plant",
+      "cold"
     ],
     "breedingTime": "PT2M",
     "buyable": true,
@@ -28,6 +85,20 @@
     "verified": true
   },
   {
+    "id": "parlsona",
+    "name": "Parlsona",
+    "rarity": "common",
+    "elements": [
+      "legendary"
+    ],
+    "islands": [
+      "plant"
+    ],
+    "breedingTime": "PT8H",
+    "buyable": true,
+    "verified": true
+  },
+  {
     "id": "potbelly",
     "name": "Potbelly",
     "rarity": "common",
@@ -35,223 +106,11 @@
       "plant"
     ],
     "islands": [
-      "plant"
-    ],
-    "breedingTime": "PT2H",
-    "buyable": true,
-    "verified": true
-  },
-  {
-    "id": "toe-jammer",
-    "name": "Toe Jammer",
-    "rarity": "common",
-    "elements": [
-      "water"
-    ],
-    "islands": [
-      "plant"
-    ],
-    "breedingTime": "PT1M",
-    "buyable": true,
-    "verified": true
-  },
-  {
-    "id": "drumpler",
-    "name": "Drumpler",
-    "rarity": "common",
-    "elements": [
-      "cold",
-      "earth"
-    ],
-    "islands": [
-      "plant"
-    ],
-    "breedingTime": "PT30M",
-    "buyable": false,
-    "verified": true
-  },
-  {
-    "id": "furcorn",
-    "name": "Furcorn",
-    "rarity": "common",
-    "elements": [
       "plant",
       "cold"
     ],
-    "islands": [
-      "plant"
-    ],
-    "breedingTime": "PT8H",
-    "buyable": false,
-    "verified": true
-  },
-  {
-    "id": "fwog",
-    "name": "Fwog",
-    "rarity": "common",
-    "elements": [
-      "water",
-      "earth"
-    ],
-    "islands": [
-      "plant"
-    ],
-    "breedingTime": "PT30M",
-    "buyable": false,
-    "verified": true
-  },
-  {
-    "id": "maw",
-    "name": "Maw",
-    "rarity": "common",
-    "elements": [
-      "cold",
-      "water"
-    ],
-    "islands": [
-      "plant"
-    ],
-    "breedingTime": "PT30M",
-    "buyable": false,
-    "verified": true
-  },
-  {
-    "id": "oaktopus",
-    "name": "Oaktopus",
-    "rarity": "common",
-    "elements": [
-      "plant",
-      "water"
-    ],
-    "islands": [
-      "plant"
-    ],
-    "breedingTime": "PT8H",
-    "buyable": false,
-    "verified": true
-  },
-  {
-    "id": "shrubb",
-    "name": "Shrubb",
-    "rarity": "common",
-    "elements": [
-      "plant",
-      "earth"
-    ],
-    "islands": [
-      "plant"
-    ],
-    "breedingTime": "PT8H",
-    "buyable": false,
-    "verified": true
-  },
-  {
-    "id": "bowgart",
-    "name": "Bowgart",
-    "rarity": "common",
-    "elements": [
-      "plant",
-      "cold",
-      "water"
-    ],
-    "islands": [
-      "plant"
-    ],
-    "breedingTime": "PT12H",
-    "buyable": false,
-    "verified": true
-  },
-  {
-    "id": "clamble",
-    "name": "Clamble",
-    "rarity": "common",
-    "elements": [
-      "plant",
-      "cold",
-      "earth"
-    ],
-    "islands": [
-      "plant"
-    ],
-    "breedingTime": "PT12H",
-    "buyable": false,
-    "verified": true
-  },
-  {
-    "id": "pummel",
-    "name": "Pummel",
-    "rarity": "common",
-    "elements": [
-      "plant",
-      "water",
-      "earth"
-    ],
-    "islands": [
-      "plant"
-    ],
-    "breedingTime": "PT12H",
-    "buyable": false,
-    "verified": true
-  },
-  {
-    "id": "t-rox",
-    "name": "T-Rox",
-    "rarity": "common",
-    "elements": [
-      "cold",
-      "water",
-      "earth"
-    ],
-    "islands": [
-      "plant"
-    ],
-    "breedingTime": "PT8H",
-    "buyable": false,
-    "verified": true
-  },
-  {
-    "id": "entbrat",
-    "name": "Entbrat",
-    "rarity": "common",
-    "elements": [
-      "plant",
-      "cold",
-      "water",
-      "earth"
-    ],
-    "islands": [
-      "plant"
-    ],
-    "breedingTime": "PT24H",
-    "buyable": false,
-    "verified": true
-  },
-  {
-    "id": "ghazt",
-    "name": "Ghazt",
-    "rarity": "common",
-    "elements": [
-      "plasma"
-    ],
-    "islands": [
-      "plant"
-    ],
-    "breedingTime": "P1DT12H",
-    "buyable": false,
-    "verified": true
-  },
-  {
-    "id": "gjoob",
-    "name": "G'joob",
-    "rarity": "common",
-    "elements": [
-      "mythical"
-    ],
-    "islands": [
-      "plant"
-    ],
-    "breedingTime": "PT18H",
-    "buyable": false,
+    "breedingTime": "PT2H",
+    "buyable": true,
     "verified": true
   },
   {
@@ -283,6 +142,20 @@
     "verified": true
   },
   {
+    "id": "strombonin",
+    "name": "Strombonin",
+    "rarity": "common",
+    "elements": [
+      "mythical"
+    ],
+    "islands": [
+      "cold"
+    ],
+    "buyable": false,
+    "verified": true,
+    "breedingTime": "PT23H"
+  },
+  {
     "id": "tawkerr",
     "name": "Tawkerr",
     "rarity": "common",
@@ -290,25 +163,41 @@
       "legendary"
     ],
     "islands": [
-      "plant"
+      "plant",
+      "cold"
     ],
     "breedingTime": "PT8H",
     "buyable": true,
     "verified": true
   },
   {
-    "id": "parlsona",
-    "name": "Parlsona",
+    "id": "toe-jammer",
+    "name": "Toe Jammer",
     "rarity": "common",
     "elements": [
-      "legendary"
+      "water"
     ],
     "islands": [
-      "plant"
+      "plant",
+      "cold"
     ],
-    "breedingTime": "PT8H",
+    "breedingTime": "PT1M",
     "buyable": true,
     "verified": true
+  },
+  {
+    "id": "tweedle",
+    "name": "Tweedle",
+    "rarity": "common",
+    "elements": [
+      "air"
+    ],
+    "islands": [
+      "cold"
+    ],
+    "buyable": true,
+    "verified": true,
+    "breedingTime": "PT4H"
   },
   {
     "id": "wubbox",
@@ -318,22 +207,504 @@
       "electricity"
     ],
     "islands": [
-      "plant"
+      "plant",
+      "cold"
     ],
     "breedingTime": "P2D",
     "buyable": true,
     "verified": true
   },
   {
-    "id": "rare-potbelly",
-    "name": "Rare Potbelly",
-    "rarity": "rare",
+    "id": "yool",
+    "name": "Yool",
+    "rarity": "common",
+    "elements": [
+      "festival-of-yay"
+    ],
+    "islands": [
+      "cold"
+    ],
+    "buyable": false,
+    "verified": true,
+    "breedingTime": "P1DT12H"
+  },
+  {
+    "id": "bbliszard",
+    "name": "bbli$zard",
+    "rarity": "common",
+    "elements": [
+      "legendary"
+    ],
+    "islands": [
+      "cold"
+    ],
+    "buyable": false,
+    "verified": true,
+    "breedingTime": "P1DT11H"
+  },
+  {
+    "id": "dandidoo",
+    "name": "Dandidoo",
+    "rarity": "common",
+    "elements": [
+      "plant",
+      "air"
+    ],
+    "islands": [
+      "cold"
+    ],
+    "buyable": false,
+    "verified": true,
+    "breedingTime": "PT8H"
+  },
+  {
+    "id": "drumpler",
+    "name": "Drumpler",
+    "rarity": "common",
+    "elements": [
+      "cold",
+      "earth"
+    ],
+    "islands": [
+      "plant"
+    ],
+    "breedingTime": "PT30M",
+    "buyable": false,
+    "verified": true
+  },
+  {
+    "id": "furcorn",
+    "name": "Furcorn",
+    "rarity": "common",
+    "elements": [
+      "plant",
+      "cold"
+    ],
+    "islands": [
+      "plant",
+      "cold"
+    ],
+    "breedingTime": "PT8H",
+    "buyable": false,
+    "verified": true
+  },
+  {
+    "id": "fwog",
+    "name": "Fwog",
+    "rarity": "common",
+    "elements": [
+      "water",
+      "earth"
+    ],
+    "islands": [
+      "plant"
+    ],
+    "breedingTime": "PT30M",
+    "buyable": false,
+    "verified": true
+  },
+  {
+    "id": "maw",
+    "name": "Maw",
+    "rarity": "common",
+    "elements": [
+      "cold",
+      "water"
+    ],
+    "islands": [
+      "plant",
+      "cold"
+    ],
+    "breedingTime": "PT30M",
+    "buyable": false,
+    "verified": true
+  },
+  {
+    "id": "oaktopus",
+    "name": "Oaktopus",
+    "rarity": "common",
+    "elements": [
+      "plant",
+      "water"
+    ],
+    "islands": [
+      "plant",
+      "cold"
+    ],
+    "breedingTime": "PT8H",
+    "buyable": false,
+    "verified": true
+  },
+  {
+    "id": "pango",
+    "name": "Pango",
+    "rarity": "common",
+    "elements": [
+      "cold",
+      "air"
+    ],
+    "islands": [
+      "cold"
+    ],
+    "buyable": false,
+    "verified": true,
+    "breedingTime": "PT8H"
+  },
+  {
+    "id": "quibble",
+    "name": "Quibble",
+    "rarity": "common",
+    "elements": [
+      "air",
+      "water"
+    ],
+    "islands": [
+      "cold"
+    ],
+    "buyable": false,
+    "verified": true,
+    "breedingTime": "PT8H"
+  },
+  {
+    "id": "shrubb",
+    "name": "Shrubb",
+    "rarity": "common",
+    "elements": [
+      "plant",
+      "earth"
+    ],
+    "islands": [
+      "plant"
+    ],
+    "breedingTime": "PT8H",
+    "buyable": false,
+    "verified": true
+  },
+  {
+    "id": "bowgart",
+    "name": "Bowgart",
+    "rarity": "common",
+    "elements": [
+      "plant",
+      "cold",
+      "water"
+    ],
+    "islands": [
+      "plant",
+      "cold"
+    ],
+    "breedingTime": "PT12H",
+    "buyable": false,
+    "verified": true
+  },
+  {
+    "id": "clamble",
+    "name": "Clamble",
+    "rarity": "common",
+    "elements": [
+      "plant",
+      "cold",
+      "earth"
+    ],
+    "islands": [
+      "plant"
+    ],
+    "breedingTime": "PT12H",
+    "buyable": false,
+    "verified": true
+  },
+  {
+    "id": "congle",
+    "name": "Congle",
+    "rarity": "common",
+    "elements": [
+      "cold",
+      "air",
+      "water"
+    ],
+    "islands": [
+      "cold"
+    ],
+    "buyable": false,
+    "verified": true,
+    "breedingTime": "PT12H"
+  },
+  {
+    "id": "pummel",
+    "name": "Pummel",
+    "rarity": "common",
+    "elements": [
+      "plant",
+      "water",
+      "earth"
+    ],
+    "islands": [
+      "plant"
+    ],
+    "breedingTime": "PT12H",
+    "buyable": false,
+    "verified": true
+  },
+  {
+    "id": "spunge",
+    "name": "Spunge",
+    "rarity": "common",
+    "elements": [
+      "plant",
+      "air",
+      "water"
+    ],
+    "islands": [
+      "cold"
+    ],
+    "buyable": false,
+    "verified": true,
+    "breedingTime": "PT12H"
+  },
+  {
+    "id": "t-rox",
+    "name": "T-Rox",
+    "rarity": "common",
+    "elements": [
+      "cold",
+      "water",
+      "earth"
+    ],
+    "islands": [
+      "plant"
+    ],
+    "breedingTime": "PT8H",
+    "buyable": false,
+    "verified": true
+  },
+  {
+    "id": "thumpies",
+    "name": "Thumpies",
+    "rarity": "common",
+    "elements": [
+      "plant",
+      "cold",
+      "air"
+    ],
+    "islands": [
+      "cold"
+    ],
+    "buyable": false,
+    "verified": true,
+    "breedingTime": "PT12H"
+  },
+  {
+    "id": "deedge",
+    "name": "Deedge",
+    "rarity": "common",
+    "elements": [
+      "plant",
+      "cold",
+      "air",
+      "water"
+    ],
+    "islands": [
+      "cold"
+    ],
+    "buyable": false,
+    "verified": true,
+    "breedingTime": "PT24H"
+  },
+  {
+    "id": "entbrat",
+    "name": "Entbrat",
+    "rarity": "common",
+    "elements": [
+      "plant",
+      "cold",
+      "water",
+      "earth"
+    ],
+    "islands": [
+      "plant"
+    ],
+    "breedingTime": "PT24H",
+    "buyable": false,
+    "verified": true
+  },
+  {
+    "id": "epic-gjoob",
+    "name": "Epic G'joob",
+    "rarity": "epic",
+    "variantOf": "gjoob",
+    "elements": [
+      "mythical"
+    ],
+    "islands": [
+      "plant"
+    ],
+    "breedingTime": "P1DT9H10M",
+    "buyable": false,
+    "verified": true
+  },
+  {
+    "id": "epic-ghazt",
+    "name": "Epic Ghazt",
+    "rarity": "epic",
+    "variantOf": "ghazt",
+    "elements": [
+      "plasma"
+    ],
+    "islands": [
+      "plant"
+    ],
+    "breedingTime": "P1DT6H",
+    "buyable": false,
+    "verified": true
+  },
+  {
+    "id": "epic-mammott",
+    "name": "Epic Mammott",
+    "rarity": "epic",
+    "variantOf": "mammott",
+    "elements": [
+      "cold"
+    ],
+    "islands": [
+      "plant",
+      "cold"
+    ],
+    "breedingTime": "PT5H",
+    "buyable": false,
+    "verified": true
+  },
+  {
+    "id": "epic-noggin",
+    "name": "Epic Noggin",
+    "rarity": "epic",
+    "variantOf": "noggin",
+    "elements": [
+      "earth"
+    ],
+    "islands": [
+      "plant"
+    ],
+    "breedingTime": "PT1H",
+    "buyable": false,
+    "verified": true
+  },
+  {
+    "id": "epic-potbelly",
+    "name": "Epic Potbelly",
+    "rarity": "epic",
     "variantOf": "potbelly",
     "elements": [
       "plant"
     ],
     "islands": [
+      "plant",
+      "cold"
+    ],
+    "breedingTime": "PT9H",
+    "buyable": false,
+    "verified": true
+  },
+  {
+    "id": "epic-punkleton",
+    "name": "Epic Punkleton",
+    "rarity": "epic",
+    "variantOf": "punkleton",
+    "elements": [
+      "spooktacle"
+    ],
+    "islands": [
       "plant"
+    ],
+    "breedingTime": "P1DT7H10M",
+    "buyable": false,
+    "verified": true
+  },
+  {
+    "id": "epic-toe-jammer",
+    "name": "Epic Toe Jammer",
+    "rarity": "epic",
+    "variantOf": "toe-jammer",
+    "elements": [
+      "water"
+    ],
+    "islands": [
+      "plant",
+      "cold"
+    ],
+    "breedingTime": "PT3H",
+    "buyable": false,
+    "verified": true
+  },
+  {
+    "id": "epic-tweedle",
+    "name": "Epic Tweedle",
+    "rarity": "epic",
+    "variantOf": "tweedle",
+    "elements": [
+      "air"
+    ],
+    "islands": [
+      "cold"
+    ],
+    "buyable": false,
+    "verified": true,
+    "breedingTime": "PT11H"
+  },
+  {
+    "id": "epic-wubbox",
+    "name": "Epic Wubbox",
+    "rarity": "epic",
+    "variantOf": "wubbox",
+    "elements": [
+      "electricity"
+    ],
+    "islands": [
+      "plant"
+    ],
+    "buyable": true,
+    "verified": true
+  },
+  {
+    "id": "rare-gjoob",
+    "name": "Rare G'joob",
+    "rarity": "rare",
+    "variantOf": "gjoob",
+    "elements": [
+      "mythical"
+    ],
+    "islands": [
+      "plant"
+    ],
+    "breedingTime": "PT22H30M",
+    "buyable": false,
+    "verified": true
+  },
+  {
+    "id": "rare-ghazt",
+    "name": "Rare Ghazt",
+    "rarity": "rare",
+    "variantOf": "ghazt",
+    "elements": [
+      "plasma"
+    ],
+    "islands": [
+      "plant"
+    ],
+    "breedingTime": "P1DT21H30M",
+    "buyable": false,
+    "verified": true
+  },
+  {
+    "id": "rare-mammott",
+    "name": "Rare Mammott",
+    "rarity": "rare",
+    "variantOf": "mammott",
+    "elements": [
+      "cold"
+    ],
+    "islands": [
+      "plant",
+      "cold"
     ],
     "breedingTime": "PT6H",
     "buyable": false,
@@ -355,6 +726,37 @@
     "verified": true
   },
   {
+    "id": "rare-potbelly",
+    "name": "Rare Potbelly",
+    "rarity": "rare",
+    "variantOf": "potbelly",
+    "elements": [
+      "plant"
+    ],
+    "islands": [
+      "plant",
+      "cold"
+    ],
+    "breedingTime": "PT6H",
+    "buyable": false,
+    "verified": true
+  },
+  {
+    "id": "rare-punkleton",
+    "name": "Rare Punkleton",
+    "rarity": "rare",
+    "variantOf": "punkleton",
+    "elements": [
+      "spooktacle"
+    ],
+    "islands": [
+      "plant"
+    ],
+    "breedingTime": "P1DT7H45M",
+    "buyable": false,
+    "verified": true
+  },
+  {
     "id": "rare-toe-jammer",
     "name": "Rare Toe Jammer",
     "rarity": "rare",
@@ -363,31 +765,178 @@
       "water"
     ],
     "islands": [
-      "plant"
+      "plant",
+      "cold"
     ],
     "breedingTime": "PT6H",
     "buyable": false,
     "verified": true
   },
   {
-    "id": "rare-mammott",
-    "name": "Rare Mammott",
+    "id": "rare-tweedle",
+    "name": "Rare Tweedle",
     "rarity": "rare",
-    "variantOf": "mammott",
+    "variantOf": "tweedle",
     "elements": [
+      "air"
+    ],
+    "islands": [
       "cold"
+    ],
+    "buyable": false,
+    "verified": true,
+    "breedingTime": "PT6H"
+  },
+  {
+    "id": "rare-wubbox",
+    "name": "Rare Wubbox",
+    "rarity": "rare",
+    "variantOf": "wubbox",
+    "elements": [
+      "electricity"
     ],
     "islands": [
       "plant"
     ],
-    "breedingTime": "PT6H",
+    "breedingTime": "PT14H",
+    "buyable": true,
+    "verified": true
+  },
+  {
+    "id": "epic-dandidoo",
+    "name": "Epic Dandidoo",
+    "rarity": "epic",
+    "variantOf": "dandidoo",
+    "elements": [
+      "plant",
+      "air"
+    ],
+    "islands": [
+      "cold"
+    ],
+    "buyable": false,
+    "verified": true,
+    "breedingTime": "P1DT5H"
+  },
+  {
+    "id": "epic-drumpler",
+    "name": "Epic Drumpler",
+    "rarity": "epic",
+    "variantOf": "drumpler",
+    "elements": [
+      "cold",
+      "earth"
+    ],
+    "islands": [
+      "plant"
+    ],
+    "breedingTime": "PT15H",
     "buyable": false,
     "verified": true
   },
   {
-    "id": "rare-shrubb",
-    "name": "Rare Shrubb",
-    "rarity": "rare",
+    "id": "epic-furcorn",
+    "name": "Epic Furcorn",
+    "rarity": "epic",
+    "variantOf": "furcorn",
+    "elements": [
+      "plant",
+      "cold"
+    ],
+    "islands": [
+      "plant",
+      "cold"
+    ],
+    "breedingTime": "PT17H",
+    "buyable": false,
+    "verified": true
+  },
+  {
+    "id": "epic-fwog",
+    "name": "Epic Fwog",
+    "rarity": "epic",
+    "variantOf": "fwog",
+    "elements": [
+      "water",
+      "earth"
+    ],
+    "islands": [
+      "plant"
+    ],
+    "breedingTime": "PT7H",
+    "buyable": false,
+    "verified": true
+  },
+  {
+    "id": "epic-maw",
+    "name": "Epic Maw",
+    "rarity": "epic",
+    "variantOf": "maw",
+    "elements": [
+      "cold",
+      "water"
+    ],
+    "islands": [
+      "plant",
+      "cold"
+    ],
+    "breedingTime": "PT13H",
+    "buyable": false,
+    "verified": true
+  },
+  {
+    "id": "epic-oaktopus",
+    "name": "Epic Oaktopus",
+    "rarity": "epic",
+    "variantOf": "oaktopus",
+    "elements": [
+      "plant",
+      "water"
+    ],
+    "islands": [
+      "plant",
+      "cold"
+    ],
+    "breedingTime": "P1DT7H",
+    "buyable": false,
+    "verified": true
+  },
+  {
+    "id": "epic-pango",
+    "name": "Epic Pango",
+    "rarity": "epic",
+    "variantOf": "pango",
+    "elements": [
+      "cold",
+      "air"
+    ],
+    "islands": [
+      "cold"
+    ],
+    "buyable": false,
+    "verified": true,
+    "breedingTime": "P1DT3H"
+  },
+  {
+    "id": "epic-quibble",
+    "name": "Epic Quibble",
+    "rarity": "epic",
+    "variantOf": "quibble",
+    "elements": [
+      "air",
+      "water"
+    ],
+    "islands": [
+      "cold"
+    ],
+    "buyable": false,
+    "verified": true,
+    "breedingTime": "PT21H"
+  },
+  {
+    "id": "epic-shrubb",
+    "name": "Epic Shrubb",
+    "rarity": "epic",
     "variantOf": "shrubb",
     "elements": [
       "plant",
@@ -396,23 +945,39 @@
     "islands": [
       "plant"
     ],
-    "breedingTime": "PT10H30M",
+    "breedingTime": "PT19H",
     "buyable": false,
     "verified": true
   },
   {
-    "id": "rare-oaktopus",
-    "name": "Rare Oaktopus",
+    "id": "rare-dandidoo",
+    "name": "Rare Dandidoo",
     "rarity": "rare",
-    "variantOf": "oaktopus",
+    "variantOf": "dandidoo",
     "elements": [
       "plant",
-      "water"
+      "air"
+    ],
+    "islands": [
+      "cold"
+    ],
+    "buyable": false,
+    "verified": true,
+    "breedingTime": "PT10H30M"
+  },
+  {
+    "id": "rare-drumpler",
+    "name": "Rare Drumpler",
+    "rarity": "rare",
+    "variantOf": "drumpler",
+    "elements": [
+      "cold",
+      "earth"
     ],
     "islands": [
       "plant"
     ],
-    "breedingTime": "PT10H30M",
+    "breedingTime": "PT1H7M30S",
     "buyable": false,
     "verified": true
   },
@@ -426,7 +991,8 @@
       "cold"
     ],
     "islands": [
-      "plant"
+      "plant",
+      "cold"
     ],
     "breedingTime": "PT10H30M",
     "buyable": false,
@@ -449,22 +1015,6 @@
     "verified": true
   },
   {
-    "id": "rare-drumpler",
-    "name": "Rare Drumpler",
-    "rarity": "rare",
-    "variantOf": "drumpler",
-    "elements": [
-      "cold",
-      "earth"
-    ],
-    "islands": [
-      "plant"
-    ],
-    "breedingTime": "PT1H7M30S",
-    "buyable": false,
-    "verified": true
-  },
-  {
     "id": "rare-maw",
     "name": "Rare Maw",
     "rarity": "rare",
@@ -474,16 +1024,134 @@
       "water"
     ],
     "islands": [
-      "plant"
+      "plant",
+      "cold"
     ],
     "breedingTime": "PT1H7M30S",
     "buyable": false,
     "verified": true
   },
   {
-    "id": "rare-pummel",
-    "name": "Rare Pummel",
+    "id": "rare-oaktopus",
+    "name": "Rare Oaktopus",
     "rarity": "rare",
+    "variantOf": "oaktopus",
+    "elements": [
+      "plant",
+      "water"
+    ],
+    "islands": [
+      "plant",
+      "cold"
+    ],
+    "breedingTime": "PT10H30M",
+    "buyable": false,
+    "verified": true
+  },
+  {
+    "id": "rare-pango",
+    "name": "Rare Pango",
+    "rarity": "rare",
+    "variantOf": "pango",
+    "elements": [
+      "cold",
+      "air"
+    ],
+    "islands": [
+      "cold"
+    ],
+    "buyable": false,
+    "verified": true,
+    "breedingTime": "PT10H30M"
+  },
+  {
+    "id": "rare-quibble",
+    "name": "Rare Quibble",
+    "rarity": "rare",
+    "variantOf": "quibble",
+    "elements": [
+      "air",
+      "water"
+    ],
+    "islands": [
+      "cold"
+    ],
+    "buyable": false,
+    "verified": true,
+    "breedingTime": "PT10H30M"
+  },
+  {
+    "id": "rare-shrubb",
+    "name": "Rare Shrubb",
+    "rarity": "rare",
+    "variantOf": "shrubb",
+    "elements": [
+      "plant",
+      "earth"
+    ],
+    "islands": [
+      "plant"
+    ],
+    "breedingTime": "PT10H30M",
+    "buyable": false,
+    "verified": true
+  },
+  {
+    "id": "epic-bowgart",
+    "name": "Epic Bowgart",
+    "rarity": "epic",
+    "variantOf": "bowgart",
+    "elements": [
+      "plant",
+      "cold",
+      "water"
+    ],
+    "islands": [
+      "plant",
+      "cold"
+    ],
+    "breedingTime": "P1DT5H",
+    "buyable": false,
+    "verified": true
+  },
+  {
+    "id": "epic-clamble",
+    "name": "Epic Clamble",
+    "rarity": "epic",
+    "variantOf": "clamble",
+    "elements": [
+      "plant",
+      "cold",
+      "earth"
+    ],
+    "islands": [
+      "plant"
+    ],
+    "breedingTime": "PT21H",
+    "buyable": false,
+    "verified": true
+  },
+  {
+    "id": "epic-congle",
+    "name": "Epic Congle",
+    "rarity": "epic",
+    "variantOf": "congle",
+    "elements": [
+      "cold",
+      "air",
+      "water"
+    ],
+    "islands": [
+      "cold"
+    ],
+    "buyable": false,
+    "verified": true,
+    "breedingTime": "PT23H"
+  },
+  {
+    "id": "epic-pummel",
+    "name": "Epic Pummel",
+    "rarity": "epic",
     "variantOf": "pummel",
     "elements": [
       "plant",
@@ -492,6 +1160,75 @@
     ],
     "islands": [
       "plant"
+    ],
+    "breedingTime": "P1DT7H",
+    "buyable": false,
+    "verified": true
+  },
+  {
+    "id": "epic-spunge",
+    "name": "Epic Spunge",
+    "rarity": "epic",
+    "variantOf": "spunge",
+    "elements": [
+      "plant",
+      "air",
+      "water"
+    ],
+    "islands": [
+      "cold"
+    ],
+    "buyable": false,
+    "verified": true,
+    "breedingTime": "P1DT1H"
+  },
+  {
+    "id": "epic-t-rox",
+    "name": "Epic T-Rox",
+    "rarity": "epic",
+    "variantOf": "t-rox",
+    "elements": [
+      "cold",
+      "water",
+      "earth"
+    ],
+    "islands": [
+      "plant"
+    ],
+    "breedingTime": "PT19H",
+    "buyable": false,
+    "verified": true
+  },
+  {
+    "id": "epic-thumpies",
+    "name": "Epic Thumpies",
+    "rarity": "epic",
+    "variantOf": "thumpies",
+    "elements": [
+      "plant",
+      "cold",
+      "air"
+    ],
+    "islands": [
+      "cold"
+    ],
+    "buyable": false,
+    "verified": true,
+    "breedingTime": "P1DT9H"
+  },
+  {
+    "id": "rare-bowgart",
+    "name": "Rare Bowgart",
+    "rarity": "rare",
+    "variantOf": "bowgart",
+    "elements": [
+      "plant",
+      "cold",
+      "water"
+    ],
+    "islands": [
+      "plant",
+      "cold"
     ],
     "breedingTime": "PT15H30M",
     "buyable": false,
@@ -515,14 +1252,31 @@
     "verified": true
   },
   {
-    "id": "rare-bowgart",
-    "name": "Rare Bowgart",
+    "id": "rare-congle",
+    "name": "Rare Congle",
     "rarity": "rare",
-    "variantOf": "bowgart",
+    "variantOf": "congle",
+    "elements": [
+      "cold",
+      "air",
+      "water"
+    ],
+    "islands": [
+      "cold"
+    ],
+    "buyable": false,
+    "verified": true,
+    "breedingTime": "PT15H30M"
+  },
+  {
+    "id": "rare-pummel",
+    "name": "Rare Pummel",
+    "rarity": "rare",
+    "variantOf": "pummel",
     "elements": [
       "plant",
-      "cold",
-      "water"
+      "water",
+      "earth"
     ],
     "islands": [
       "plant"
@@ -530,6 +1284,23 @@
     "breedingTime": "PT15H30M",
     "buyable": false,
     "verified": true
+  },
+  {
+    "id": "rare-spunge",
+    "name": "Rare Spunge",
+    "rarity": "rare",
+    "variantOf": "spunge",
+    "elements": [
+      "plant",
+      "air",
+      "water"
+    ],
+    "islands": [
+      "cold"
+    ],
+    "buyable": false,
+    "verified": true,
+    "breedingTime": "PT15H30M"
   },
   {
     "id": "rare-t-rox",
@@ -549,306 +1320,39 @@
     "verified": true
   },
   {
-    "id": "rare-entbrat",
-    "name": "Rare Entbrat",
+    "id": "rare-thumpies",
+    "name": "Rare Thumpies",
     "rarity": "rare",
-    "variantOf": "entbrat",
+    "variantOf": "thumpies",
     "elements": [
       "plant",
       "cold",
-      "water",
-      "earth"
+      "air"
     ],
     "islands": [
-      "plant"
-    ],
-    "breedingTime": "P1DT6H30M",
-    "buyable": false,
-    "verified": true
-  },
-  {
-    "id": "rare-ghazt",
-    "name": "Rare Ghazt",
-    "rarity": "rare",
-    "variantOf": "ghazt",
-    "elements": [
-      "plasma"
-    ],
-    "islands": [
-      "plant"
-    ],
-    "breedingTime": "P1DT21H30M",
-    "buyable": false,
-    "verified": true
-  },
-  {
-    "id": "rare-gjoob",
-    "name": "Rare G'joob",
-    "rarity": "rare",
-    "variantOf": "gjoob",
-    "elements": [
-      "mythical"
-    ],
-    "islands": [
-      "plant"
-    ],
-    "breedingTime": "PT22H30M",
-    "buyable": false,
-    "verified": true
-  },
-  {
-    "id": "rare-punkleton",
-    "name": "Rare Punkleton",
-    "rarity": "rare",
-    "variantOf": "punkleton",
-    "elements": [
-      "spooktacle"
-    ],
-    "islands": [
-      "plant"
-    ],
-    "breedingTime": "P1DT7H45M",
-    "buyable": false,
-    "verified": true
-  },
-  {
-    "id": "rare-wubbox",
-    "name": "Rare Wubbox",
-    "rarity": "rare",
-    "variantOf": "wubbox",
-    "elements": [
-      "electricity"
-    ],
-    "islands": [
-      "plant"
-    ],
-    "breedingTime": "PT14H",
-    "buyable": true,
-    "verified": true
-  },
-  {
-    "id": "epic-potbelly",
-    "name": "Epic Potbelly",
-    "rarity": "epic",
-    "variantOf": "potbelly",
-    "elements": [
-      "plant"
-    ],
-    "islands": [
-      "plant"
-    ],
-    "breedingTime": "PT9H",
-    "buyable": false,
-    "verified": true
-  },
-  {
-    "id": "epic-noggin",
-    "name": "Epic Noggin",
-    "rarity": "epic",
-    "variantOf": "noggin",
-    "elements": [
-      "earth"
-    ],
-    "islands": [
-      "plant"
-    ],
-    "breedingTime": "PT1H",
-    "buyable": false,
-    "verified": true
-  },
-  {
-    "id": "epic-toe-jammer",
-    "name": "Epic Toe Jammer",
-    "rarity": "epic",
-    "variantOf": "toe-jammer",
-    "elements": [
-      "water"
-    ],
-    "islands": [
-      "plant"
-    ],
-    "breedingTime": "PT3H",
-    "buyable": false,
-    "verified": true
-  },
-  {
-    "id": "epic-mammott",
-    "name": "Epic Mammott",
-    "rarity": "epic",
-    "variantOf": "mammott",
-    "elements": [
       "cold"
     ],
-    "islands": [
-      "plant"
-    ],
-    "breedingTime": "PT5H",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "breedingTime": "PT15H30M"
   },
   {
-    "id": "epic-shrubb",
-    "name": "Epic Shrubb",
+    "id": "epic-deedge",
+    "name": "Epic Deedge",
     "rarity": "epic",
-    "variantOf": "shrubb",
+    "variantOf": "deedge",
     "elements": [
       "plant",
-      "earth"
-    ],
-    "islands": [
-      "plant"
-    ],
-    "breedingTime": "PT19H",
-    "buyable": false,
-    "verified": true
-  },
-  {
-    "id": "epic-oaktopus",
-    "name": "Epic Oaktopus",
-    "rarity": "epic",
-    "variantOf": "oaktopus",
-    "elements": [
-      "plant",
+      "cold",
+      "air",
       "water"
     ],
     "islands": [
-      "plant"
-    ],
-    "breedingTime": "P1DT7H",
-    "buyable": false,
-    "verified": true
-  },
-  {
-    "id": "epic-furcorn",
-    "name": "Epic Furcorn",
-    "rarity": "epic",
-    "variantOf": "furcorn",
-    "elements": [
-      "plant",
       "cold"
     ],
-    "islands": [
-      "plant"
-    ],
-    "breedingTime": "PT17H",
     "buyable": false,
-    "verified": true
-  },
-  {
-    "id": "epic-fwog",
-    "name": "Epic Fwog",
-    "rarity": "epic",
-    "variantOf": "fwog",
-    "elements": [
-      "water",
-      "earth"
-    ],
-    "islands": [
-      "plant"
-    ],
-    "breedingTime": "PT7H",
-    "buyable": false,
-    "verified": true
-  },
-  {
-    "id": "epic-drumpler",
-    "name": "Epic Drumpler",
-    "rarity": "epic",
-    "variantOf": "drumpler",
-    "elements": [
-      "cold",
-      "earth"
-    ],
-    "islands": [
-      "plant"
-    ],
-    "breedingTime": "PT15H",
-    "buyable": false,
-    "verified": true
-  },
-  {
-    "id": "epic-maw",
-    "name": "Epic Maw",
-    "rarity": "epic",
-    "variantOf": "maw",
-    "elements": [
-      "cold",
-      "water"
-    ],
-    "islands": [
-      "plant"
-    ],
-    "breedingTime": "PT13H",
-    "buyable": false,
-    "verified": true
-  },
-  {
-    "id": "epic-pummel",
-    "name": "Epic Pummel",
-    "rarity": "epic",
-    "variantOf": "pummel",
-    "elements": [
-      "plant",
-      "water",
-      "earth"
-    ],
-    "islands": [
-      "plant"
-    ],
-    "breedingTime": "P1DT7H",
-    "buyable": false,
-    "verified": true
-  },
-  {
-    "id": "epic-clamble",
-    "name": "Epic Clamble",
-    "rarity": "epic",
-    "variantOf": "clamble",
-    "elements": [
-      "plant",
-      "cold",
-      "earth"
-    ],
-    "islands": [
-      "plant"
-    ],
-    "breedingTime": "PT21H",
-    "buyable": false,
-    "verified": true
-  },
-  {
-    "id": "epic-bowgart",
-    "name": "Epic Bowgart",
-    "rarity": "epic",
-    "variantOf": "bowgart",
-    "elements": [
-      "plant",
-      "cold",
-      "water"
-    ],
-    "islands": [
-      "plant"
-    ],
-    "breedingTime": "P1DT5H",
-    "buyable": false,
-    "verified": true
-  },
-  {
-    "id": "epic-t-rox",
-    "name": "Epic T-Rox",
-    "rarity": "epic",
-    "variantOf": "t-rox",
-    "elements": [
-      "cold",
-      "water",
-      "earth"
-    ],
-    "islands": [
-      "plant"
-    ],
-    "breedingTime": "PT19H",
-    "buyable": false,
-    "verified": true
+    "verified": true,
+    "breedingTime": "P1DT17H"
   },
   {
     "id": "epic-entbrat",
@@ -869,62 +1373,39 @@
     "verified": true
   },
   {
-    "id": "epic-ghazt",
-    "name": "Epic Ghazt",
-    "rarity": "epic",
-    "variantOf": "ghazt",
+    "id": "rare-deedge",
+    "name": "Rare Deedge",
+    "rarity": "rare",
+    "variantOf": "deedge",
     "elements": [
-      "plasma"
+      "plant",
+      "cold",
+      "air",
+      "water"
     ],
     "islands": [
-      "plant"
+      "cold"
     ],
-    "breedingTime": "P1DT6H",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "breedingTime": "P1DT6H30M"
   },
   {
-    "id": "epic-gjoob",
-    "name": "Epic G'joob",
-    "rarity": "epic",
-    "variantOf": "gjoob",
+    "id": "rare-entbrat",
+    "name": "Rare Entbrat",
+    "rarity": "rare",
+    "variantOf": "entbrat",
     "elements": [
-      "mythical"
+      "plant",
+      "cold",
+      "water",
+      "earth"
     ],
     "islands": [
       "plant"
     ],
-    "breedingTime": "P1DT9H10M",
+    "breedingTime": "P1DT6H30M",
     "buyable": false,
-    "verified": true
-  },
-  {
-    "id": "epic-punkleton",
-    "name": "Epic Punkleton",
-    "rarity": "epic",
-    "variantOf": "punkleton",
-    "elements": [
-      "spooktacle"
-    ],
-    "islands": [
-      "plant"
-    ],
-    "breedingTime": "P1DT7H10M",
-    "buyable": false,
-    "verified": true
-  },
-  {
-    "id": "epic-wubbox",
-    "name": "Epic Wubbox",
-    "rarity": "epic",
-    "variantOf": "wubbox",
-    "elements": [
-      "electricity"
-    ],
-    "islands": [
-      "plant"
-    ],
-    "buyable": true,
     "verified": true
   }
 ]

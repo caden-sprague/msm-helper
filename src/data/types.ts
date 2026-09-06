@@ -9,6 +9,8 @@ export type ElementId =
   | 'crystal' | 'fire' | 'plasma' | 'shadow' | 'mech'
   // class elements — carried by a monster class rather than by a natural island
   | 'mythical' | 'spooktacle' | 'legendary' | 'electricity'
+  // seasonal event elements
+  | 'festival-of-yay'
   // other               [verify]
   | 'poison' | 'light' | 'psychic' | 'faerie' | 'bone';
 

@@ -6,6 +6,17 @@ this exactly and `npm test` will pass; deviate and it will tell you where.
 **Validate with `npm test` before handing work over.** 15 invariants run against the
 JSON; a green run is the definition of done. Don't edit tests to make data pass.
 
+## Tooling
+
+`scripts/wiki.py` has the extraction helpers used for Plant and Cold: `fetch`,
+`elements_of`, `breeding_time`, `rendered_breeding_time`, `combo_section`, `combos_in`,
+`ranking`, `slug`, `iso`. It is a one-off authoring tool, not part of the build — data
+is extracted once and committed.
+
+`combo_section(content, island_name)` takes the island being extracted so it can cut at
+prose about *other* islands without discarding sections that open with "On [[This
+Island]], ...".
+
 ## Where the data comes from
 
 The rendered wiki returns 403 to scripted requests, and the `Breeding_Combinations`

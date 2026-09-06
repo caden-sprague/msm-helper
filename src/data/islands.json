@@ -15,5 +15,22 @@
       "legendary",
       "electricity"
     ]
+  },
+  {
+    "id": "cold",
+    "name": "Cold Island",
+    "order": 2,
+    "color": "#5bc8e8",
+    "elements": [
+      "plant",
+      "cold",
+      "air",
+      "water",
+      "legendary",
+      "electricity",
+      "shadow",
+      "festival-of-yay",
+      "mythical"
+    ]
   }
 ]

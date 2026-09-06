@@ -1,5 +1,18 @@
 [
   {
+    "target": "bbliszard",
+    "parents": [
+      "congle",
+      "thumpies"
+    ],
+    "followsElementRule": false,
+    "note": "bbli$zard does not follow the element rule",
+    "islands": [
+      "cold"
+    ],
+    "verified": true
+  },
+  {
     "target": "bowgart",
     "parents": [
       "furcorn",
@@ -60,6 +73,112 @@
     ],
     "followsElementRule": true,
     "verified": true
+  },
+  {
+    "target": "congle",
+    "parents": [
+      "mammott",
+      "quibble"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "congle",
+    "parents": [
+      "maw",
+      "tweedle"
+    ],
+    "followsElementRule": true,
+    "verified": true,
+    "rank": 2,
+    "advice": "It has low average times in case of failure"
+  },
+  {
+    "target": "congle",
+    "parents": [
+      "pango",
+      "toe-jammer"
+    ],
+    "followsElementRule": true,
+    "verified": true,
+    "rank": 1,
+    "advice": "Failing and breeding a Toe Jammer lets you retry the combo almost instantly"
+  },
+  {
+    "target": "dandidoo",
+    "parents": [
+      "potbelly",
+      "tweedle"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "deedge",
+    "parents": [
+      "bowgart",
+      "tweedle"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "deedge",
+    "parents": [
+      "congle",
+      "potbelly"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "deedge",
+    "parents": [
+      "dandidoo",
+      "maw"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "deedge",
+    "parents": [
+      "furcorn",
+      "quibble"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "deedge",
+    "parents": [
+      "mammott",
+      "spunge"
+    ],
+    "followsElementRule": true,
+    "verified": true,
+    "rank": 2
+  },
+  {
+    "target": "deedge",
+    "parents": [
+      "oaktopus",
+      "pango"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "deedge",
+    "parents": [
+      "thumpies",
+      "toe-jammer"
+    ],
+    "followsElementRule": true,
+    "verified": true,
+    "rank": 1,
+    "advice": "Failing and breeding a Toe Jammer lets you retry the combo almost instantly"
   },
   {
     "target": "drumpler",
@@ -138,6 +257,435 @@
     "advice": "It has low average times in case of failure"
   },
   {
+    "target": "epic-bowgart",
+    "parents": [
+      "clamble",
+      "oaktopus"
+    ],
+    "followsElementRule": false,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "plant"
+    ],
+    "verified": true
+  },
+  {
+    "target": "epic-bowgart",
+    "parents": [
+      "congle",
+      "furcorn"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "cold"
+    ]
+  },
+  {
+    "target": "epic-clamble",
+    "parents": [
+      "maw",
+      "pummel"
+    ],
+    "followsElementRule": false,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "plant"
+    ],
+    "verified": true
+  },
+  {
+    "target": "epic-congle",
+    "parents": [
+      "maw",
+      "thumpies"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "cold"
+    ]
+  },
+  {
+    "target": "epic-dandidoo",
+    "parents": [
+      "bowgart",
+      "quibble"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "cold"
+    ]
+  },
+  {
+    "target": "epic-deedge",
+    "parents": [
+      "bowgart",
+      "pango"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "cold"
+    ]
+  },
+  {
+    "target": "epic-drumpler",
+    "parents": [
+      "clamble",
+      "maw"
+    ],
+    "followsElementRule": false,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "plant"
+    ],
+    "verified": true
+  },
+  {
+    "target": "epic-entbrat",
+    "parents": [
+      "shrubb",
+      "t-rox"
+    ],
+    "followsElementRule": false,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "plant"
+    ],
+    "verified": true
+  },
+  {
+    "target": "epic-furcorn",
+    "parents": [
+      "clamble",
+      "fwog"
+    ],
+    "followsElementRule": false,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "plant"
+    ],
+    "verified": true
+  },
+  {
+    "target": "epic-furcorn",
+    "parents": [
+      "maw",
+      "spunge"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "cold"
+    ]
+  },
+  {
+    "target": "epic-fwog",
+    "parents": [
+      "furcorn",
+      "pummel"
+    ],
+    "followsElementRule": false,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "plant"
+    ],
+    "verified": true
+  },
+  {
+    "target": "epic-ghazt",
+    "parents": [
+      "furcorn",
+      "t-rox"
+    ],
+    "followsElementRule": false,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "plant"
+    ],
+    "verified": true
+  },
+  {
+    "target": "epic-gjoob",
+    "parents": [
+      "entbrat",
+      "maw"
+    ],
+    "followsElementRule": false,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "plant"
+    ],
+    "verified": true
+  },
+  {
+    "target": "epic-mammott",
+    "parents": [
+      "deedge",
+      "maw"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "cold"
+    ]
+  },
+  {
+    "target": "epic-mammott",
+    "parents": [
+      "entbrat",
+      "furcorn"
+    ],
+    "followsElementRule": false,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "plant"
+    ],
+    "verified": true
+  },
+  {
+    "target": "epic-maw",
+    "parents": [
+      "bowgart",
+      "drumpler"
+    ],
+    "followsElementRule": false,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "plant"
+    ],
+    "verified": true
+  },
+  {
+    "target": "epic-maw",
+    "parents": [
+      "furcorn",
+      "spunge"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "cold"
+    ]
+  },
+  {
+    "target": "epic-noggin",
+    "parents": [
+      "entbrat",
+      "fwog"
+    ],
+    "followsElementRule": false,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "plant"
+    ],
+    "verified": true
+  },
+  {
+    "target": "epic-oaktopus",
+    "parents": [
+      "bowgart",
+      "shrubb"
+    ],
+    "followsElementRule": false,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "plant"
+    ],
+    "verified": true
+  },
+  {
+    "target": "epic-oaktopus",
+    "parents": [
+      "pango",
+      "spunge"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "cold"
+    ]
+  },
+  {
+    "target": "epic-pango",
+    "parents": [
+      "oaktopus",
+      "thumpies"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "cold"
+    ]
+  },
+  {
+    "target": "epic-potbelly",
+    "parents": [
+      "deedge",
+      "oaktopus"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "cold"
+    ]
+  },
+  {
+    "target": "epic-potbelly",
+    "parents": [
+      "entbrat",
+      "shrubb"
+    ],
+    "followsElementRule": false,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "plant"
+    ],
+    "verified": true
+  },
+  {
+    "target": "epic-pummel",
+    "parents": [
+      "bowgart",
+      "fwog"
+    ],
+    "followsElementRule": false,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "plant"
+    ],
+    "verified": true
+  },
+  {
+    "target": "epic-punkleton",
+    "parents": [
+      "drumpler",
+      "entbrat"
+    ],
+    "followsElementRule": false,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "plant"
+    ],
+    "verified": true
+  },
+  {
+    "target": "epic-quibble",
+    "parents": [
+      "congle",
+      "dandidoo"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "cold"
+    ]
+  },
+  {
+    "target": "epic-shrubb",
+    "parents": [
+      "oaktopus",
+      "t-rox"
+    ],
+    "followsElementRule": false,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "plant"
+    ],
+    "verified": true
+  },
+  {
+    "target": "epic-spunge",
+    "parents": [
+      "quibble",
+      "thumpies"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "cold"
+    ]
+  },
+  {
+    "target": "epic-t-rox",
+    "parents": [
+      "drumpler",
+      "pummel"
+    ],
+    "followsElementRule": false,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "plant"
+    ],
+    "verified": true
+  },
+  {
+    "target": "epic-thumpies",
+    "parents": [
+      "congle",
+      "oaktopus"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "cold"
+    ]
+  },
+  {
+    "target": "epic-toe-jammer",
+    "parents": [
+      "deedge",
+      "quibble"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "cold"
+    ]
+  },
+  {
+    "target": "epic-toe-jammer",
+    "parents": [
+      "entbrat",
+      "oaktopus"
+    ],
+    "followsElementRule": false,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "plant"
+    ],
+    "verified": true
+  },
+  {
+    "target": "epic-tweedle",
+    "parents": [
+      "dandidoo",
+      "deedge"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "cold"
+    ]
+  },
+  {
     "target": "furcorn",
     "parents": [
       "mammott",
@@ -156,6 +704,125 @@
     "verified": true
   },
   {
+    "target": "ghazt",
+    "parents": [
+      "bowgart",
+      "entbrat"
+    ],
+    "followsElementRule": false,
+    "note": "Ethereals are bred from Natural Monsters, so neither parent carries the target's Plasma element",
+    "islands": [
+      "plant"
+    ],
+    "verified": true
+  },
+  {
+    "target": "ghazt",
+    "parents": [
+      "clamble",
+      "entbrat"
+    ],
+    "followsElementRule": false,
+    "note": "Ethereals are bred from Natural Monsters, so neither parent carries the target's Plasma element",
+    "islands": [
+      "plant"
+    ],
+    "verified": true
+  },
+  {
+    "target": "ghazt",
+    "parents": [
+      "entbrat",
+      "pummel"
+    ],
+    "followsElementRule": false,
+    "note": "Ethereals are bred from Natural Monsters, so neither parent carries the target's Plasma element",
+    "islands": [
+      "plant"
+    ],
+    "verified": true
+  },
+  {
+    "target": "ghazt",
+    "parents": [
+      "entbrat",
+      "t-rox"
+    ],
+    "followsElementRule": false,
+    "note": "Ethereals are bred from Natural Monsters, so neither parent carries the target's Plasma element",
+    "islands": [
+      "plant"
+    ],
+    "rank": 1,
+    "advice": "T-Rox has a shorter waiting time compared to the other Triples",
+    "verified": true
+  },
+  {
+    "target": "gjoob",
+    "parents": [
+      "pummel",
+      "t-rox"
+    ],
+    "followsElementRule": false,
+    "note": "Mythicals are bred from Natural Monsters, so neither parent carries the target's Mythical element",
+    "islands": [
+      "plant"
+    ],
+    "verified": true
+  },
+  {
+    "target": "grumpyre",
+    "parents": [
+      "bowgart",
+      "deedge"
+    ],
+    "followsElementRule": false,
+    "note": "Ethereals are bred from Natural Monsters, so neither parent carries the target's Shadow element",
+    "islands": [
+      "cold"
+    ],
+    "verified": true
+  },
+  {
+    "target": "grumpyre",
+    "parents": [
+      "congle",
+      "deedge"
+    ],
+    "followsElementRule": false,
+    "note": "Ethereals are bred from Natural Monsters, so neither parent carries the target's Shadow element",
+    "islands": [
+      "cold"
+    ],
+    "verified": true
+  },
+  {
+    "target": "grumpyre",
+    "parents": [
+      "deedge",
+      "spunge"
+    ],
+    "followsElementRule": false,
+    "note": "Ethereals are bred from Natural Monsters, so neither parent carries the target's Shadow element",
+    "islands": [
+      "cold"
+    ],
+    "verified": true
+  },
+  {
+    "target": "grumpyre",
+    "parents": [
+      "deedge",
+      "thumpies"
+    ],
+    "followsElementRule": false,
+    "note": "Ethereals are bred from Natural Monsters, so neither parent carries the target's Shadow element",
+    "islands": [
+      "cold"
+    ],
+    "verified": true
+  },
+  {
     "target": "maw",
     "parents": [
       "mammott",
@@ -169,6 +836,15 @@
     "parents": [
       "potbelly",
       "toe-jammer"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "pango",
+    "parents": [
+      "mammott",
+      "tweedle"
     ],
     "followsElementRule": true,
     "verified": true
@@ -205,277 +881,50 @@
     "verified": true
   },
   {
-    "target": "shrubb",
+    "target": "punkleton",
     "parents": [
-      "noggin",
-      "potbelly"
+      "bowgart",
+      "t-rox"
+    ],
+    "followsElementRule": false,
+    "note": "Seasonals are bred from Natural Monsters, so neither parent carries the target's Spooktacle element",
+    "islands": [
+      "plant"
+    ],
+    "verified": true
+  },
+  {
+    "target": "quibble",
+    "parents": [
+      "toe-jammer",
+      "tweedle"
     ],
     "followsElementRule": true,
     "verified": true
   },
   {
-    "target": "t-rox",
+    "target": "rare-bowgart",
     "parents": [
-      "drumpler",
-      "toe-jammer"
-    ],
-    "followsElementRule": true,
-    "verified": true,
-    "rank": 2
-  },
-  {
-    "target": "t-rox",
-    "parents": [
-      "fwog",
-      "mammott"
-    ],
-    "followsElementRule": true,
-    "verified": true
-  },
-  {
-    "target": "t-rox",
-    "parents": [
-      "maw",
-      "noggin"
-    ],
-    "followsElementRule": true,
-    "verified": true,
-    "rank": 1,
-    "advice": "Failing and breeding a Noggin lets you retry the combo almost instantly"
-  },
-  {
-    "target": "rare-potbelly",
-    "parents": [
-      "bowgart",
-      "clamble"
-    ],
-    "followsElementRule": false,
-    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
-    "islands": [
-      "plant"
-    ],
-    "verified": true
-  },
-  {
-    "target": "rare-potbelly",
-    "parents": [
-      "bowgart",
-      "pummel"
-    ],
-    "followsElementRule": false,
-    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
-    "islands": [
-      "plant"
-    ],
-    "verified": true
-  },
-  {
-    "target": "rare-potbelly",
-    "parents": [
-      "clamble",
-      "pummel"
-    ],
-    "followsElementRule": false,
-    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
-    "islands": [
-      "plant"
-    ],
-    "verified": true
-  },
-  {
-    "target": "rare-noggin",
-    "parents": [
-      "clamble",
-      "pummel"
-    ],
-    "followsElementRule": false,
-    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
-    "islands": [
-      "plant"
-    ],
-    "verified": true
-  },
-  {
-    "target": "rare-noggin",
-    "parents": [
-      "clamble",
-      "t-rox"
-    ],
-    "followsElementRule": false,
-    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
-    "islands": [
-      "plant"
-    ],
-    "verified": true
-  },
-  {
-    "target": "rare-noggin",
-    "parents": [
-      "pummel",
-      "t-rox"
-    ],
-    "followsElementRule": false,
-    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
-    "islands": [
-      "plant"
-    ],
-    "verified": true
-  },
-  {
-    "target": "rare-toe-jammer",
-    "parents": [
-      "bowgart",
-      "pummel"
-    ],
-    "followsElementRule": false,
-    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
-    "islands": [
-      "plant"
-    ],
-    "verified": true
-  },
-  {
-    "target": "rare-toe-jammer",
-    "parents": [
-      "bowgart",
-      "t-rox"
-    ],
-    "followsElementRule": false,
-    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
-    "islands": [
-      "plant"
-    ],
-    "verified": true
-  },
-  {
-    "target": "rare-toe-jammer",
-    "parents": [
-      "pummel",
-      "t-rox"
-    ],
-    "followsElementRule": false,
-    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
-    "islands": [
-      "plant"
-    ],
-    "verified": true
-  },
-  {
-    "target": "rare-mammott",
-    "parents": [
-      "bowgart",
-      "clamble"
-    ],
-    "followsElementRule": false,
-    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
-    "islands": [
-      "plant"
-    ],
-    "verified": true
-  },
-  {
-    "target": "rare-mammott",
-    "parents": [
-      "bowgart",
-      "t-rox"
-    ],
-    "followsElementRule": false,
-    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
-    "islands": [
-      "plant"
-    ],
-    "verified": true
-  },
-  {
-    "target": "rare-mammott",
-    "parents": [
-      "clamble",
-      "t-rox"
-    ],
-    "followsElementRule": false,
-    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
-    "islands": [
-      "plant"
-    ],
-    "verified": true
-  },
-  {
-    "target": "rare-shrubb",
-    "parents": [
-      "noggin",
-      "potbelly"
-    ],
-    "followsElementRule": true,
-    "verified": true
-  },
-  {
-    "target": "rare-oaktopus",
-    "parents": [
-      "potbelly",
+      "furcorn",
       "toe-jammer"
     ],
     "followsElementRule": true,
     "verified": true
   },
   {
-    "target": "rare-furcorn",
+    "target": "rare-bowgart",
     "parents": [
       "mammott",
-      "potbelly"
-    ],
-    "followsElementRule": true,
-    "verified": true
-  },
-  {
-    "target": "rare-fwog",
-    "parents": [
-      "noggin",
-      "toe-jammer"
-    ],
-    "followsElementRule": true,
-    "verified": true
-  },
-  {
-    "target": "rare-drumpler",
-    "parents": [
-      "mammott",
-      "noggin"
-    ],
-    "followsElementRule": true,
-    "verified": true
-  },
-  {
-    "target": "rare-maw",
-    "parents": [
-      "mammott",
-      "toe-jammer"
-    ],
-    "followsElementRule": true,
-    "verified": true
-  },
-  {
-    "target": "rare-pummel",
-    "parents": [
-      "fwog",
-      "potbelly"
-    ],
-    "followsElementRule": true,
-    "verified": true
-  },
-  {
-    "target": "rare-pummel",
-    "parents": [
-      "noggin",
       "oaktopus"
     ],
     "followsElementRule": true,
     "verified": true
   },
   {
-    "target": "rare-pummel",
+    "target": "rare-bowgart",
     "parents": [
-      "shrubb",
-      "toe-jammer"
+      "maw",
+      "potbelly"
     ],
     "followsElementRule": true,
     "verified": true
@@ -508,54 +957,108 @@
     "verified": true
   },
   {
-    "target": "rare-bowgart",
+    "target": "rare-congle",
     "parents": [
-      "furcorn",
+      "mammott",
+      "quibble"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "rare-congle",
+    "parents": [
+      "maw",
+      "tweedle"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "rare-congle",
+    "parents": [
+      "pango",
       "toe-jammer"
     ],
     "followsElementRule": true,
     "verified": true
   },
   {
-    "target": "rare-bowgart",
+    "target": "rare-dandidoo",
     "parents": [
-      "mammott",
-      "oaktopus"
+      "potbelly",
+      "tweedle"
     ],
     "followsElementRule": true,
     "verified": true
   },
   {
-    "target": "rare-bowgart",
+    "target": "rare-deedge",
     "parents": [
-      "maw",
+      "bowgart",
+      "tweedle"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "rare-deedge",
+    "parents": [
+      "congle",
       "potbelly"
     ],
     "followsElementRule": true,
     "verified": true
   },
   {
-    "target": "rare-t-rox",
+    "target": "rare-deedge",
     "parents": [
-      "drumpler",
+      "dandidoo",
+      "maw"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "rare-deedge",
+    "parents": [
+      "furcorn",
+      "quibble"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "rare-deedge",
+    "parents": [
+      "mammott",
+      "spunge"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "rare-deedge",
+    "parents": [
+      "oaktopus",
+      "pango"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "rare-deedge",
+    "parents": [
+      "thumpies",
       "toe-jammer"
     ],
     "followsElementRule": true,
     "verified": true
   },
   {
-    "target": "rare-t-rox",
+    "target": "rare-drumpler",
     "parents": [
-      "fwog",
-      "mammott"
-    ],
-    "followsElementRule": true,
-    "verified": true
-  },
-  {
-    "target": "rare-t-rox",
-    "parents": [
-      "maw",
+      "mammott",
       "noggin"
     ],
     "followsElementRule": true,
@@ -629,64 +1132,28 @@
     "verified": true
   },
   {
-    "target": "ghazt",
+    "target": "rare-furcorn",
     "parents": [
-      "entbrat",
-      "pummel"
+      "mammott",
+      "potbelly"
     ],
-    "followsElementRule": false,
-    "note": "Ethereals are bred from Natural Monsters, so neither parent carries the target's Plasma element",
-    "islands": [
-      "plant"
-    ],
+    "followsElementRule": true,
     "verified": true
   },
   {
-    "target": "ghazt",
+    "target": "rare-fwog",
     "parents": [
-      "clamble",
-      "entbrat"
+      "noggin",
+      "toe-jammer"
     ],
-    "followsElementRule": false,
-    "note": "Ethereals are bred from Natural Monsters, so neither parent carries the target's Plasma element",
-    "islands": [
-      "plant"
-    ],
-    "verified": true
-  },
-  {
-    "target": "ghazt",
-    "parents": [
-      "bowgart",
-      "entbrat"
-    ],
-    "followsElementRule": false,
-    "note": "Ethereals are bred from Natural Monsters, so neither parent carries the target's Plasma element",
-    "islands": [
-      "plant"
-    ],
-    "verified": true
-  },
-  {
-    "target": "ghazt",
-    "parents": [
-      "entbrat",
-      "t-rox"
-    ],
-    "followsElementRule": false,
-    "note": "Ethereals are bred from Natural Monsters, so neither parent carries the target's Plasma element",
-    "islands": [
-      "plant"
-    ],
-    "rank": 1,
-    "advice": "T-Rox has a shorter waiting time compared to the other Triples",
+    "followsElementRule": true,
     "verified": true
   },
   {
     "target": "rare-ghazt",
     "parents": [
-      "entbrat",
-      "pummel"
+      "bowgart",
+      "entbrat"
     ],
     "followsElementRule": false,
     "note": "Ethereals are bred from Natural Monsters, so neither parent carries the target's Plasma element",
@@ -711,8 +1178,8 @@
   {
     "target": "rare-ghazt",
     "parents": [
-      "bowgart",
-      "entbrat"
+      "entbrat",
+      "pummel"
     ],
     "followsElementRule": false,
     "note": "Ethereals are bred from Natural Monsters, so neither parent carries the target's Plasma element",
@@ -729,19 +1196,6 @@
     ],
     "followsElementRule": false,
     "note": "Ethereals are bred from Natural Monsters, so neither parent carries the target's Plasma element",
-    "islands": [
-      "plant"
-    ],
-    "verified": true
-  },
-  {
-    "target": "gjoob",
-    "parents": [
-      "pummel",
-      "t-rox"
-    ],
-    "followsElementRule": false,
-    "note": "Mythicals are bred from Natural Monsters, so neither parent carries the target's Mythical element",
     "islands": [
       "plant"
     ],
@@ -761,16 +1215,252 @@
     "verified": true
   },
   {
-    "target": "punkleton",
+    "target": "rare-mammott",
+    "parents": [
+      "bowgart",
+      "clamble"
+    ],
+    "followsElementRule": false,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "plant"
+    ],
+    "verified": true
+  },
+  {
+    "target": "rare-mammott",
+    "parents": [
+      "bowgart",
+      "congle"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "cold"
+    ]
+  },
+  {
+    "target": "rare-mammott",
     "parents": [
       "bowgart",
       "t-rox"
     ],
     "followsElementRule": false,
-    "note": "Seasonals are bred from Natural Monsters, so neither parent carries the target's Spooktacle element",
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
     "islands": [
       "plant"
     ],
+    "verified": true
+  },
+  {
+    "target": "rare-mammott",
+    "parents": [
+      "bowgart",
+      "thumpies"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "cold"
+    ]
+  },
+  {
+    "target": "rare-mammott",
+    "parents": [
+      "clamble",
+      "t-rox"
+    ],
+    "followsElementRule": false,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "plant"
+    ],
+    "verified": true
+  },
+  {
+    "target": "rare-mammott",
+    "parents": [
+      "congle",
+      "thumpies"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "cold"
+    ]
+  },
+  {
+    "target": "rare-maw",
+    "parents": [
+      "mammott",
+      "toe-jammer"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "rare-noggin",
+    "parents": [
+      "clamble",
+      "pummel"
+    ],
+    "followsElementRule": false,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "plant"
+    ],
+    "verified": true
+  },
+  {
+    "target": "rare-noggin",
+    "parents": [
+      "clamble",
+      "t-rox"
+    ],
+    "followsElementRule": false,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "plant"
+    ],
+    "verified": true
+  },
+  {
+    "target": "rare-noggin",
+    "parents": [
+      "pummel",
+      "t-rox"
+    ],
+    "followsElementRule": false,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "plant"
+    ],
+    "verified": true
+  },
+  {
+    "target": "rare-oaktopus",
+    "parents": [
+      "potbelly",
+      "toe-jammer"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "rare-pango",
+    "parents": [
+      "mammott",
+      "tweedle"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "rare-potbelly",
+    "parents": [
+      "bowgart",
+      "clamble"
+    ],
+    "followsElementRule": false,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "plant"
+    ],
+    "verified": true
+  },
+  {
+    "target": "rare-potbelly",
+    "parents": [
+      "bowgart",
+      "pummel"
+    ],
+    "followsElementRule": false,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "plant"
+    ],
+    "verified": true
+  },
+  {
+    "target": "rare-potbelly",
+    "parents": [
+      "bowgart",
+      "spunge"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "cold"
+    ]
+  },
+  {
+    "target": "rare-potbelly",
+    "parents": [
+      "bowgart",
+      "thumpies"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "cold"
+    ]
+  },
+  {
+    "target": "rare-potbelly",
+    "parents": [
+      "clamble",
+      "pummel"
+    ],
+    "followsElementRule": false,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "plant"
+    ],
+    "verified": true
+  },
+  {
+    "target": "rare-potbelly",
+    "parents": [
+      "spunge",
+      "thumpies"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "cold"
+    ]
+  },
+  {
+    "target": "rare-pummel",
+    "parents": [
+      "fwog",
+      "potbelly"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "rare-pummel",
+    "parents": [
+      "noggin",
+      "oaktopus"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "rare-pummel",
+    "parents": [
+      "shrubb",
+      "toe-jammer"
+    ],
+    "followsElementRule": true,
     "verified": true
   },
   {
@@ -787,6 +1477,231 @@
     "verified": true
   },
   {
+    "target": "rare-quibble",
+    "parents": [
+      "toe-jammer",
+      "tweedle"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "rare-shrubb",
+    "parents": [
+      "noggin",
+      "potbelly"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "rare-spunge",
+    "parents": [
+      "dandidoo",
+      "toe-jammer"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "rare-spunge",
+    "parents": [
+      "oaktopus",
+      "tweedle"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "rare-spunge",
+    "parents": [
+      "potbelly",
+      "quibble"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "rare-t-rox",
+    "parents": [
+      "drumpler",
+      "toe-jammer"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "rare-t-rox",
+    "parents": [
+      "fwog",
+      "mammott"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "rare-t-rox",
+    "parents": [
+      "maw",
+      "noggin"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "rare-thumpies",
+    "parents": [
+      "dandidoo",
+      "mammott"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "rare-thumpies",
+    "parents": [
+      "furcorn",
+      "tweedle"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "rare-thumpies",
+    "parents": [
+      "pango",
+      "potbelly"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "rare-toe-jammer",
+    "parents": [
+      "bowgart",
+      "congle"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "cold"
+    ]
+  },
+  {
+    "target": "rare-toe-jammer",
+    "parents": [
+      "bowgart",
+      "pummel"
+    ],
+    "followsElementRule": false,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "plant"
+    ],
+    "verified": true
+  },
+  {
+    "target": "rare-toe-jammer",
+    "parents": [
+      "bowgart",
+      "spunge"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "cold"
+    ]
+  },
+  {
+    "target": "rare-toe-jammer",
+    "parents": [
+      "bowgart",
+      "t-rox"
+    ],
+    "followsElementRule": false,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "plant"
+    ],
+    "verified": true
+  },
+  {
+    "target": "rare-toe-jammer",
+    "parents": [
+      "congle",
+      "spunge"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "cold"
+    ]
+  },
+  {
+    "target": "rare-toe-jammer",
+    "parents": [
+      "pummel",
+      "t-rox"
+    ],
+    "followsElementRule": false,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "plant"
+    ],
+    "verified": true
+  },
+  {
+    "target": "rare-tweedle",
+    "parents": [
+      "congle",
+      "spunge"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "cold"
+    ]
+  },
+  {
+    "target": "rare-tweedle",
+    "parents": [
+      "congle",
+      "thumpies"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "cold"
+    ]
+  },
+  {
+    "target": "rare-tweedle",
+    "parents": [
+      "spunge",
+      "thumpies"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "cold"
+    ]
+  },
+  {
+    "target": "shrubb",
+    "parents": [
+      "noggin",
+      "potbelly"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
     "target": "shugabush",
     "parents": [
       "bowgart",
@@ -800,236 +1715,116 @@
     "verified": true
   },
   {
-    "target": "epic-potbelly",
+    "target": "spunge",
     "parents": [
-      "entbrat",
-      "shrubb"
+      "dandidoo",
+      "toe-jammer"
     ],
-    "followsElementRule": false,
-    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
-    "islands": [
-      "plant"
-    ],
-    "verified": true
+    "followsElementRule": true,
+    "verified": true,
+    "rank": 1,
+    "advice": "Failing and breeding a Toe Jammer lets you retry the combo almost instantly"
   },
   {
-    "target": "epic-noggin",
-    "parents": [
-      "entbrat",
-      "fwog"
-    ],
-    "followsElementRule": false,
-    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
-    "islands": [
-      "plant"
-    ],
-    "verified": true
-  },
-  {
-    "target": "epic-toe-jammer",
-    "parents": [
-      "entbrat",
-      "oaktopus"
-    ],
-    "followsElementRule": false,
-    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
-    "islands": [
-      "plant"
-    ],
-    "verified": true
-  },
-  {
-    "target": "epic-mammott",
-    "parents": [
-      "entbrat",
-      "furcorn"
-    ],
-    "followsElementRule": false,
-    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
-    "islands": [
-      "plant"
-    ],
-    "verified": true
-  },
-  {
-    "target": "epic-shrubb",
+    "target": "spunge",
     "parents": [
       "oaktopus",
-      "t-rox"
+      "tweedle"
     ],
-    "followsElementRule": false,
-    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
-    "islands": [
-      "plant"
-    ],
+    "followsElementRule": true,
     "verified": true
   },
   {
-    "target": "epic-oaktopus",
+    "target": "spunge",
+    "parents": [
+      "potbelly",
+      "quibble"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "strombonin",
     "parents": [
       "bowgart",
-      "shrubb"
+      "spunge"
     ],
     "followsElementRule": false,
-    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "note": "Mythicals are bred from Natural Monsters, so neither parent carries the target's Mythical element",
     "islands": [
-      "plant"
+      "cold"
     ],
     "verified": true
   },
   {
-    "target": "epic-furcorn",
+    "target": "t-rox",
     "parents": [
-      "clamble",
-      "fwog"
+      "drumpler",
+      "toe-jammer"
     ],
-    "followsElementRule": false,
-    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
-    "islands": [
-      "plant"
-    ],
-    "verified": true
+    "followsElementRule": true,
+    "verified": true,
+    "rank": 2
   },
   {
-    "target": "epic-fwog",
+    "target": "t-rox",
     "parents": [
-      "furcorn",
-      "pummel"
+      "fwog",
+      "mammott"
     ],
-    "followsElementRule": false,
-    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
-    "islands": [
-      "plant"
-    ],
+    "followsElementRule": true,
     "verified": true
   },
   {
-    "target": "epic-drumpler",
-    "parents": [
-      "clamble",
-      "maw"
-    ],
-    "followsElementRule": false,
-    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
-    "islands": [
-      "plant"
-    ],
-    "verified": true
-  },
-  {
-    "target": "epic-maw",
-    "parents": [
-      "bowgart",
-      "drumpler"
-    ],
-    "followsElementRule": false,
-    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
-    "islands": [
-      "plant"
-    ],
-    "verified": true
-  },
-  {
-    "target": "epic-pummel",
-    "parents": [
-      "bowgart",
-      "fwog"
-    ],
-    "followsElementRule": false,
-    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
-    "islands": [
-      "plant"
-    ],
-    "verified": true
-  },
-  {
-    "target": "epic-clamble",
+    "target": "t-rox",
     "parents": [
       "maw",
-      "pummel"
+      "noggin"
     ],
-    "followsElementRule": false,
-    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
-    "islands": [
-      "plant"
-    ],
-    "verified": true
+    "followsElementRule": true,
+    "verified": true,
+    "rank": 1,
+    "advice": "Failing and breeding a Noggin lets you retry the combo almost instantly"
   },
   {
-    "target": "epic-bowgart",
+    "target": "thumpies",
     "parents": [
-      "clamble",
-      "oaktopus"
+      "dandidoo",
+      "mammott"
     ],
-    "followsElementRule": false,
-    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
-    "islands": [
-      "plant"
-    ],
-    "verified": true
+    "followsElementRule": true,
+    "verified": true,
+    "rank": 1,
+    "advice": "Failing and breeding a Mammott lets you retry the combo almost instantly"
   },
   {
-    "target": "epic-t-rox",
-    "parents": [
-      "drumpler",
-      "pummel"
-    ],
-    "followsElementRule": false,
-    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
-    "islands": [
-      "plant"
-    ],
-    "verified": true
-  },
-  {
-    "target": "epic-entbrat",
-    "parents": [
-      "shrubb",
-      "t-rox"
-    ],
-    "followsElementRule": false,
-    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
-    "islands": [
-      "plant"
-    ],
-    "verified": true
-  },
-  {
-    "target": "epic-ghazt",
+    "target": "thumpies",
     "parents": [
       "furcorn",
-      "t-rox"
+      "tweedle"
     ],
-    "followsElementRule": false,
-    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
-    "islands": [
-      "plant"
-    ],
+    "followsElementRule": true,
     "verified": true
   },
   {
-    "target": "epic-punkleton",
+    "target": "thumpies",
     "parents": [
-      "drumpler",
-      "entbrat"
+      "pango",
+      "potbelly"
     ],
-    "followsElementRule": false,
-    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
-    "islands": [
-      "plant"
-    ],
+    "followsElementRule": true,
     "verified": true
   },
   {
-    "target": "epic-gjoob",
+    "target": "yool",
     "parents": [
-      "entbrat",
-      "maw"
+      "congle",
+      "thumpies"
     ],
     "followsElementRule": false,
-    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "note": "Seasonals are bred from Natural Monsters during an event, so neither parent carries the target's element",
     "islands": [
-      "plant"
+      "cold"
     ],
     "verified": true
   }
