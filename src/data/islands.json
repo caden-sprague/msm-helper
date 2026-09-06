@@ -4,6 +4,16 @@
     "name": "Plant Island",
     "order": 1,
     "color": "#6cbf4b",
-    "elements": ["plant", "cold", "water", "earth"]
+    "elements": [
+      "plant",
+      "cold",
+      "water",
+      "earth",
+      "plasma",
+      "mythical",
+      "spooktacle",
+      "legendary",
+      "electricity"
+    ]
   }
 ]

@@ -83,7 +83,10 @@ is what puts them in the wiki's order; cost only orders the unranked remainder.
 
 ## Not yet done
 
-- Other islands: Cold, Air, Water, Earth, Shugabush.
-- Rare/Epic variants (schema supports them; no data entered).
+- Other islands: Cold, Air, Water, Earth, Shugabush. Note that many rows already in
+  the dataset list combos for those islands on the wiki; only the Plant Island
+  combination was taken.
+- Dipsters (3 group entries on the Plant Island roster) — see DATA-CONTRIBUTION.md for
+  why they're excluded rather than guessed at.
 - Monster icons. `Monster.icon` is unused; the UI shows names and element pips only.
   App icons exist but are a placeholder "M" mark, not artwork.

@@ -5,8 +5,10 @@ export type ElementFamily = 'natural' | 'ethereal' | 'other';
 export type ElementId =
   // natural
   | 'plant' | 'cold' | 'air' | 'water' | 'earth'
-  // ethereal            [verify] before any ethereal data is entered
+  // ethereal            only plasma is entered; the rest are [verify]
   | 'crystal' | 'fire' | 'plasma' | 'shadow' | 'mech'
+  // class elements — carried by a monster class rather than by a natural island
+  | 'mythical' | 'spooktacle' | 'legendary' | 'electricity'
   // other               [verify]
   | 'poison' | 'light' | 'psychic' | 'faerie' | 'bone';
 

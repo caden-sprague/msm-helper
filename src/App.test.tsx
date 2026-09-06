@@ -21,12 +21,14 @@ describe('App', () => {
     expect(screen.getByRole('heading', { name: 'MSM Helper' })).toBeDefined();
   });
 
+  // The dataset holds "Rare X" and "Epic X" next to every common, so a loose /X/ role
+  // query matches three buttons. Match the result label exactly instead.
   it('searches, pins a target, and shows its combos', async () => {
     const user = userEvent.setup();
     renderApp();
 
     await user.type(screen.getByPlaceholderText('Search monsters…'), 'bow');
-    await user.click(screen.getByRole('button', { name: /Bowgart/ }));
+    await user.click(screen.getByText('Bowgart', { exact: true }));
 
     expect(screen.getByRole('heading', { name: 'Bowgart' })).toBeDefined();
     // The wiki lists three combos for Bowgart; all must show, not just the first.
@@ -40,7 +42,7 @@ describe('App', () => {
     const user = userEvent.setup();
     const first = renderApp();
     await user.type(screen.getByPlaceholderText('Search monsters…'), 'entbrat');
-    await user.click(screen.getByRole('button', { name: /Entbrat/ }));
+    await user.click(screen.getByText('Entbrat', { exact: true }));
     // The debounced write needs to land before we simulate reopening the app.
     await new Promise((r) => setTimeout(r, 400));
     first.unmount();
@@ -53,7 +55,7 @@ describe('App', () => {
     const user = userEvent.setup();
     renderApp();
     await user.type(screen.getByPlaceholderText('Search monsters…'), 'potbelly');
-    await user.click(screen.getByRole('button', { name: /Potbelly/ }));
+    await user.click(screen.getByText('Potbelly', { exact: true }));
     expect(screen.getByText(/Bought from the market/)).toBeDefined();
   });
 });

@@ -80,12 +80,40 @@ becomes:
 
 ## Rare and Epic monsters
 
-Not yet entered, but the schema is ready. When you get there:
+Entered for Plant Island. The rules, now that they've been exercised once:
 
 - Rares are **separate monster rows** with `rarity: "rare"` and `variantOf` pointing at
-  the common. They share the common's combos but have their own breeding times.
+  the common. They have their own breeding times.
+- **Rare doubles/triples/quads reuse the common's combos verbatim**, and those
+  *do* satisfy the element rule — the parents are the same, and the Rare carries the
+  same elements. Keep `followsElementRule: true`.
+- **Rare single-elementals are the exception.** They're bred from two Triples that share
+  the Rare's element, so the parents carry more elements than the target. The wiki lists
+  three eligible Triples per island; the combos are the three pairs from that set.
+  `followsElementRule: false` plus a `note`.
 - Epics have **different combos on different islands** — the wiki states this outright.
   Each is its own combo row with an explicit single-island `islands` value
-  (invariant 13).
-- Both break the element rule. Set `followsElementRule: false` and write a `note`
-  explaining why (invariant 9).
+  (invariant 13), and they break the element rule (`note` required).
+- **Non-Natural classes** (Ethereal, Mythical, Seasonal, Legendary) break the element
+  rule too: they're bred from Natural parents, so nothing carries the target's element.
+
+### Parsing gotcha: template runs
+
+Don't assume the `==Breeding==` section's combos are one contiguous run of templates.
+Rare Entbrat splits its seven into two runs (three double+double, then four
+triple+single) separated by a prose line, and a "first run only" parser silently drops
+four of them. Read every run before the stop-phrases in the rules above, and treat a run
+tagged `island=` as scoped to that island only.
+
+## Monsters that aren't bred at all
+
+Some island residents have no `==Breeding==` section, because they're bought:
+Tawkerr and Parlsona (100 Relics each), and the whole Wubbox family. Mark them
+`buyable: true` and give them no combo rows — invariant 10 only demands combos for
+non-buyable monsters.
+
+**Dipsters are deliberately excluded.** The island roster lists `Dipsters`,
+`Elemental Dipsters` and `Royal Dipsters`, but each is a *group* of many monsters
+(Do, Re, Mi, …) rather than one monster, and they're bought with Keys, so there is no
+combo to record. Entering them as three single rows would be a wrong row that looks
+right. They need their own grouping concept in the schema first.
