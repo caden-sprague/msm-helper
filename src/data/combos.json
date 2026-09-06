@@ -1,5 +1,31 @@
 [
   {
+    "target": "alcordion",
+    "parents": [
+      "pompom",
+      "scups"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Alcordion does not follow the element rule",
+    "islands": [
+      "air"
+    ]
+  },
+  {
+    "target": "anglow",
+    "parents": [
+      "pummel",
+      "scups"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Anglow does not follow the element rule",
+    "islands": [
+      "water"
+    ]
+  },
+  {
     "target": "bbliszard",
     "parents": [
       "congle",
@@ -11,6 +37,19 @@
       "cold"
     ],
     "verified": true
+  },
+  {
+    "target": "blabbit",
+    "parents": [
+      "scups",
+      "spunge"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Blabbit does not follow the element rule",
+    "islands": [
+      "water"
+    ]
   },
   {
     "target": "bowgart",
@@ -104,6 +143,15 @@
     "verified": true,
     "rank": 1,
     "advice": "Failing and breeding a Toe Jammer lets you retry the combo almost instantly"
+  },
+  {
+    "target": "cybop",
+    "parents": [
+      "noggin",
+      "tweedle"
+    ],
+    "followsElementRule": true,
+    "verified": true
   },
   {
     "target": "dandidoo",
@@ -257,6 +305,32 @@
     "advice": "It has low average times in case of failure"
   },
   {
+    "target": "epic-anglow",
+    "parents": [
+      "cybop",
+      "shellbeat"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "water"
+    ]
+  },
+  {
+    "target": "epic-blabbit",
+    "parents": [
+      "oaktopus",
+      "shellbeat"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "water"
+    ]
+  },
+  {
     "target": "epic-bowgart",
     "parents": [
       "clamble",
@@ -285,6 +359,19 @@
   {
     "target": "epic-clamble",
     "parents": [
+      "furcorn",
+      "pompom"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "earth"
+    ]
+  },
+  {
+    "target": "epic-clamble",
+    "parents": [
       "maw",
       "pummel"
     ],
@@ -294,6 +381,19 @@
       "plant"
     ],
     "verified": true
+  },
+  {
+    "target": "epic-congle",
+    "parents": [
+      "drumpler",
+      "scups"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "air"
+    ]
   },
   {
     "target": "epic-congle",
@@ -309,6 +409,45 @@
     ]
   },
   {
+    "target": "epic-cybop",
+    "parents": [
+      "congle",
+      "drumpler"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "air"
+    ]
+  },
+  {
+    "target": "epic-cybop",
+    "parents": [
+      "dandidoo",
+      "scups"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "water"
+    ]
+  },
+  {
+    "target": "epic-cybop",
+    "parents": [
+      "pompom",
+      "shrubb"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "earth"
+    ]
+  },
+  {
     "target": "epic-dandidoo",
     "parents": [
       "bowgart",
@@ -319,6 +458,32 @@
     "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
     "islands": [
       "cold"
+    ]
+  },
+  {
+    "target": "epic-dandidoo",
+    "parents": [
+      "clamble",
+      "pango"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "earth"
+    ]
+  },
+  {
+    "target": "epic-dandidoo",
+    "parents": [
+      "cybop",
+      "pummel"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "water"
     ]
   },
   {
@@ -346,6 +511,32 @@
       "plant"
     ],
     "verified": true
+  },
+  {
+    "target": "epic-drumpler",
+    "parents": [
+      "cybop",
+      "thumpies"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "earth"
+    ]
+  },
+  {
+    "target": "epic-drumpler",
+    "parents": [
+      "fwog",
+      "pompom"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "air"
+    ]
   },
   {
     "target": "epic-entbrat",
@@ -376,6 +567,19 @@
   {
     "target": "epic-furcorn",
     "parents": [
+      "drumpler",
+      "thumpies"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "earth"
+    ]
+  },
+  {
+    "target": "epic-furcorn",
+    "parents": [
       "maw",
       "spunge"
     ],
@@ -398,6 +602,32 @@
       "plant"
     ],
     "verified": true
+  },
+  {
+    "target": "epic-fwog",
+    "parents": [
+      "oaktopus",
+      "reedling"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "water"
+    ]
+  },
+  {
+    "target": "epic-fwog",
+    "parents": [
+      "pango",
+      "scups"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "air"
+    ]
   },
   {
     "target": "epic-ghazt",
@@ -439,6 +669,58 @@
     "verified": true
   },
   {
+    "target": "epic-hoola",
+    "parents": [
+      "dandidoo",
+      "quarrister"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "earth"
+    ]
+  },
+  {
+    "target": "epic-humbug",
+    "parents": [
+      "clamble",
+      "cybop"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "earth"
+    ]
+  },
+  {
+    "target": "epic-hyehehe",
+    "parents": [
+      "quarrister",
+      "shrubb"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "earth"
+    ]
+  },
+  {
+    "target": "epic-jeeode",
+    "parents": [
+      "pummel",
+      "quibble"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "water"
+    ]
+  },
+  {
     "target": "epic-mammott",
     "parents": [
       "deedge",
@@ -454,6 +736,19 @@
   {
     "target": "epic-mammott",
     "parents": [
+      "drumpler",
+      "quarrister"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "earth"
+    ]
+  },
+  {
+    "target": "epic-mammott",
+    "parents": [
       "entbrat",
       "furcorn"
     ],
@@ -463,6 +758,19 @@
       "plant"
     ],
     "verified": true
+  },
+  {
+    "target": "epic-mammott",
+    "parents": [
+      "pango",
+      "riff"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "air"
+    ]
   },
   {
     "target": "epic-maw",
@@ -491,6 +799,45 @@
     ]
   },
   {
+    "target": "epic-maw",
+    "parents": [
+      "quibble",
+      "t-rox"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "air"
+    ]
+  },
+  {
+    "target": "epic-noggin",
+    "parents": [
+      "cybop",
+      "quarrister"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "earth"
+    ]
+  },
+  {
+    "target": "epic-noggin",
+    "parents": [
+      "drumpler",
+      "riff"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "air"
+    ]
+  },
+  {
     "target": "epic-noggin",
     "parents": [
       "entbrat",
@@ -502,6 +849,19 @@
       "plant"
     ],
     "verified": true
+  },
+  {
+    "target": "epic-noggin",
+    "parents": [
+      "shellbeat",
+      "shrubb"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "water"
+    ]
   },
   {
     "target": "epic-oaktopus",
@@ -519,6 +879,19 @@
   {
     "target": "epic-oaktopus",
     "parents": [
+      "fwog",
+      "reedling"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "water"
+    ]
+  },
+  {
+    "target": "epic-oaktopus",
+    "parents": [
       "pango",
       "spunge"
     ],
@@ -532,6 +905,32 @@
   {
     "target": "epic-pango",
     "parents": [
+      "congle",
+      "cybop"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "air"
+    ]
+  },
+  {
+    "target": "epic-pango",
+    "parents": [
+      "furcorn",
+      "reedling"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "earth"
+    ]
+  },
+  {
+    "target": "epic-pango",
+    "parents": [
       "oaktopus",
       "thumpies"
     ],
@@ -540,6 +939,45 @@
     "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
     "islands": [
       "cold"
+    ]
+  },
+  {
+    "target": "epic-pompom",
+    "parents": [
+      "cybop",
+      "t-rox"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "air"
+    ]
+  },
+  {
+    "target": "epic-pompom",
+    "parents": [
+      "drumpler",
+      "reedling"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "earth"
+    ]
+  },
+  {
+    "target": "epic-potbelly",
+    "parents": [
+      "dandidoo",
+      "shellbeat"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "water"
     ]
   },
   {
@@ -569,6 +1007,19 @@
     "verified": true
   },
   {
+    "target": "epic-potbelly",
+    "parents": [
+      "furcorn",
+      "quarrister"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "earth"
+    ]
+  },
+  {
     "target": "epic-pummel",
     "parents": [
       "bowgart",
@@ -580,6 +1031,19 @@
       "plant"
     ],
     "verified": true
+  },
+  {
+    "target": "epic-pummel",
+    "parents": [
+      "scups",
+      "shrubb"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "water"
+    ]
   },
   {
     "target": "epic-punkleton",
@@ -608,6 +1072,110 @@
     ]
   },
   {
+    "target": "epic-quibble",
+    "parents": [
+      "maw",
+      "scups"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "air"
+    ]
+  },
+  {
+    "target": "epic-quibble",
+    "parents": [
+      "shrubb",
+      "spunge"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "water"
+    ]
+  },
+  {
+    "target": "epic-reebro",
+    "parents": [
+      "pango",
+      "t-rox"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "air"
+    ]
+  },
+  {
+    "target": "epic-reedling",
+    "parents": [
+      "fwog",
+      "spunge"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "water"
+    ]
+  },
+  {
+    "target": "epic-reedling",
+    "parents": [
+      "shrubb",
+      "thumpies"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "earth"
+    ]
+  },
+  {
+    "target": "epic-scups",
+    "parents": [
+      "dandidoo",
+      "pummel"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "water"
+    ]
+  },
+  {
+    "target": "epic-scups",
+    "parents": [
+      "maw",
+      "pompom"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "air"
+    ]
+  },
+  {
+    "target": "epic-shrubb",
+    "parents": [
+      "dandidoo",
+      "pompom"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "earth"
+    ]
+  },
+  {
     "target": "epic-shrubb",
     "parents": [
       "oaktopus",
@@ -619,6 +1187,32 @@
       "plant"
     ],
     "verified": true
+  },
+  {
+    "target": "epic-shrubb",
+    "parents": [
+      "quibble",
+      "reedling"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "water"
+    ]
+  },
+  {
+    "target": "epic-spunge",
+    "parents": [
+      "oaktopus",
+      "scups"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "water"
+    ]
   },
   {
     "target": "epic-spunge",
@@ -649,6 +1243,19 @@
   {
     "target": "epic-t-rox",
     "parents": [
+      "congle",
+      "fwog"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "air"
+    ]
+  },
+  {
+    "target": "epic-t-rox",
+    "parents": [
       "drumpler",
       "pummel"
     ],
@@ -670,6 +1277,19 @@
     "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
     "islands": [
       "cold"
+    ]
+  },
+  {
+    "target": "epic-thumpies",
+    "parents": [
+      "pango",
+      "reedling"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "earth"
     ]
   },
   {
@@ -699,6 +1319,45 @@
     "verified": true
   },
   {
+    "target": "epic-toe-jammer",
+    "parents": [
+      "fwog",
+      "shellbeat"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "water"
+    ]
+  },
+  {
+    "target": "epic-toe-jammer",
+    "parents": [
+      "maw",
+      "riff"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "air"
+    ]
+  },
+  {
+    "target": "epic-tweedle",
+    "parents": [
+      "cybop",
+      "riff"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "air"
+    ]
+  },
+  {
     "target": "epic-tweedle",
     "parents": [
       "dandidoo",
@@ -709,6 +1368,45 @@
     "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
     "islands": [
       "cold"
+    ]
+  },
+  {
+    "target": "epic-tweedle",
+    "parents": [
+      "pango",
+      "quarrister"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "earth"
+    ]
+  },
+  {
+    "target": "epic-tweedle",
+    "parents": [
+      "quibble",
+      "shellbeat"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "water"
+    ]
+  },
+  {
+    "target": "epic-yawstrich",
+    "parents": [
+      "fwog",
+      "riff"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "air"
     ]
   },
   {
@@ -862,6 +1560,123 @@
     "verified": true
   },
   {
+    "target": "humbug",
+    "parents": [
+      "clamble",
+      "quarrister"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Humbug does not follow the element rule",
+    "islands": [
+      "earth"
+    ]
+  },
+  {
+    "target": "humbug",
+    "parents": [
+      "pompom",
+      "quarrister"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Humbug does not follow the element rule",
+    "islands": [
+      "earth"
+    ]
+  },
+  {
+    "target": "humbug",
+    "parents": [
+      "quarrister",
+      "reedling"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Humbug does not follow the element rule",
+    "islands": [
+      "earth"
+    ]
+  },
+  {
+    "target": "humbug",
+    "parents": [
+      "quarrister",
+      "thumpies"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Humbug does not follow the element rule",
+    "islands": [
+      "earth"
+    ]
+  },
+  {
+    "target": "hyehehe",
+    "parents": [
+      "pompom",
+      "thumpies"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Hyehehe does not follow the element rule",
+    "islands": [
+      "earth"
+    ]
+  },
+  {
+    "target": "jeeode",
+    "parents": [
+      "pummel",
+      "shellbeat"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Jeeode does not follow the element rule",
+    "islands": [
+      "water"
+    ]
+  },
+  {
+    "target": "jeeode",
+    "parents": [
+      "reedling",
+      "shellbeat"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Jeeode does not follow the element rule",
+    "islands": [
+      "water"
+    ]
+  },
+  {
+    "target": "jeeode",
+    "parents": [
+      "scups",
+      "shellbeat"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Jeeode does not follow the element rule",
+    "islands": [
+      "water"
+    ]
+  },
+  {
+    "target": "jeeode",
+    "parents": [
+      "shellbeat",
+      "spunge"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Jeeode does not follow the element rule",
+    "islands": [
+      "water"
+    ]
+  },
+  {
     "target": "maw",
     "parents": [
       "mammott",
@@ -887,6 +1702,37 @@
     ],
     "followsElementRule": true,
     "verified": true
+  },
+  {
+    "target": "pompom",
+    "parents": [
+      "cybop",
+      "mammott"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "pompom",
+    "parents": [
+      "drumpler",
+      "tweedle"
+    ],
+    "followsElementRule": true,
+    "verified": true,
+    "rank": 2,
+    "advice": "It has low average times in case of failure"
+  },
+  {
+    "target": "pompom",
+    "parents": [
+      "noggin",
+      "pango"
+    ],
+    "followsElementRule": true,
+    "verified": true,
+    "rank": 1,
+    "advice": "Failing and breeding a Noggin lets you retry the combo almost instantly"
   },
   {
     "target": "pummel",
@@ -933,6 +1779,71 @@
     "verified": true
   },
   {
+    "target": "quarrister",
+    "parents": [
+      "clamble",
+      "tweedle"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "quarrister",
+    "parents": [
+      "cybop",
+      "furcorn"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "quarrister",
+    "parents": [
+      "dandidoo",
+      "drumpler"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "quarrister",
+    "parents": [
+      "mammott",
+      "reedling"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "quarrister",
+    "parents": [
+      "noggin",
+      "thumpies"
+    ],
+    "followsElementRule": true,
+    "verified": true,
+    "rank": 1,
+    "advice": "Failing and breeding a Noggin lets you retry the combo almost instantly"
+  },
+  {
+    "target": "quarrister",
+    "parents": [
+      "pango",
+      "shrubb"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "quarrister",
+    "parents": [
+      "pompom",
+      "potbelly"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
     "target": "quibble",
     "parents": [
       "toe-jammer",
@@ -940,6 +1851,26 @@
     ],
     "followsElementRule": true,
     "verified": true
+  },
+  {
+    "target": "rare-anglow",
+    "parents": [
+      "pummel",
+      "scups"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Anglow does not follow the element rule"
+  },
+  {
+    "target": "rare-blabbit",
+    "parents": [
+      "scups",
+      "spunge"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Blabbit does not follow the element rule"
   },
   {
     "target": "rare-bowgart",
@@ -971,6 +1902,36 @@
   {
     "target": "rare-clamble",
     "parents": [
+      "clamble",
+      "entbrat"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Clamble does not follow the element rule"
+  },
+  {
+    "target": "rare-clamble",
+    "parents": [
+      "clamble",
+      "noggin"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Clamble does not follow the element rule"
+  },
+  {
+    "target": "rare-clamble",
+    "parents": [
+      "clamble",
+      "quarrister"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Clamble does not follow the element rule"
+  },
+  {
+    "target": "rare-clamble",
+    "parents": [
       "drumpler",
       "potbelly"
     ],
@@ -998,6 +1959,36 @@
   {
     "target": "rare-congle",
     "parents": [
+      "congle",
+      "deedge"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Congle does not follow the element rule"
+  },
+  {
+    "target": "rare-congle",
+    "parents": [
+      "congle",
+      "riff"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Congle does not follow the element rule"
+  },
+  {
+    "target": "rare-congle",
+    "parents": [
+      "congle",
+      "toe-jammer"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Congle does not follow the element rule"
+  },
+  {
+    "target": "rare-congle",
+    "parents": [
       "mammott",
       "quibble"
     ],
@@ -1021,6 +2012,16 @@
     ],
     "followsElementRule": true,
     "verified": true
+  },
+  {
+    "target": "rare-cybop",
+    "parents": [
+      "noggin",
+      "tweedle"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Cybop does not follow the element rule"
   },
   {
     "target": "rare-dandidoo",
@@ -1306,6 +2307,106 @@
     "verified": true
   },
   {
+    "target": "rare-hoola",
+    "parents": [
+      "pango",
+      "pompom"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Hoola does not follow the element rule"
+  },
+  {
+    "target": "rare-humbug",
+    "parents": [
+      "clamble",
+      "quarrister"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Humbug does not follow the element rule"
+  },
+  {
+    "target": "rare-humbug",
+    "parents": [
+      "pompom",
+      "quarrister"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Humbug does not follow the element rule"
+  },
+  {
+    "target": "rare-humbug",
+    "parents": [
+      "quarrister",
+      "reedling"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Humbug does not follow the element rule"
+  },
+  {
+    "target": "rare-humbug",
+    "parents": [
+      "quarrister",
+      "thumpies"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Humbug does not follow the element rule"
+  },
+  {
+    "target": "rare-hyehehe",
+    "parents": [
+      "pompom",
+      "thumpies"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Hyehehe does not follow the element rule"
+  },
+  {
+    "target": "rare-jeeode",
+    "parents": [
+      "pummel",
+      "shellbeat"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Jeeode does not follow the element rule"
+  },
+  {
+    "target": "rare-jeeode",
+    "parents": [
+      "reedling",
+      "shellbeat"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Jeeode does not follow the element rule"
+  },
+  {
+    "target": "rare-jeeode",
+    "parents": [
+      "scups",
+      "shellbeat"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Jeeode does not follow the element rule"
+  },
+  {
+    "target": "rare-jeeode",
+    "parents": [
+      "shellbeat",
+      "spunge"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Jeeode does not follow the element rule"
+  },
+  {
     "target": "rare-mammott",
     "parents": [
       "bowgart",
@@ -1361,6 +2462,19 @@
     "target": "rare-mammott",
     "parents": [
       "clamble",
+      "pompom"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "earth"
+    ]
+  },
+  {
+    "target": "rare-mammott",
+    "parents": [
+      "clamble",
       "t-rox"
     ],
     "followsElementRule": false,
@@ -1369,6 +2483,45 @@
       "plant"
     ],
     "verified": true
+  },
+  {
+    "target": "rare-mammott",
+    "parents": [
+      "clamble",
+      "thumpies"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "earth"
+    ]
+  },
+  {
+    "target": "rare-mammott",
+    "parents": [
+      "congle",
+      "pompom"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "air"
+    ]
+  },
+  {
+    "target": "rare-mammott",
+    "parents": [
+      "congle",
+      "t-rox"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "air"
+    ]
   },
   {
     "target": "rare-mammott",
@@ -1384,6 +2537,32 @@
     ]
   },
   {
+    "target": "rare-mammott",
+    "parents": [
+      "pompom",
+      "t-rox"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "air"
+    ]
+  },
+  {
+    "target": "rare-mammott",
+    "parents": [
+      "pompom",
+      "thumpies"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "earth"
+    ]
+  },
+  {
     "target": "rare-maw",
     "parents": [
       "mammott",
@@ -1391,6 +2570,19 @@
     ],
     "followsElementRule": true,
     "verified": true
+  },
+  {
+    "target": "rare-noggin",
+    "parents": [
+      "clamble",
+      "pompom"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "earth"
+    ]
   },
   {
     "target": "rare-noggin",
@@ -1409,6 +2601,19 @@
     "target": "rare-noggin",
     "parents": [
       "clamble",
+      "reedling"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "earth"
+    ]
+  },
+  {
+    "target": "rare-noggin",
+    "parents": [
+      "clamble",
       "t-rox"
     ],
     "followsElementRule": false,
@@ -1417,6 +2622,71 @@
       "plant"
     ],
     "verified": true
+  },
+  {
+    "target": "rare-noggin",
+    "parents": [
+      "pompom",
+      "reedling"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "earth"
+    ]
+  },
+  {
+    "target": "rare-noggin",
+    "parents": [
+      "pompom",
+      "scups"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "air"
+    ]
+  },
+  {
+    "target": "rare-noggin",
+    "parents": [
+      "pompom",
+      "t-rox"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "air"
+    ]
+  },
+  {
+    "target": "rare-noggin",
+    "parents": [
+      "pummel",
+      "reedling"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "water"
+    ]
+  },
+  {
+    "target": "rare-noggin",
+    "parents": [
+      "pummel",
+      "scups"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "water"
+    ]
   },
   {
     "target": "rare-noggin",
@@ -1430,6 +2700,32 @@
       "plant"
     ],
     "verified": true
+  },
+  {
+    "target": "rare-noggin",
+    "parents": [
+      "reedling",
+      "scups"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "water"
+    ]
+  },
+  {
+    "target": "rare-noggin",
+    "parents": [
+      "scups",
+      "t-rox"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "air"
+    ]
   },
   {
     "target": "rare-oaktopus",
@@ -1448,6 +2744,76 @@
     ],
     "followsElementRule": true,
     "verified": true
+  },
+  {
+    "target": "rare-pompom",
+    "parents": [
+      "cybop",
+      "mammott"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare PomPom does not follow the element rule"
+  },
+  {
+    "target": "rare-pompom",
+    "parents": [
+      "drumpler",
+      "tweedle"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare PomPom does not follow the element rule"
+  },
+  {
+    "target": "rare-pompom",
+    "parents": [
+      "noggin",
+      "pango"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare PomPom does not follow the element rule"
+  },
+  {
+    "target": "rare-pompom",
+    "parents": [
+      "noggin",
+      "pompom"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare PomPom does not follow the element rule"
+  },
+  {
+    "target": "rare-pompom",
+    "parents": [
+      "pompom",
+      "quarrister"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare PomPom does not follow the element rule"
+  },
+  {
+    "target": "rare-pompom",
+    "parents": [
+      "pompom",
+      "riff"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare PomPom does not follow the element rule"
+  },
+  {
+    "target": "rare-pompom",
+    "parents": [
+      "pompom",
+      "shugabush"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare PomPom does not follow the element rule"
   },
   {
     "target": "rare-potbelly",
@@ -1517,6 +2883,84 @@
   {
     "target": "rare-potbelly",
     "parents": [
+      "clamble",
+      "reedling"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "earth"
+    ]
+  },
+  {
+    "target": "rare-potbelly",
+    "parents": [
+      "clamble",
+      "thumpies"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "earth"
+    ]
+  },
+  {
+    "target": "rare-potbelly",
+    "parents": [
+      "pummel",
+      "reedling"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "water"
+    ]
+  },
+  {
+    "target": "rare-potbelly",
+    "parents": [
+      "pummel",
+      "spunge"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "water"
+    ]
+  },
+  {
+    "target": "rare-potbelly",
+    "parents": [
+      "reedling",
+      "spunge"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "water"
+    ]
+  },
+  {
+    "target": "rare-potbelly",
+    "parents": [
+      "reedling",
+      "thumpies"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "earth"
+    ]
+  },
+  {
+    "target": "rare-potbelly",
+    "parents": [
       "spunge",
       "thumpies"
     ],
@@ -1526,6 +2970,16 @@
     "islands": [
       "cold"
     ]
+  },
+  {
+    "target": "rare-pummel",
+    "parents": [
+      "entbrat",
+      "pummel"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Pummel does not follow the element rule"
   },
   {
     "target": "rare-pummel",
@@ -1544,6 +2998,26 @@
     ],
     "followsElementRule": true,
     "verified": true
+  },
+  {
+    "target": "rare-pummel",
+    "parents": [
+      "noggin",
+      "pummel"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Pummel does not follow the element rule"
+  },
+  {
+    "target": "rare-pummel",
+    "parents": [
+      "pummel",
+      "shellbeat"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Pummel does not follow the element rule"
   },
   {
     "target": "rare-pummel",
@@ -1568,6 +3042,76 @@
     "verified": true
   },
   {
+    "target": "rare-quarrister",
+    "parents": [
+      "clamble",
+      "tweedle"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Quarrister does not follow the element rule"
+  },
+  {
+    "target": "rare-quarrister",
+    "parents": [
+      "cybop",
+      "furcorn"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Quarrister does not follow the element rule"
+  },
+  {
+    "target": "rare-quarrister",
+    "parents": [
+      "dandidoo",
+      "drumpler"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Quarrister does not follow the element rule"
+  },
+  {
+    "target": "rare-quarrister",
+    "parents": [
+      "mammott",
+      "reedling"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Quarrister does not follow the element rule"
+  },
+  {
+    "target": "rare-quarrister",
+    "parents": [
+      "noggin",
+      "thumpies"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Quarrister does not follow the element rule"
+  },
+  {
+    "target": "rare-quarrister",
+    "parents": [
+      "pango",
+      "shrubb"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Quarrister does not follow the element rule"
+  },
+  {
+    "target": "rare-quarrister",
+    "parents": [
+      "pompom",
+      "potbelly"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Quarrister does not follow the element rule"
+  },
+  {
     "target": "rare-quibble",
     "parents": [
       "toe-jammer",
@@ -1575,6 +3119,306 @@
     ],
     "followsElementRule": true,
     "verified": true
+  },
+  {
+    "target": "rare-reebro",
+    "parents": [
+      "congle",
+      "riff"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Reebro does not follow the element rule"
+  },
+  {
+    "target": "rare-reebro",
+    "parents": [
+      "pompom",
+      "riff"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Reebro does not follow the element rule"
+  },
+  {
+    "target": "rare-reebro",
+    "parents": [
+      "riff",
+      "scups"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Reebro does not follow the element rule"
+  },
+  {
+    "target": "rare-reebro",
+    "parents": [
+      "riff",
+      "t-rox"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Reebro does not follow the element rule"
+  },
+  {
+    "target": "rare-reedling",
+    "parents": [
+      "cybop",
+      "potbelly"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Reedling does not follow the element rule"
+  },
+  {
+    "target": "rare-reedling",
+    "parents": [
+      "dandidoo",
+      "noggin"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Reedling does not follow the element rule"
+  },
+  {
+    "target": "rare-reedling",
+    "parents": [
+      "noggin",
+      "reedling"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Reedling does not follow the element rule"
+  },
+  {
+    "target": "rare-reedling",
+    "parents": [
+      "quarrister",
+      "reedling"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Reedling does not follow the element rule"
+  },
+  {
+    "target": "rare-reedling",
+    "parents": [
+      "reedling",
+      "shellbeat"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Reedling does not follow the element rule"
+  },
+  {
+    "target": "rare-reedling",
+    "parents": [
+      "shrubb",
+      "tweedle"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Reedling does not follow the element rule"
+  },
+  {
+    "target": "rare-riff",
+    "parents": [
+      "congle",
+      "noggin"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Riff does not follow the element rule"
+  },
+  {
+    "target": "rare-riff",
+    "parents": [
+      "cybop",
+      "maw"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Riff does not follow the element rule"
+  },
+  {
+    "target": "rare-riff",
+    "parents": [
+      "drumpler",
+      "quibble"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Riff does not follow the element rule"
+  },
+  {
+    "target": "rare-riff",
+    "parents": [
+      "fwog",
+      "pango"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Riff does not follow the element rule"
+  },
+  {
+    "target": "rare-riff",
+    "parents": [
+      "mammott",
+      "scups"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Riff does not follow the element rule"
+  },
+  {
+    "target": "rare-riff",
+    "parents": [
+      "pompom",
+      "toe-jammer"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Riff does not follow the element rule"
+  },
+  {
+    "target": "rare-riff",
+    "parents": [
+      "t-rox",
+      "tweedle"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Riff does not follow the element rule"
+  },
+  {
+    "target": "rare-scups",
+    "parents": [
+      "cybop",
+      "toe-jammer"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Scups does not follow the element rule"
+  },
+  {
+    "target": "rare-scups",
+    "parents": [
+      "fwog",
+      "tweedle"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Scups does not follow the element rule"
+  },
+  {
+    "target": "rare-scups",
+    "parents": [
+      "noggin",
+      "quibble"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Scups does not follow the element rule"
+  },
+  {
+    "target": "rare-scups",
+    "parents": [
+      "noggin",
+      "scups"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Scups does not follow the element rule"
+  },
+  {
+    "target": "rare-scups",
+    "parents": [
+      "riff",
+      "scups"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Scups does not follow the element rule"
+  },
+  {
+    "target": "rare-scups",
+    "parents": [
+      "scups",
+      "shellbeat"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Scups does not follow the element rule"
+  },
+  {
+    "target": "rare-shellbeat",
+    "parents": [
+      "cybop",
+      "oaktopus"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Shellbeat does not follow the element rule"
+  },
+  {
+    "target": "rare-shellbeat",
+    "parents": [
+      "dandidoo",
+      "fwog"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Shellbeat does not follow the element rule"
+  },
+  {
+    "target": "rare-shellbeat",
+    "parents": [
+      "noggin",
+      "spunge"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Shellbeat does not follow the element rule"
+  },
+  {
+    "target": "rare-shellbeat",
+    "parents": [
+      "potbelly",
+      "scups"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Shellbeat does not follow the element rule"
+  },
+  {
+    "target": "rare-shellbeat",
+    "parents": [
+      "pummel",
+      "tweedle"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Shellbeat does not follow the element rule"
+  },
+  {
+    "target": "rare-shellbeat",
+    "parents": [
+      "quibble",
+      "shrubb"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Shellbeat does not follow the element rule"
+  },
+  {
+    "target": "rare-shellbeat",
+    "parents": [
+      "reedling",
+      "toe-jammer"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Shellbeat does not follow the element rule"
   },
   {
     "target": "rare-shrubb",
@@ -1597,6 +3441,16 @@
   {
     "target": "rare-spunge",
     "parents": [
+      "deedge",
+      "spunge"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Spunge does not follow the element rule"
+  },
+  {
+    "target": "rare-spunge",
+    "parents": [
       "oaktopus",
       "tweedle"
     ],
@@ -1611,6 +3465,26 @@
     ],
     "followsElementRule": true,
     "verified": true
+  },
+  {
+    "target": "rare-spunge",
+    "parents": [
+      "shellbeat",
+      "spunge"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Spunge does not follow the element rule"
+  },
+  {
+    "target": "rare-spunge",
+    "parents": [
+      "spunge",
+      "toe-jammer"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Spunge does not follow the element rule"
   },
   {
     "target": "rare-strombonin",
@@ -1637,6 +3511,16 @@
   {
     "target": "rare-t-rox",
     "parents": [
+      "entbrat",
+      "t-rox"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare T-Rox does not follow the element rule"
+  },
+  {
+    "target": "rare-t-rox",
+    "parents": [
       "fwog",
       "mammott"
     ],
@@ -1653,6 +3537,26 @@
     "verified": true
   },
   {
+    "target": "rare-t-rox",
+    "parents": [
+      "noggin",
+      "t-rox"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare T-Rox does not follow the element rule"
+  },
+  {
+    "target": "rare-t-rox",
+    "parents": [
+      "riff",
+      "t-rox"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare T-Rox does not follow the element rule"
+  },
+  {
     "target": "rare-thumpies",
     "parents": [
       "dandidoo",
@@ -1660,6 +3564,16 @@
     ],
     "followsElementRule": true,
     "verified": true
+  },
+  {
+    "target": "rare-thumpies",
+    "parents": [
+      "deedge",
+      "thumpies"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Thumpies does not follow the element rule"
   },
   {
     "target": "rare-thumpies",
@@ -1673,11 +3587,31 @@
   {
     "target": "rare-thumpies",
     "parents": [
+      "mammott",
+      "thumpies"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Thumpies does not follow the element rule"
+  },
+  {
+    "target": "rare-thumpies",
+    "parents": [
       "pango",
       "potbelly"
     ],
     "followsElementRule": true,
     "verified": true
+  },
+  {
+    "target": "rare-thumpies",
+    "parents": [
+      "quarrister",
+      "thumpies"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Thumpies does not follow the element rule"
   },
   {
     "target": "rare-toe-jammer",
@@ -1735,6 +3669,19 @@
     "target": "rare-toe-jammer",
     "parents": [
       "congle",
+      "scups"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "air"
+    ]
+  },
+  {
+    "target": "rare-toe-jammer",
+    "parents": [
+      "congle",
       "spunge"
     ],
     "followsElementRule": false,
@@ -1742,6 +3689,45 @@
     "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
     "islands": [
       "cold"
+    ]
+  },
+  {
+    "target": "rare-toe-jammer",
+    "parents": [
+      "congle",
+      "t-rox"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "air"
+    ]
+  },
+  {
+    "target": "rare-toe-jammer",
+    "parents": [
+      "pummel",
+      "scups"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "water"
+    ]
+  },
+  {
+    "target": "rare-toe-jammer",
+    "parents": [
+      "pummel",
+      "spunge"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "water"
     ]
   },
   {
@@ -1758,6 +3744,58 @@
     "verified": true
   },
   {
+    "target": "rare-toe-jammer",
+    "parents": [
+      "scups",
+      "spunge"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "water"
+    ]
+  },
+  {
+    "target": "rare-toe-jammer",
+    "parents": [
+      "scups",
+      "t-rox"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "air"
+    ]
+  },
+  {
+    "target": "rare-tweedle",
+    "parents": [
+      "congle",
+      "pompom"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "air"
+    ]
+  },
+  {
+    "target": "rare-tweedle",
+    "parents": [
+      "congle",
+      "scups"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "air"
+    ]
+  },
+  {
     "target": "rare-tweedle",
     "parents": [
       "congle",
@@ -1786,6 +3824,97 @@
   {
     "target": "rare-tweedle",
     "parents": [
+      "pompom",
+      "reedling"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "earth"
+    ]
+  },
+  {
+    "target": "rare-tweedle",
+    "parents": [
+      "pompom",
+      "scups"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "air"
+    ]
+  },
+  {
+    "target": "rare-tweedle",
+    "parents": [
+      "pompom",
+      "thumpies"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "earth"
+    ]
+  },
+  {
+    "target": "rare-tweedle",
+    "parents": [
+      "reedling",
+      "scups"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "water"
+    ]
+  },
+  {
+    "target": "rare-tweedle",
+    "parents": [
+      "reedling",
+      "spunge"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "water"
+    ]
+  },
+  {
+    "target": "rare-tweedle",
+    "parents": [
+      "reedling",
+      "thumpies"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "earth"
+    ]
+  },
+  {
+    "target": "rare-tweedle",
+    "parents": [
+      "scups",
+      "spunge"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Single-Elementals are bred from two Triple-Elementals that share the Rare's element, so the parents carry more elements than the target",
+    "islands": [
+      "water"
+    ]
+  },
+  {
+    "target": "rare-tweedle",
+    "parents": [
       "spunge",
       "thumpies"
     ],
@@ -1795,6 +3924,16 @@
     "islands": [
       "cold"
     ]
+  },
+  {
+    "target": "rare-yawstrich",
+    "parents": [
+      "scups",
+      "t-rox"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Rare Yawstrich does not follow the element rule"
   },
   {
     "target": "rare-yool",
@@ -1807,6 +3946,250 @@
     "islands": [
       "cold"
     ],
+    "verified": true
+  },
+  {
+    "target": "reebro",
+    "parents": [
+      "congle",
+      "riff"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Reebro does not follow the element rule",
+    "islands": [
+      "air"
+    ]
+  },
+  {
+    "target": "reebro",
+    "parents": [
+      "pompom",
+      "riff"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Reebro does not follow the element rule",
+    "islands": [
+      "air"
+    ]
+  },
+  {
+    "target": "reebro",
+    "parents": [
+      "riff",
+      "scups"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Reebro does not follow the element rule",
+    "islands": [
+      "air"
+    ]
+  },
+  {
+    "target": "reebro",
+    "parents": [
+      "riff",
+      "t-rox"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Reebro does not follow the element rule",
+    "islands": [
+      "air"
+    ]
+  },
+  {
+    "target": "reedling",
+    "parents": [
+      "cybop",
+      "potbelly"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "reedling",
+    "parents": [
+      "dandidoo",
+      "noggin"
+    ],
+    "followsElementRule": true,
+    "verified": true,
+    "rank": 1,
+    "advice": "Failing and breeding a Noggin lets you retry the combo almost instantly"
+  },
+  {
+    "target": "reedling",
+    "parents": [
+      "shrubb",
+      "tweedle"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "riff",
+    "parents": [
+      "congle",
+      "noggin"
+    ],
+    "followsElementRule": true,
+    "verified": true,
+    "rank": 1,
+    "advice": "Failing and breeding a Noggin lets you retry the combo almost instantly"
+  },
+  {
+    "target": "riff",
+    "parents": [
+      "cybop",
+      "maw"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "riff",
+    "parents": [
+      "drumpler",
+      "quibble"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "riff",
+    "parents": [
+      "fwog",
+      "pango"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "riff",
+    "parents": [
+      "mammott",
+      "scups"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "riff",
+    "parents": [
+      "pompom",
+      "toe-jammer"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "riff",
+    "parents": [
+      "t-rox",
+      "tweedle"
+    ],
+    "followsElementRule": true,
+    "verified": true,
+    "rank": 2,
+    "advice": "It has low average times in case of failure"
+  },
+  {
+    "target": "scups",
+    "parents": [
+      "cybop",
+      "toe-jammer"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "scups",
+    "parents": [
+      "fwog",
+      "tweedle"
+    ],
+    "followsElementRule": true,
+    "verified": true,
+    "rank": 2,
+    "advice": "It has the lowest average waiting times in case of breeding failure"
+  },
+  {
+    "target": "scups",
+    "parents": [
+      "noggin",
+      "quibble"
+    ],
+    "followsElementRule": true,
+    "verified": true,
+    "rank": 1,
+    "advice": "Failing and breeding a Noggin lets you retry the combo almost instantly"
+  },
+  {
+    "target": "shellbeat",
+    "parents": [
+      "cybop",
+      "oaktopus"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "shellbeat",
+    "parents": [
+      "dandidoo",
+      "fwog"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "shellbeat",
+    "parents": [
+      "noggin",
+      "spunge"
+    ],
+    "followsElementRule": true,
+    "verified": true,
+    "rank": 1,
+    "advice": "Failing and breeding a Noggin lets you retry the combo almost instantly"
+  },
+  {
+    "target": "shellbeat",
+    "parents": [
+      "potbelly",
+      "scups"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "shellbeat",
+    "parents": [
+      "pummel",
+      "tweedle"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "shellbeat",
+    "parents": [
+      "quibble",
+      "shrubb"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "shellbeat",
+    "parents": [
+      "reedling",
+      "toe-jammer"
+    ],
+    "followsElementRule": true,
     "verified": true
   },
   {
@@ -1931,6 +4314,19 @@
     ],
     "followsElementRule": true,
     "verified": true
+  },
+  {
+    "target": "yawstrich",
+    "parents": [
+      "scups",
+      "t-rox"
+    ],
+    "followsElementRule": false,
+    "verified": true,
+    "note": "Yawstrich does not follow the element rule",
+    "islands": [
+      "air"
+    ]
   },
   {
     "target": "yool",

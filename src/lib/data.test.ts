@@ -158,10 +158,13 @@ describe('combos', () => {
  * instead of being noticed by a player.
  */
 const NO_VARIANTS = new Set([
+  'alcordion', // Werdo
   'bbliszard', // Legendary
   'maggpi', // Werdo
   'parlsona', // Werdo
   'shugabush', // Legendary
+  'stoowarb', // Werdo
+  't-pirainha', // Werdo
   'tawkerr', // Werdo
 ]);
 

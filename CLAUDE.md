@@ -15,7 +15,7 @@ write it down.
 | Platform | Installable PWA — React + Vite + TypeScript, static host |
 | Data | Hand-curated JSON checked into the repo, no backend |
 | Combos | Entered by hand, never computed — the element rule is a validator only |
-| v1 scope | Natural islands, common monsters only; schema ready for rare/epic/ethereal |
+| v1 scope | The five natural islands, commons + rares + epics + island specials |
 | Persistence | `localStorage`, per-island "currently breeding" state |
 
 ## Docs

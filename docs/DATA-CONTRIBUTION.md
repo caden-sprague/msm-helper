@@ -20,6 +20,20 @@ hole later:
 They are only as good as their exceptions: if a monster legitimately breaks one, add it
 to the documented list with a reason, don't loosen the rule.
 
+## Adding an island
+
+```bash
+python3 scripts/build_island.py "Air Island" air '#c9d94a' 3
+npm test
+```
+
+It reads the island page for its element set and specials, works out the roster from
+the 30 Natural monsters' own island lists rather than a hand-written list, and pulls
+each monster plus its Rare and Epic variants. It's idempotent: existing monsters gain
+the island, existing combos are left alone.
+
+Then read the invariant failures. They are the review.
+
 ## Tooling
 
 `scripts/wiki.py` has the extraction helpers used for Plant and Cold: `fetch`,

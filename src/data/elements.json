@@ -70,5 +70,35 @@
     "name": "Festival of Yay",
     "family": "other",
     "color": "#d94f7a"
+  },
+  {
+    "id": "mech",
+    "name": "Mech",
+    "family": "other",
+    "color": "#06b6d4"
+  },
+  {
+    "id": "eggs-travaganza",
+    "name": "Eggs-Travaganza",
+    "family": "other",
+    "color": "#84cc16"
+  },
+  {
+    "id": "crystal",
+    "name": "Crystal",
+    "family": "other",
+    "color": "#8b5cf6"
+  },
+  {
+    "id": "summersong",
+    "name": "Summersong",
+    "family": "other",
+    "color": "#ef4444"
+  },
+  {
+    "id": "poison",
+    "name": "Poison",
+    "family": "other",
+    "color": "#14b8a6"
   }
 ]

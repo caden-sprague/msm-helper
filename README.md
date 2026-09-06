@@ -47,5 +47,6 @@ Start with [CLAUDE.md](CLAUDE.md) for the decisions, then:
 - [docs/DATA-CONTRIBUTION.md](docs/DATA-CONTRIBUTION.md) — how to add an island's data
 - [docs/DATA-STATUS.md](docs/DATA-STATUS.md) — what's verified and what's missing
 
-Current data coverage: **Plant Island commons only** (15 monsters, 25 combos), sourced
-from the MSM wiki.
+Current data coverage: **all five natural islands** — Plant, Cold, Air, Water and
+Earth. 143 monsters and 384 combos including Rare and Epic variants, sourced from the
+MSM wiki.

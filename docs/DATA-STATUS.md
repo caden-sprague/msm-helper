@@ -3,7 +3,19 @@
 Tracks what has been checked against a source. Every row in `src/data/` has a
 `verified` flag; this file is the human-readable summary.
 
-**Plant Island: verified — 15/15 monsters, 25/25 combos.**
+**All five natural islands are done: 143 monsters and 384 combos, 100% verified.**
+
+| Island | Common | Rare | Epic | Total |
+| --- | --- | --- | --- | --- |
+| Plant Island | 22 | 19 | 19 | 60 |
+| Cold Island | 22 | 19 | 19 | 60 |
+| Air Island | 21 | 18 | 18 | 57 |
+| Water Island | 22 | 19 | 19 | 60 |
+| Earth Island | 21 | 19 | 19 | 59 |
+
+Extracted with `scripts/build_island.py`, which reads the island page for its element
+set and specials, works out the roster from the 30 Natural monsters' own island lists,
+then pulls each monster plus its Rare and Epic variants.
 
 ## Source
 

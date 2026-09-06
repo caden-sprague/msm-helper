@@ -32,5 +32,55 @@
       "festival-of-yay",
       "mythical"
     ]
+  },
+  {
+    "id": "air",
+    "name": "Air Island",
+    "order": 3,
+    "color": "#c9d94a",
+    "elements": [
+      "cold",
+      "earth",
+      "legendary",
+      "water",
+      "air",
+      "electricity",
+      "mech",
+      "mythical"
+    ]
+  },
+  {
+    "id": "water",
+    "name": "Water Island",
+    "order": 4,
+    "color": "#3d7fd6",
+    "elements": [
+      "legendary",
+      "earth",
+      "plant",
+      "water",
+      "air",
+      "electricity",
+      "mythical",
+      "eggs-travaganza",
+      "crystal"
+    ]
+  },
+  {
+    "id": "earth",
+    "name": "Earth Island",
+    "order": 5,
+    "color": "#b3762e",
+    "elements": [
+      "cold",
+      "earth",
+      "plant",
+      "legendary",
+      "air",
+      "electricity",
+      "summersong",
+      "poison",
+      "mythical"
+    ]
   }
 ]

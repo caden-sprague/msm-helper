@@ -110,8 +110,8 @@ def ranking(content):
     text = m.group(1)
     result = {}
     patterns = [
-        (1, r'\[\[([^\]]+)\]\]\s*\+\s*\[\[([^\]]+)\]\] is the best combination,?([^.]*)'),
-        (2, r'\[\[([^\]]+)\]\]\s*\+\s*\[\[([^\]]+)\]\] is a close second,?([^.]*)'),
+        (1, r'\[\[([^\]]+)\]\]\s*\+\s*\[\[([^\]]+)\]\]\s*is the best combination,?([^.]*)'),
+        (2, r'\[\[([^\]]+)\]\]\s*\+\s*\[\[([^\]]+)\]\]\s*is a close second,?([^.]*)'),
     ]
     for rank, pat in patterns:
         mm = re.search(pat, text)
