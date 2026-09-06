@@ -23,6 +23,7 @@ write it down.
 - `docs/PRD.md` — what the app does, user stories, what's out of scope
 - `docs/DOMAIN.md` — MSM breeding rules and vocabulary (read before touching data)
 - `docs/DATA-MODEL.md` — JSON schemas for monsters/islands/combos, invariants
+- `docs/DATA-CONTRIBUTION.md` — **read this before adding island data**
 - `docs/ARCHITECTURE.md` — stack, file layout, state, caching, offline
 
 ## Working agreements

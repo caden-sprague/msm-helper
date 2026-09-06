@@ -26,8 +26,16 @@ function resolve(combo: Combo): ResolvedCombo | undefined {
   return { combo, parents: [a, b], cost };
 }
 
-/** Unknown breeding times sort last rather than pretending to be free. */
-function byCost(a: ResolvedCombo, b: ResolvedCombo): number {
+/**
+ * The wiki's explicit ranking wins over anything we compute: it accounts for failure
+ * outcomes and retry speed, which breeding times alone don't capture. Unranked combos
+ * fall back to cheapest-first, and unknown times sort last rather than pretending to
+ * be free.
+ */
+function byRankThenCost(a: ResolvedCombo, b: ResolvedCombo): number {
+  const rankA = a.combo.rank ?? Infinity;
+  const rankB = b.combo.rank ?? Infinity;
+  if (rankA !== rankB) return rankA - rankB;
   if (a.cost === undefined && b.cost === undefined) return 0;
   if (a.cost === undefined) return 1;
   if (b.cost === undefined) return -1;
@@ -56,8 +64,8 @@ export function reverseLookup(targetId: string, island: IslandId): ReverseLookup
   for (const resolved of all) {
     (isAttemptable(resolved, island) ? attemptable : elsewhere).push(resolved);
   }
-  attemptable.sort(byCost);
-  elsewhere.sort(byCost);
+  attemptable.sort(byRankThenCost);
+  elsewhere.sort(byRankThenCost);
   return { attemptable, elsewhere };
 }
 

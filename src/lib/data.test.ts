@@ -120,6 +120,29 @@ describe('combos', () => {
     }
   });
 
+  it('15. carry a sane wiki ranking', () => {
+    const byTarget = new Map<string, number[]>();
+    for (const c of combos) {
+      if (c.rank === undefined) {
+        // Advice without a rank is a half-entered row.
+        expect(c.advice, `${c.parents.join(' + ')} -> ${c.target}`).toBeUndefined();
+        continue;
+      }
+      expect(Number.isInteger(c.rank), c.target).toBe(true);
+      expect(c.rank, c.target).toBeGreaterThan(0);
+      const ranks = byTarget.get(c.target) ?? [];
+      expect(ranks, `duplicate rank ${c.rank} for ${c.target}`).not.toContain(c.rank);
+      ranks.push(c.rank);
+      byTarget.set(c.target, ranks);
+    }
+    // A ranking only means something when there's a choice to rank.
+    for (const [target, ranks] of byTarget) {
+      const total = combos.filter((c) => c.target === target).length;
+      expect(total, `${target} is ranked but has one combo`).toBeGreaterThan(1);
+      expect(Math.min(...ranks), `${target} has no rank 1`).toBe(1);
+    }
+  });
+
   it('13. are island-scoped when the target is an epic', () => {
     const epics = new Set(monsters.filter((m) => m.rarity === 'epic').map((m) => m.id));
     for (const c of combos) {

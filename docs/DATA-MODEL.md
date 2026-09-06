@@ -126,6 +126,8 @@ interface Combo {
   islands?: IslandId[];        // omit = every island where all three exist
   followsElementRule: boolean; // false = hand-authored exception, skips invariant 8
   note?: string;               // required when followsElementRule is false
+  rank?: number;               // wiki's ranking: 1 = best, 2 = close second
+  advice?: string;             // the wiki's reasoning for that rank
   verified: boolean;           // a human has confirmed this combo works
 }
 ```
@@ -138,6 +140,12 @@ from availability. It becomes **load-bearing** for Epics: the same Epic monster 
 different parent pairs on different islands, so each of those is a separate `Combo`
 row with an explicit single-island `islands` value. Confirmed against the wiki — see
 `docs/DOMAIN.md`. The shape already supports this; no schema change when Epics land.
+
+`rank` and `advice` capture the wiki's editorial judgement — *"Of these, Furcorn + Toe
+Jammer is the best combination, as failing and breeding a Toe Jammer lets you retry the
+combo almost instantly"*. This is reasoning about **failure outcomes and retry speed**,
+which breeding times alone can't express, so it's recorded rather than computed. Ranked
+combos sort above unranked ones; unranked combos fall back to cheapest-first.
 
 `followsElementRule` is an explicit flag rather than something inferred from the
 presence of `note`. An exception should be a deliberate assertion by whoever entered
@@ -178,6 +186,8 @@ load is cheaper than any lazy scheme and keeps lookups O(1).
     `variantOf` that resolves to an existing `rarity: 'common'` monster.
 13. Every combo whose target is an Epic has an explicit `islands` value.
 14. A monster only lives on islands that contain all of its elements.
+15. `rank` is a positive integer, unique per target, starts at 1, and only appears on
+    targets with more than one combo. `advice` never appears without `rank`.
 
 Invariant 14 is the one that pays for `Island.elements`: Plant Island has no Air, so
 an Air monster accidentally tagged `"plant"` fails the build rather than showing up as

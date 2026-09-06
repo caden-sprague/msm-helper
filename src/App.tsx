@@ -72,7 +72,6 @@ export default function App() {
             <h3>Breed with</h3>
             <ComboList
               label="Breeding combos"
-              ranked
               combos={lookup?.attemptable ?? []}
               emptyMessage={
                 target.buyable

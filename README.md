@@ -22,6 +22,7 @@ Start with [CLAUDE.md](CLAUDE.md) for the decisions, then:
 - [docs/DOMAIN.md](docs/DOMAIN.md) — MSM breeding rules; read before touching data
 - [docs/DATA-MODEL.md](docs/DATA-MODEL.md) — JSON schemas and the invariants tests enforce
 - [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) — stack, state, offline, persistence
+- [docs/DATA-CONTRIBUTION.md](docs/DATA-CONTRIBUTION.md) — how to add an island's data
 - [docs/DATA-STATUS.md](docs/DATA-STATUS.md) — what's verified and what's missing
 
 Current data coverage: **Plant Island commons only** (15 monsters, 25 combos), sourced

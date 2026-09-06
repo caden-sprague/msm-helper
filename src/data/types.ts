@@ -53,5 +53,13 @@ export interface Combo {
   followsElementRule: boolean;
   /** Required when followsElementRule is false. */
   note?: string;
+  /**
+   * The wiki's editorial ranking: 1 = best combo, 2 = close second. This is human
+   * judgement about failure cost and retry speed, not something derivable from the
+   * data, so it is recorded rather than computed.
+   */
+  rank?: number;
+  /** Why this combo is ranked where it is, in the wiki's own reasoning. */
+  advice?: string;
   verified: boolean;
 }
