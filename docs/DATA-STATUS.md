@@ -83,8 +83,8 @@ is what puts them in the wiki's order; cost only orders the unranked remainder.
 
 ## Cold Island — verified
 
-52 monsters (22 common, 15 rare, 15 epic) and
-100 combos, extracted from the wiki API with `scripts/wiki.py`.
+60 monsters (22 common, 19 rare, 19 epic) and
+174 combos in total, extracted from the wiki API with `scripts/wiki.py`.
 
 Elements are **Air, Plant, Water, Cold** — no Earth, confirmed by the island infobox
 and by the roster shape: 4 singles + 6 doubles + 4 triples + 1 quad = 15 naturals.
@@ -95,6 +95,11 @@ point of modelling availability per monster.
 Specials: Grumpyre (Shadow), Yool (Festival of Yay), bbli$zard and Maggpi (Legendary),
 Strombonin (Mythical), plus Wubbox and Tawkerr gaining Cold. Two new elements were
 added: `shadow` and `festival-of-yay`.
+
+Specials carry Rare and Epic variants too — Grumpyre, Yool, Strombonin and Wubbox all
+have both. bbli$zard, Maggpi and Tawkerr have neither, which is correct rather than a
+gap: no such wiki pages exist. Same for Plant's Shugabush, Parlsona and Tawkerr,
+checked at the same time.
 
 ### Two extraction bugs the invariants caught
 

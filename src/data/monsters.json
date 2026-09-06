@@ -558,6 +558,21 @@
     "verified": true
   },
   {
+    "id": "epic-grumpyre",
+    "name": "Epic Grumpyre",
+    "rarity": "epic",
+    "variantOf": "grumpyre",
+    "elements": [
+      "shadow"
+    ],
+    "islands": [
+      "cold"
+    ],
+    "buyable": false,
+    "verified": true,
+    "breedingTime": "P1DT4H"
+  },
+  {
     "id": "epic-mammott",
     "name": "Epic Mammott",
     "rarity": "epic",
@@ -620,6 +635,21 @@
     "verified": true
   },
   {
+    "id": "epic-strombonin",
+    "name": "Epic Strombonin",
+    "rarity": "epic",
+    "variantOf": "strombonin",
+    "elements": [
+      "mythical"
+    ],
+    "islands": [
+      "cold"
+    ],
+    "buyable": false,
+    "verified": true,
+    "breedingTime": "P1DT10H30M"
+  },
+  {
     "id": "epic-toe-jammer",
     "name": "Epic Toe Jammer",
     "rarity": "epic",
@@ -659,10 +689,26 @@
       "electricity"
     ],
     "islands": [
-      "plant"
+      "plant",
+      "cold"
     ],
     "buyable": true,
     "verified": true
+  },
+  {
+    "id": "epic-yool",
+    "name": "Epic Yool",
+    "rarity": "epic",
+    "variantOf": "yool",
+    "elements": [
+      "festival-of-yay"
+    ],
+    "islands": [
+      "cold"
+    ],
+    "buyable": false,
+    "verified": true,
+    "breedingTime": "P1DT1H12M"
   },
   {
     "id": "rare-gjoob",
@@ -693,6 +739,21 @@
     "breedingTime": "P1DT21H30M",
     "buyable": false,
     "verified": true
+  },
+  {
+    "id": "rare-grumpyre",
+    "name": "Rare Grumpyre",
+    "rarity": "rare",
+    "variantOf": "grumpyre",
+    "elements": [
+      "shadow"
+    ],
+    "islands": [
+      "cold"
+    ],
+    "buyable": false,
+    "verified": true,
+    "breedingTime": "P1DT21H30M"
   },
   {
     "id": "rare-mammott",
@@ -757,6 +818,21 @@
     "verified": true
   },
   {
+    "id": "rare-strombonin",
+    "name": "Rare Strombonin",
+    "rarity": "rare",
+    "variantOf": "strombonin",
+    "elements": [
+      "mythical"
+    ],
+    "islands": [
+      "cold"
+    ],
+    "buyable": false,
+    "verified": true,
+    "breedingTime": "P1DT4H45M"
+  },
+  {
     "id": "rare-toe-jammer",
     "name": "Rare Toe Jammer",
     "rarity": "rare",
@@ -796,11 +872,27 @@
       "electricity"
     ],
     "islands": [
-      "plant"
+      "plant",
+      "cold"
     ],
     "breedingTime": "PT14H",
     "buyable": true,
     "verified": true
+  },
+  {
+    "id": "rare-yool",
+    "name": "Rare Yool",
+    "rarity": "rare",
+    "variantOf": "yool",
+    "elements": [
+      "festival-of-yay"
+    ],
+    "islands": [
+      "cold"
+    ],
+    "buyable": false,
+    "verified": true,
+    "breedingTime": "P1DT7H45M"
   },
   {
     "id": "epic-dandidoo",

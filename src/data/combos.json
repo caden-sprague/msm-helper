@@ -426,6 +426,19 @@
     "verified": true
   },
   {
+    "target": "epic-grumpyre",
+    "parents": [
+      "bowgart",
+      "dandidoo"
+    ],
+    "followsElementRule": false,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "cold"
+    ],
+    "verified": true
+  },
+  {
     "target": "epic-mammott",
     "parents": [
       "deedge",
@@ -621,6 +634,19 @@
     ]
   },
   {
+    "target": "epic-strombonin",
+    "parents": [
+      "deedge",
+      "furcorn"
+    ],
+    "followsElementRule": false,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "cold"
+    ],
+    "verified": true
+  },
+  {
     "target": "epic-t-rox",
     "parents": [
       "drumpler",
@@ -684,6 +710,19 @@
     "islands": [
       "cold"
     ]
+  },
+  {
+    "target": "epic-yool",
+    "parents": [
+      "deedge",
+      "pango"
+    ],
+    "followsElementRule": false,
+    "note": "Epic Monsters have island-specific combinations that do not follow the element rule",
+    "islands": [
+      "cold"
+    ],
+    "verified": true
   },
   {
     "target": "furcorn",
@@ -1215,6 +1254,58 @@
     "verified": true
   },
   {
+    "target": "rare-grumpyre",
+    "parents": [
+      "bowgart",
+      "deedge"
+    ],
+    "followsElementRule": false,
+    "note": "Rare variants breed like the common, which does not follow the element rule",
+    "islands": [
+      "cold"
+    ],
+    "verified": true
+  },
+  {
+    "target": "rare-grumpyre",
+    "parents": [
+      "congle",
+      "deedge"
+    ],
+    "followsElementRule": false,
+    "note": "Rare variants breed like the common, which does not follow the element rule",
+    "islands": [
+      "cold"
+    ],
+    "verified": true
+  },
+  {
+    "target": "rare-grumpyre",
+    "parents": [
+      "deedge",
+      "spunge"
+    ],
+    "followsElementRule": false,
+    "note": "Rare variants breed like the common, which does not follow the element rule",
+    "islands": [
+      "cold"
+    ],
+    "verified": true
+  },
+  {
+    "target": "rare-grumpyre",
+    "parents": [
+      "deedge",
+      "thumpies"
+    ],
+    "followsElementRule": false,
+    "note": "Rare variants breed like the common, which does not follow the element rule",
+    "islands": [
+      "cold"
+    ],
+    "verified": true
+  },
+  {
     "target": "rare-mammott",
     "parents": [
       "bowgart",
@@ -1522,6 +1613,19 @@
     "verified": true
   },
   {
+    "target": "rare-strombonin",
+    "parents": [
+      "bowgart",
+      "spunge"
+    ],
+    "followsElementRule": false,
+    "note": "Rare variants breed like the common, which does not follow the element rule",
+    "islands": [
+      "cold"
+    ],
+    "verified": true
+  },
+  {
     "target": "rare-t-rox",
     "parents": [
       "drumpler",
@@ -1691,6 +1795,19 @@
     "islands": [
       "cold"
     ]
+  },
+  {
+    "target": "rare-yool",
+    "parents": [
+      "congle",
+      "thumpies"
+    ],
+    "followsElementRule": false,
+    "note": "Rare variants breed like the common, which does not follow the element rule",
+    "islands": [
+      "cold"
+    ],
+    "verified": true
   },
   {
     "target": "shrubb",
