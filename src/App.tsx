@@ -1,11 +1,13 @@
 import { useMemo, useState } from 'react';
 import { ComboList } from './components/ComboList';
 import { ElementPips } from './components/ElementPips';
-import { islandsById, monstersById, sortedIslands } from './lib/indexes';
+import { IslandPicker } from './components/IslandPicker';
+import { MonsterAvatar } from './components/MonsterAvatar';
+import { formatDuration } from './lib/duration';
+import { islandsById, monstersById } from './lib/indexes';
 import { reverseLookup } from './lib/lookup';
 import { searchMonsters } from './lib/search';
 import { useAppState } from './state/useAppState';
-import type { IslandId } from './data/types';
 
 export default function App() {
   const { activeIsland, setActiveIsland, pinnedTarget, setPinnedTarget } = useAppState();
@@ -16,96 +18,132 @@ export default function App() {
   const target = pinnedTarget ? monstersById.get(pinnedTarget) : undefined;
 
   const results = useMemo(
-    () => searchMonsters(query, activeIsland).slice(0, 20),
+    () => searchMonsters(query, activeIsland).slice(0, 24),
     [query, activeIsland],
   );
   const lookup = useMemo(
     () => (target ? reverseLookup(target.id, activeIsland) : undefined),
     [target, activeIsland],
   );
+  const elsewhere = lookup?.elsewhere ?? [];
 
   return (
     <div className="app" style={{ '--island': island?.color } as React.CSSProperties}>
-      <header>
-        <h1>MSM Helper</h1>
-        <select
-          aria-label="Island"
-          value={activeIsland}
-          onChange={(e) => setActiveIsland(e.target.value as IslandId)}
-        >
-          {sortedIslands.map((i) => (
-            <option key={i.id} value={i.id}>
-              {i.name}
-            </option>
-          ))}
-        </select>
+      <div className="glow" aria-hidden="true" />
+
+      <header className="topbar">
+        <h1>
+          MSM <span>Helper</span>
+        </h1>
+        <IslandPicker active={activeIsland} onChange={setActiveIsland} />
       </header>
 
-      {target ? (
-        <section className="target">
-          <div className="target-head">
-            <div>
-              <h2>{target.name}</h2>
-              <ElementPips elements={target.elements} />
+      <main>
+        {target ? (
+          <section className="target" aria-label="Currently breeding">
+            <div className="target-card">
+              <MonsterAvatar name={target.name} elements={target.elements} size="lg" />
+              <div className="target-info">
+                <p className="eyebrow">Breeding for</p>
+                <h2>{target.name}</h2>
+                <ElementPips elements={target.elements} />
+              </div>
+              <button className="icon-button" onClick={() => setPinnedTarget(null)} title="Clear">
+                <span aria-hidden="true">✕</span>
+                <span className="sr-only">Clear target</span>
+              </button>
             </div>
-            <button onClick={() => setPinnedTarget(null)}>Clear</button>
+
+            <dl className="facts">
+              <div>
+                <dt>Time</dt>
+                <dd>{formatDuration(target.breedingTime)}</dd>
+              </div>
+              <div>
+                <dt>Combos</dt>
+                <dd>{lookup?.attemptable.length ?? 0}</dd>
+              </div>
+              <div>
+                <dt>Island</dt>
+                <dd>{island?.name.replace(' Island', '')}</dd>
+              </div>
+            </dl>
+
+            <h3>Breed with</h3>
+            <ComboList
+              label="Breeding combos"
+              ranked
+              combos={lookup?.attemptable ?? []}
+              emptyMessage={
+                target.buyable
+                  ? `Bought from the market — no breeding needed.`
+                  : `No combos available on ${island?.name}.`
+              }
+            />
+
+            {elsewhere.length > 0 && (
+              <div className="elsewhere">
+                <button className="link" onClick={() => setShowAllIslands((v) => !v)}>
+                  {showAllIslands ? 'Hide' : 'Show'} {elsewhere.length} combo
+                  {elsewhere.length === 1 ? '' : 's'} from other islands
+                </button>
+                {showAllIslands && (
+                  <ComboList
+                    label="Combos from other islands"
+                    combos={elsewhere}
+                    emptyMessage=""
+                  />
+                )}
+              </div>
+            )}
+          </section>
+        ) : (
+          <section className="hero">
+            <h2>What are you breeding?</h2>
+            <p>
+              Pick a monster and it stays pinned — per island — until you clear it. No more
+              writing it down.
+            </p>
+          </section>
+        )}
+
+        <section className="search" aria-label="Find a monster">
+          <div className="search-field">
+            <span className="search-icon" aria-hidden="true">
+              ⌕
+            </span>
+            <input
+              type="search"
+              placeholder="Search monsters…"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              autoComplete="off"
+              autoCorrect="off"
+              spellCheck={false}
+            />
           </div>
 
-          <h3>Breed with</h3>
-          <ComboList
-            label="Breeding combos"
-            combos={lookup?.attemptable ?? []}
-            emptyMessage={
-              target.buyable
-                ? 'Bought from the market — no breeding needed.'
-                : `No combos available on ${island?.name}.`
-            }
-          />
-
-          {(lookup?.elsewhere.length ?? 0) > 0 && (
-            <>
-              <button className="link" onClick={() => setShowAllIslands((v) => !v)}>
-                {showAllIslands ? 'Hide' : 'Show'} {lookup?.elsewhere.length} combo(s) from
-                other islands
-              </button>
-              {showAllIslands && (
-                <ComboList
-                  label="Combos from other islands"
-                  combos={lookup?.elsewhere ?? []}
-                  emptyMessage=""
-                />
-              )}
-            </>
-          )}
+          <ul className="results" aria-label="Search results">
+            {results.map((monster) => (
+              <li key={monster.id}>
+                <button
+                  className={monster.id === target?.id ? 'result is-active' : 'result'}
+                  onClick={() => {
+                    setPinnedTarget(monster.id);
+                    setQuery('');
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }}
+                >
+                  <MonsterAvatar name={monster.name} elements={monster.elements} size="sm" />
+                  <span className="result-name">{monster.name}</span>
+                  <span className="result-time">{formatDuration(monster.breedingTime)}</span>
+                </button>
+              </li>
+            ))}
+            {results.length === 0 && <li className="empty">No monsters match “{query}”.</li>}
+          </ul>
         </section>
-      ) : (
-        <p className="muted">Pick a monster to start tracking what you're breeding.</p>
-      )}
-
-      <section className="search">
-        <input
-          type="search"
-          placeholder="Search monsters…"
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          autoComplete="off"
-        />
-        <ul className="results" aria-label="Search results">
-          {results.map((monster) => (
-            <li key={monster.id}>
-              <button
-                onClick={() => {
-                  setPinnedTarget(monster.id);
-                  setQuery('');
-                }}
-              >
-                <span>{monster.name}</span>
-                <ElementPips elements={monster.elements} />
-              </button>
-            </li>
-          ))}
-        </ul>
-      </section>
+      </main>
     </div>
   );
 }

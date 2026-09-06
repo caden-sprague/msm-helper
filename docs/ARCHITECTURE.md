@@ -123,6 +123,15 @@ virtualization, memo caches, or lazy loading until a real measurement says other
 Cold launch on a mid-range phone should be well under a second; if it isn't, the
 bundle has picked up a dependency it doesn't need.
 
+## Visual checks
+
+`npm run shot` drives the dev server in real Chrome at 390x844 (via `puppeteer-core`
+against the installed browser — no bundled Chromium download) and writes screenshots to
+`.screens/`, which is gitignored. It also asserts the page has no horizontal overflow
+and captures light mode, because both are easy to break and invisible in unit tests.
+
+The dev server must already be running.
+
 ## Accessibility & mobile ergonomics
 
 - Tap targets 44px minimum. The user is playing one-handed.
