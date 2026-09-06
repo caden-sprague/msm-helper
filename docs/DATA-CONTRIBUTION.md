@@ -89,6 +89,18 @@ becomes:
 - Ranks must be unique per target and start at 1. Never rank a target that has only one
   combo.
 
+## Don't forget the specials' variants
+
+The natural monsters are easy to remember; the island's **specials** (Ethereal,
+Seasonal, Legendary, Mythical, Wubbox, Werdos) need Rare and Epic extraction too. Cold
+Island shipped without them because the naturals and the specials were extracted by
+two different passes and only the first fetched variants.
+
+Invariant 16 now catches this: every common must have a `rare-` and an `epic-` sibling
+unless it's in the `NO_VARIANTS` list in `src/lib/data.test.ts`. Add to that list only
+after checking the wiki page really doesn't exist — currently bbli$zard, Maggpi,
+Parlsona, Shugabush and Tawkerr (all Legendary or Werdo).
+
 ## Rare and Epic monsters
 
 Entered for Plant Island. The rules, now that they've been exercised once:

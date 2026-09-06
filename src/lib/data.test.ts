@@ -152,6 +152,47 @@ describe('combos', () => {
   });
 });
 
+/**
+ * Monsters with no Rare or Epic on the wiki. Verified page-by-page; anything not in
+ * here is assumed to have both, so a forgotten variant extraction fails loudly
+ * instead of being noticed by a player.
+ */
+const NO_VARIANTS = new Set([
+  'bbliszard', // Legendary
+  'maggpi', // Werdo
+  'parlsona', // Werdo
+  'shugabush', // Legendary
+  'tawkerr', // Werdo
+]);
+
+describe('variant coverage', () => {
+  it('16. every common has a rare and an epic, or is a known exception', () => {
+    const ids = new Set(monsters.map((m) => m.id));
+    for (const m of monsters) {
+      if (m.rarity !== 'common') continue;
+      const missing = (['rare', 'epic'] as const).filter((p) => !ids.has(`${p}-${m.id}`));
+      if (NO_VARIANTS.has(m.id)) {
+        expect(missing, `${m.id} is listed as having no variants`).toHaveLength(2);
+      } else {
+        expect(missing, `${m.id} is missing variants`).toHaveLength(0);
+      }
+    }
+  });
+
+  it('every variant is reachable on the same island as its common', () => {
+    const byId = new Map(monsters.map((m) => [m.id, m]));
+    for (const m of monsters) {
+      if (m.rarity === 'common' || !m.variantOf) continue;
+      const base = byId.get(m.variantOf);
+      for (const island of m.islands) {
+        expect(base?.islands, `${m.id} on ${island} but ${m.variantOf} isn't`).toContain(
+          island,
+        );
+      }
+    }
+  });
+});
+
 describe('verification status', () => {
   // Reports, never fails. Seeded data is unverified by design — see docs/DATA-STATUS.md.
   it('reports how much data is still unverified', () => {
