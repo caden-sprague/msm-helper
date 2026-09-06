@@ -1,0 +1,9 @@
+[
+  {
+    "id": "plant",
+    "name": "Plant Island",
+    "order": 1,
+    "color": "#6cbf4b",
+    "elements": ["plant", "cold", "water", "earth"]
+  }
+]

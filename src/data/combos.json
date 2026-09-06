@@ -1,0 +1,227 @@
+[
+  {
+    "target": "bowgart",
+    "parents": [
+      "furcorn",
+      "toe-jammer"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "bowgart",
+    "parents": [
+      "mammott",
+      "oaktopus"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "bowgart",
+    "parents": [
+      "maw",
+      "potbelly"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "clamble",
+    "parents": [
+      "drumpler",
+      "potbelly"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "clamble",
+    "parents": [
+      "furcorn",
+      "noggin"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "clamble",
+    "parents": [
+      "mammott",
+      "shrubb"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "drumpler",
+    "parents": [
+      "mammott",
+      "noggin"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "entbrat",
+    "parents": [
+      "bowgart",
+      "noggin"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "entbrat",
+    "parents": [
+      "clamble",
+      "toe-jammer"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "entbrat",
+    "parents": [
+      "drumpler",
+      "oaktopus"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "entbrat",
+    "parents": [
+      "furcorn",
+      "fwog"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "entbrat",
+    "parents": [
+      "mammott",
+      "pummel"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "entbrat",
+    "parents": [
+      "maw",
+      "shrubb"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "entbrat",
+    "parents": [
+      "potbelly",
+      "t-rox"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "furcorn",
+    "parents": [
+      "mammott",
+      "potbelly"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "fwog",
+    "parents": [
+      "noggin",
+      "toe-jammer"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "maw",
+    "parents": [
+      "mammott",
+      "toe-jammer"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "oaktopus",
+    "parents": [
+      "potbelly",
+      "toe-jammer"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "pummel",
+    "parents": [
+      "fwog",
+      "potbelly"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "pummel",
+    "parents": [
+      "noggin",
+      "oaktopus"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "pummel",
+    "parents": [
+      "shrubb",
+      "toe-jammer"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "shrubb",
+    "parents": [
+      "noggin",
+      "potbelly"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "t-rox",
+    "parents": [
+      "drumpler",
+      "toe-jammer"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "t-rox",
+    "parents": [
+      "fwog",
+      "mammott"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  },
+  {
+    "target": "t-rox",
+    "parents": [
+      "maw",
+      "noggin"
+    ],
+    "followsElementRule": true,
+    "verified": true
+  }
+]

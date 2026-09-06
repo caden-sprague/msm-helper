@@ -1,0 +1,7 @@
+[
+  { "id": "plant", "name": "Plant", "family": "natural", "color": "#6cbf4b" },
+  { "id": "cold",  "name": "Cold",  "family": "natural", "color": "#5bc8e8" },
+  { "id": "air",   "name": "Air",   "family": "natural", "color": "#c9d94a" },
+  { "id": "water", "name": "Water", "family": "natural", "color": "#3d7fd6" },
+  { "id": "earth", "name": "Earth", "family": "natural", "color": "#b3762e" }
+]
