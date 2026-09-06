@@ -193,6 +193,64 @@ describe('variant coverage', () => {
   });
 });
 
+describe('island completeness', () => {
+  const NATURAL = new Set(
+    elements.filter((e) => e.family === 'natural').map((e) => e.id),
+  );
+
+  /**
+   * A natural island with N natural elements has exactly one common Natural monster
+   * per non-empty subset: 4 elements -> 4 singles + 6 doubles + 4 triples + 1 quad.
+   * This is what would have caught Maw and T-Rox being missed on Plant Island, where
+   * the guesses named the wrong monster for a valid element pair.
+   */
+  it('17. every natural element combination on an island has exactly one monster', () => {
+    for (const island of islands) {
+      const naturals = island.elements.filter((e) => NATURAL.has(e));
+      const onIsland = monsters.filter(
+        (m) =>
+          m.rarity === 'common' &&
+          m.islands.includes(island.id) &&
+          m.elements.every((e) => NATURAL.has(e)),
+      );
+      const seen = new Map<string, string[]>();
+      for (const m of onIsland) {
+        const key = [...m.elements].sort().join('+');
+        seen.set(key, [...(seen.get(key) ?? []), m.id]);
+      }
+      const subsets = 2 ** naturals.length - 1;
+      for (let mask = 1; mask <= subsets; mask++) {
+        const combo = naturals.filter((_, i) => mask & (1 << i));
+        const key = [...combo].sort().join('+');
+        expect(seen.get(key), `${island.name} has no monster for ${key}`).toBeDefined();
+        expect(seen.get(key), `${island.name} has duplicates for ${key}`).toHaveLength(1);
+      }
+      expect(onIsland, `${island.name} natural roster`).toHaveLength(subsets);
+    }
+  });
+
+  /**
+   * The app's whole promise is "here's what to breed on this island". A monster that
+   * shows up on an island with no attemptable combo and no way to buy it is a dead
+   * end — usually a sign its island-specific combos were never extracted.
+   */
+  it('18. every monster is obtainable on each island it appears on', () => {
+    const byId = new Map(monsters.map((m) => [m.id, m]));
+    for (const m of monsters) {
+      if (m.buyable) continue;
+      for (const island of m.islands) {
+        const usable = combos.filter(
+          (c) =>
+            c.target === m.id &&
+            (!c.islands || c.islands.includes(island)) &&
+            c.parents.every((p) => byId.get(p)?.islands.includes(island)),
+        );
+        expect(usable.length, `${m.id} has no combo on ${island}`).toBeGreaterThan(0);
+      }
+    }
+  });
+});
+
 describe('verification status', () => {
   // Reports, never fails. Seeded data is unverified by design — see docs/DATA-STATUS.md.
   it('reports how much data is still unverified', () => {

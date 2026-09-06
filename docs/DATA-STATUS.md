@@ -112,6 +112,22 @@ checked at the same time.
 
 Both are fixed in `scripts/wiki.py` and matter for every island still to come.
 
+## What the invariants do and don't guarantee
+
+They catch **structural omissions**: a missing monster in a natural island's element
+grid, a missing rare/epic variant, a monster with no attemptable combo on an island it
+claims. Those were the three real bugs this dataset has had, and each now fails the
+build.
+
+They do **not** catch **wrong-but-consistent data**. If a combo lists the wrong pair,
+or a breeding time is off by an hour, or a monster is assigned an element it doesn't
+have, every invariant still passes as long as the result is internally coherent. The
+element union rule (invariant 8) is the only cross-check on correctness, and it only
+applies to combos flagged `followsElementRule`.
+
+The defence against that is sourcing: extract from the wiki rather than from memory,
+and set `verified: true` only when a source actually said so.
+
 ## Not yet done
 
 - Other islands: Air, Water, Earth, Shugabush. Note that many rows already in

@@ -3,8 +3,22 @@
 Written for anyone — human or agent — extracting monster data from the wiki. Follow
 this exactly and `npm test` will pass; deviate and it will tell you where.
 
-**Validate with `npm test` before handing work over.** 15 invariants run against the
+**Validate with `npm test` before handing work over.** 18 invariants run against the
 JSON; a green run is the definition of done. Don't edit tests to make data pass.
+
+Three of them exist specifically to catch *omissions*, which are the failure mode that
+doesn't announce itself — extraction succeeds, data looks fine, and a player finds the
+hole later:
+
+- **16** — every common has a `rare-` and `epic-` sibling, or is in `NO_VARIANTS`.
+- **17** — a natural island has exactly one common Natural monster per non-empty
+  subset of its elements (4 elements -> 15 monsters). A missed or misnamed double
+  fails here.
+- **18** — every non-buyable monster has at least one combo actually attemptable on
+  each island it appears on. Catches island-specific combos that were never extracted.
+
+They are only as good as their exceptions: if a monster legitimately breaks one, add it
+to the documented list with a reason, don't loosen the rule.
 
 ## Tooling
 
