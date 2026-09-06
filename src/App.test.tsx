@@ -81,6 +81,24 @@ describe('App', () => {
     expect(within(rares).queryByText('Epic Bowgart')).toBeNull();
   });
 
+  it('names the active island and marks its pill as pressed', async () => {
+    const user = userEvent.setup();
+    renderApp();
+    expect(screen.getByText('Plant Island')).toBeDefined();
+    expect(screen.getByRole('button', { name: 'Plant' }).getAttribute('aria-pressed')).toBe(
+      'true',
+    );
+
+    await user.click(screen.getByRole('button', { name: 'Water' }));
+    expect(screen.getByText('Water Island')).toBeDefined();
+    expect(screen.getByRole('button', { name: 'Water' }).getAttribute('aria-pressed')).toBe(
+      'true',
+    );
+    expect(screen.getByRole('button', { name: 'Plant' }).getAttribute('aria-pressed')).toBe(
+      'false',
+    );
+  });
+
   it('dismisses the keyboard when Enter is pressed', async () => {
     const user = userEvent.setup();
     renderApp();

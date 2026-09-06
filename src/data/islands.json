@@ -14,7 +14,8 @@
       "spooktacle",
       "legendary",
       "electricity"
-    ]
+    ],
+    "ink": "#0b0e12"
   },
   {
     "id": "cold",
@@ -31,7 +32,8 @@
       "shadow",
       "festival-of-yay",
       "mythical"
-    ]
+    ],
+    "ink": "#0b0e12"
   },
   {
     "id": "air",
@@ -47,7 +49,8 @@
       "electricity",
       "mech",
       "mythical"
-    ]
+    ],
+    "ink": "#0b0e12"
   },
   {
     "id": "water",
@@ -64,7 +67,8 @@
       "mythical",
       "eggs-travaganza",
       "crystal"
-    ]
+    ],
+    "ink": "#ffffff"
   },
   {
     "id": "earth",
@@ -81,6 +85,7 @@
       "summersong",
       "poison",
       "mythical"
-    ]
+    ],
+    "ink": "#ffffff"
   }
 ]

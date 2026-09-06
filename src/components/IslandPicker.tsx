@@ -16,7 +16,9 @@ export function IslandPicker({
           key={island.id}
           className="island-pill"
           aria-pressed={island.id === active}
-          style={{ '--pill': island.color } as React.CSSProperties}
+          style={
+            { '--pill': island.color, '--pill-ink': island.ink } as React.CSSProperties
+          }
           onClick={() => onChange(island.id)}
         >
           {island.name.replace(' Island', '')}

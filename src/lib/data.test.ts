@@ -207,6 +207,13 @@ describe('island completeness', () => {
    * This is what would have caught Maw and T-Rox being missed on Plant Island, where
    * the guesses named the wrong monster for a valid element pair.
    */
+  it('every island has a readable ink colour for its fill', () => {
+    for (const i of islands) {
+      expect(i.ink, i.name).toMatch(/^#[0-9a-f]{6}$/i);
+      expect(i.color, i.name).toMatch(/^#[0-9a-f]{6}$/i);
+    }
+  });
+
   it('17. every natural element combination on an island has exactly one monster', () => {
     for (const island of islands) {
       const naturals = island.elements.filter((e) => NATURAL.has(e));

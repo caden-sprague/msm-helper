@@ -43,9 +43,15 @@ export default function App() {
       <div className="glow" aria-hidden="true" />
 
       <header className="topbar">
-        <h1>
-          MSM <span>Helper</span>
-        </h1>
+        <div className="topbar-row">
+          <h1>
+            MSM <span>Helper</span>
+          </h1>
+          <p className="current-island">
+            <span className="current-island-dot" aria-hidden="true" />
+            {island?.name}
+          </p>
+        </div>
         <IslandPicker active={activeIsland} onChange={setActiveIsland} />
       </header>
 

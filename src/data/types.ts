@@ -29,6 +29,8 @@ export interface Island {
   name: string;
   order: number;
   color: string;
+  /** Text colour that stays readable on a solid fill of `color`. */
+  ink: string;
   /** Elements that exist on this island. Constrains which monsters can live here. */
   elements: ElementId[];
 }
