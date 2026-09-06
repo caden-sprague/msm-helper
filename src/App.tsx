@@ -6,20 +6,31 @@ import { MonsterAvatar } from './components/MonsterAvatar';
 import { formatDuration } from './lib/duration';
 import { islandsById, monstersById } from './lib/indexes';
 import { reverseLookup } from './lib/lookup';
-import { searchMonsters } from './lib/search';
+import { searchMonsters, type RarityFilter } from './lib/search';
 import { useAppState } from './state/useAppState';
+
+const RARITY_OPTIONS: { value: RarityFilter; label: string }[] = [
+  { value: 'all', label: 'All rarities' },
+  { value: 'common', label: 'Common' },
+  { value: 'rare', label: 'Rare' },
+  { value: 'epic', label: 'Epic' },
+];
 
 export default function App() {
   const { activeIsland, setActiveIsland, pinnedTarget, setPinnedTarget } = useAppState();
   const [query, setQuery] = useState('');
+  const [rarity, setRarity] = useState<RarityFilter>('all');
   const [showAllIslands, setShowAllIslands] = useState(false);
 
   const island = islandsById.get(activeIsland);
   const target = pinnedTarget ? monstersById.get(pinnedTarget) : undefined;
 
+  // Nothing is listed until the user types. A 60-row wall of monsters on open is
+  // noise, and the pinned target is the thing worth seeing first.
+  const hasQuery = query.trim().length > 0;
   const results = useMemo(
-    () => searchMonsters(query, activeIsland).slice(0, 24),
-    [query, activeIsland],
+    () => (hasQuery ? searchMonsters(query, activeIsland, rarity).slice(0, 24) : []),
+    [hasQuery, query, activeIsland, rarity],
   );
   const lookup = useMemo(
     () => (target ? reverseLookup(target.id, activeIsland) : undefined),
@@ -107,40 +118,63 @@ export default function App() {
         )}
 
         <section className="search" aria-label="Find a monster">
-          <div className="search-field">
-            <span className="search-icon" aria-hidden="true">
-              ⌕
-            </span>
-            <input
-              type="search"
-              placeholder="Search monsters…"
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              autoComplete="off"
-              autoCorrect="off"
-              spellCheck={false}
-            />
+          <div className="search-controls">
+            <div className="search-field">
+              <span className="search-icon" aria-hidden="true">
+                ⌕
+              </span>
+              <input
+                type="search"
+                placeholder="Search monsters…"
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                autoComplete="off"
+                autoCorrect="off"
+                spellCheck={false}
+              />
+            </div>
+
+            <select
+              className="rarity-select"
+              aria-label="Filter by rarity"
+              value={rarity}
+              onChange={(e) => setRarity(e.target.value as RarityFilter)}
+            >
+              {RARITY_OPTIONS.map((option) => (
+                <option key={option.value} value={option.value}>
+                  {option.label}
+                </option>
+              ))}
+            </select>
           </div>
 
-          <ul className="results" aria-label="Search results">
-            {results.map((monster) => (
-              <li key={monster.id}>
-                <button
-                  className={monster.id === target?.id ? 'result is-active' : 'result'}
-                  onClick={() => {
-                    setPinnedTarget(monster.id);
-                    setQuery('');
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                  }}
-                >
-                  <MonsterAvatar name={monster.name} elements={monster.elements} size="sm" />
-                  <span className="result-name">{monster.name}</span>
-                  <span className="result-time">{formatDuration(monster.breedingTime)}</span>
-                </button>
-              </li>
-            ))}
-            {results.length === 0 && <li className="empty">No monsters match “{query}”.</li>}
-          </ul>
+          {hasQuery && (
+            <ul className="results" aria-label="Search results">
+              {results.map((monster) => (
+                <li key={monster.id}>
+                  <button
+                    className={monster.id === target?.id ? 'result is-active' : 'result'}
+                    onClick={() => {
+                      setPinnedTarget(monster.id);
+                      setQuery('');
+                      window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }}
+                  >
+                    <MonsterAvatar name={monster.name} elements={monster.elements} size="sm" />
+                    <span className="result-name">{monster.name}</span>
+                    <span className="result-time">{formatDuration(monster.breedingTime)}</span>
+                  </button>
+                </li>
+              ))}
+              {results.length === 0 && (
+                <li className="empty">
+                  {rarity === 'all'
+                    ? `No monsters match “${query}”.`
+                    : `No ${rarity} monsters match “${query}”.`}
+                </li>
+              )}
+            </ul>
+          )}
         </section>
       </main>
     </div>

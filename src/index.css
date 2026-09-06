@@ -457,8 +457,42 @@ button.link {
   margin-top: 30px;
 }
 
+/* At 390px the field and the rarity select share one row; the field takes the slack. */
+.search-controls {
+  display: flex;
+  gap: 8px;
+  align-items: stretch;
+}
+
 .search-field {
   position: relative;
+  flex: 1;
+  min-width: 0;
+}
+
+.rarity-select {
+  flex: 0 0 auto;
+  min-height: 50px;
+  padding: 0 32px 0 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  font-size: 0.95rem;
+  /* Chevron drawn in CSS so the control needs no icon asset. */
+  appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, var(--muted) 50%),
+    linear-gradient(135deg, var(--muted) 50%, transparent 50%);
+  background-position: calc(100% - 18px) calc(50% - 2px), calc(100% - 13px) calc(50% - 2px);
+  background-size: 5px 5px;
+  background-repeat: no-repeat;
+}
+
+.rarity-select:focus-visible {
+  outline: none;
+  border-color: color-mix(in srgb, var(--island) 60%, transparent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--island) 18%, transparent);
 }
 
 .search-icon {
