@@ -63,24 +63,23 @@ showing. Combos listed only as breeding-*failure* outcomes, and the "substitute 
 Rare version" advice, are excluded — an invariant test caught `rare-entbrat` leaking in
 from that section.
 
-## Known gap: single-element breeding times
+## Resolved: single-element breeding times
 
-The four singles (Potbelly, Mammott, Toe Jammer, Noggin) have **no published breeding
-time** — they're market-bought, so the wiki lists no value.
+The four singles (Potbelly 2h, Mammott 2m, Toe Jammer 1m, Noggin 5s) **do** have a
+published time — the `Breeding/Incubation Time` infobox table on each wiki page. It's
+the hatch time for an egg you get from a failed breed, not a combo time, which is why
+it was first read as "not published".
 
-This currently breaks the combo sort in a way that matters. Cost is the sum of the
-parents' times, and unknown sorts last, so **single+double combos sort to the bottom** —
-but those are exactly the ones the wiki recommends. For Bowgart, the wiki's best pick
-(Furcorn + Toe Jammer, "failing and breeding a Toe Jammer lets you retry almost
-instantly") currently ranks last.
+Filling them in was option 1 of the two recorded here, and it resolved the sort problem
+without a code change. No combo has an `undefined` cost any more, so the cost tie-break
+in `byRankThenCost` does real work instead of dumping every single-parent combo at the
+bottom of the list.
 
-Two ways out, needs a decision:
-
-1. Fill in the singles' real breeding times from the game (they're seconds-to-minutes),
-   after which the existing cost sort produces the wiki's own ranking for free.
-2. Change the ranking to prefer combos containing a cheap parent, rather than summing.
-
-Option 1 is better if the numbers are easy to read off in-game.
+Note what this does *not* do: it doesn't reproduce the wiki's ranking. Cost is the sum
+of both parents' times, and the wiki ranks on what happens when a breed *fails* — those
+disagree. Bowgart's best pick, Furcorn + Toe Jammer, costs 8h 1m; the runner-up Maw +
+Potbelly costs 2h 30m. Sorting by cost alone would invert them. The explicit `rank`
+is what puts them in the wiki's order; cost only orders the unranked remainder.
 
 ## Not yet done
 

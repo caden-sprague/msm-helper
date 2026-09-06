@@ -9,6 +9,7 @@
     "islands": [
       "plant"
     ],
+    "breedingTime": "PT2M",
     "buyable": true,
     "verified": true
   },
@@ -22,6 +23,7 @@
     "islands": [
       "plant"
     ],
+    "breedingTime": "PT5S",
     "buyable": true,
     "verified": true
   },
@@ -35,6 +37,7 @@
     "islands": [
       "plant"
     ],
+    "breedingTime": "PT2H",
     "buyable": true,
     "verified": true
   },
@@ -48,6 +51,7 @@
     "islands": [
       "plant"
     ],
+    "breedingTime": "PT1M",
     "buyable": true,
     "verified": true
   },

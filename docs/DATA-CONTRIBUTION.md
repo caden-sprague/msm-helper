@@ -26,7 +26,7 @@ Each page gives you everything needed:
 | --- | --- |
 | `elements` | `\|element1 = Plant`, `\|element2 = Water`, … in the infobox |
 | `islands` | `\|island(s) = {{IslandsList\|Plant Island\|Cold Island\|…}}` |
-| `breedingTime` | prose: "By default, its breeding time is 12 hours long" |
+| `breedingTime` | the `Breeding/Incubation Time` infobox table, `Default:` column — also in prose: "By default, its breeding time is 12 hours long". Market-bought singles have one too; it's the hatch time for a breeding-failure egg |
 | `buyable` | prose: "must be purchased in the [[Market]]" |
 | combos | `==Breeding==` section: `{{BreedingCombo\|A\|B}}` and `{{BreedingCombo/Entry\|A\|B}}` |
 | `rank` / `advice` | `:''Of these, [[A]] + [[B]] is the best combination, as …''` |
@@ -47,11 +47,9 @@ Each page gives you everything needed:
    `T-Rox` -> `t-rox`.
 5. **Elements go in canonical order**: plant, cold, air, water, earth — the order in
    `elements.json`, not the order the infobox happens to list them.
-6. **Omit unknown values, never guess them.** Single-element monsters have no
-   published breeding time; leave `breedingTime` out rather than inventing one.
-7. **`verified: true` means a human or a cited source confirmed the row.** Wiki-sourced
+6. **`verified: true` means a human or a cited source confirmed the row.** Wiki-sourced
    rows count. Rows entered from memory do not.
-8. **Adding an island** also needs a line in `IslandId` in `src/data/types.ts`, a row in
+7. **Adding an island** also needs a line in `IslandId` in `src/data/types.ts`, a row in
    `islands.json` with its `elements` array, and monsters tagged with its id. A monster
    can only live on an island that has all of its elements (invariant 14).
 
