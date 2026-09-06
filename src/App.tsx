@@ -128,6 +128,15 @@ export default function App() {
                 placeholder="Search monsters…"
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
+                // Results filter as you type, so Enter has nothing left to submit —
+                // dismiss the keyboard and give the list the screen back.
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter') {
+                    e.preventDefault();
+                    e.currentTarget.blur();
+                  }
+                }}
+                enterKeyHint="done"
                 autoComplete="off"
                 autoCorrect="off"
                 spellCheck={false}

@@ -81,6 +81,21 @@ describe('App', () => {
     expect(within(rares).queryByText('Epic Bowgart')).toBeNull();
   });
 
+  it('dismisses the keyboard when Enter is pressed', async () => {
+    const user = userEvent.setup();
+    renderApp();
+    const input = screen.getByPlaceholderText('Search monsters…');
+
+    await user.type(input, 'bow');
+    expect(document.activeElement).toBe(input);
+
+    // Blurring the input is what closes the on-screen keyboard on mobile.
+    await user.keyboard('{Enter}');
+    expect(document.activeElement).not.toBe(input);
+    // The query survives, so the results stay on screen.
+    expect((input as HTMLInputElement).value).toBe('bow');
+  });
+
   it('tells the user when a monster is bought, not bred', async () => {
     const user = userEvent.setup();
     renderApp();
