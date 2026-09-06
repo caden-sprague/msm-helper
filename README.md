@@ -14,6 +14,28 @@ npm run build          # static output in dist/
 Install and offline need a secure context, so they only work on `localhost` or a
 deployed HTTPS URL — not over a LAN IP.
 
+## Deploying
+
+Pushes to `main` build and publish to GitHub Pages via `.github/workflows/deploy.yml`.
+The data invariants run first, so bad data can't reach the phone.
+
+Pages serves from `/<repo>/`, so the build takes a `BASE_PATH`. To check a
+Pages-shaped build locally:
+
+```bash
+npm run check:build   # builds under /msm-helper/ and verifies it in a real browser
+```
+
+That catches the usual subpath failures: absolute asset URLs, a service worker whose
+scope doesn't match, and an unreachable manifest.
+
+## Credits
+
+Monster data comes from the [My Singing Monsters Wiki](https://mysingingmonsters.fandom.com),
+licensed [CC BY-SA](https://www.fandom.com/licensing). My Singing Monsters is a
+trademark of Big Blue Bubble; this is an unaffiliated fan project and ships no game
+artwork.
+
 ## Docs
 
 Start with [CLAUDE.md](CLAUDE.md) for the decisions, then:
