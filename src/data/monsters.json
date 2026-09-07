@@ -11,7 +11,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "P2DT2H"
+    "breedingTime": "P2DT2H",
+    "icon": "alcordion.webp"
   },
   {
     "id": "anglow",
@@ -25,7 +26,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "P1DT9H"
+    "breedingTime": "P1DT9H",
+    "icon": "anglow.webp"
   },
   {
     "id": "blabbit",
@@ -39,7 +41,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "PT19H"
+    "breedingTime": "PT19H",
+    "icon": "blabbit.webp"
   },
   {
     "id": "gjoob",
@@ -53,7 +56,8 @@
     ],
     "breedingTime": "PT18H",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "gjoob.webp"
   },
   {
     "id": "ghazt",
@@ -67,7 +71,8 @@
     ],
     "breedingTime": "P1DT12H",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "ghazt.webp"
   },
   {
     "id": "grumpyre",
@@ -81,7 +86,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "P1DT12H"
+    "breedingTime": "P1DT12H",
+    "icon": "grumpyre.webp"
   },
   {
     "id": "hoola",
@@ -95,7 +101,8 @@
     ],
     "buyable": true,
     "verified": true,
-    "breedingTime": "P1DT1H"
+    "breedingTime": "P1DT1H",
+    "icon": "hoola.webp"
   },
   {
     "id": "humbug",
@@ -109,7 +116,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "P1DT12H"
+    "breedingTime": "P1DT12H",
+    "icon": "humbug.webp"
   },
   {
     "id": "hyehehe",
@@ -123,7 +131,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "P1DT4H"
+    "breedingTime": "P1DT4H",
+    "icon": "hyehehe.webp"
   },
   {
     "id": "jeeode",
@@ -137,7 +146,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "P1DT12H"
+    "breedingTime": "P1DT12H",
+    "icon": "jeeode.webp"
   },
   {
     "id": "maggpi",
@@ -152,7 +162,8 @@
     ],
     "buyable": true,
     "verified": true,
-    "breedingTime": "PT8H"
+    "breedingTime": "PT8H",
+    "icon": "maggpi.webp"
   },
   {
     "id": "mammott",
@@ -169,7 +180,8 @@
     ],
     "breedingTime": "PT2M",
     "buyable": true,
-    "verified": true
+    "verified": true,
+    "icon": "mammott.webp"
   },
   {
     "id": "noggin",
@@ -186,7 +198,8 @@
     ],
     "breedingTime": "PT5S",
     "buyable": true,
-    "verified": true
+    "verified": true,
+    "icon": "noggin.webp"
   },
   {
     "id": "parlsona",
@@ -202,7 +215,8 @@
     ],
     "breedingTime": "PT8H",
     "buyable": true,
-    "verified": true
+    "verified": true,
+    "icon": "parlsona.webp"
   },
   {
     "id": "potbelly",
@@ -219,7 +233,8 @@
     ],
     "breedingTime": "PT2H",
     "buyable": true,
-    "verified": true
+    "verified": true,
+    "icon": "potbelly.webp"
   },
   {
     "id": "punkleton",
@@ -233,7 +248,8 @@
     ],
     "breedingTime": "PT18H",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "punkleton.webp"
   },
   {
     "id": "reebro",
@@ -247,7 +263,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "P1DT12H"
+    "breedingTime": "P1DT12H",
+    "icon": "reebro.webp"
   },
   {
     "id": "shugabush",
@@ -261,7 +278,8 @@
     ],
     "breedingTime": "P1DT11H",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "shugabush.webp"
   },
   {
     "id": "stoowarb",
@@ -276,7 +294,8 @@
     ],
     "buyable": true,
     "verified": true,
-    "breedingTime": "PT8H"
+    "breedingTime": "PT8H",
+    "icon": "stoowarb.webp"
   },
   {
     "id": "strombonin",
@@ -290,7 +309,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "PT23H"
+    "breedingTime": "PT23H",
+    "icon": "strombonin.webp"
   },
   {
     "id": "t-pirainha",
@@ -303,7 +323,8 @@
       "water"
     ],
     "buyable": true,
-    "verified": true
+    "verified": true,
+    "icon": "t-pirainha.webp"
   },
   {
     "id": "tawkerr",
@@ -319,7 +340,8 @@
     ],
     "breedingTime": "PT8H",
     "buyable": true,
-    "verified": true
+    "verified": true,
+    "icon": "tawkerr.webp"
   },
   {
     "id": "toe-jammer",
@@ -336,7 +358,8 @@
     ],
     "breedingTime": "PT1M",
     "buyable": true,
-    "verified": true
+    "verified": true,
+    "icon": "toe-jammer.webp"
   },
   {
     "id": "tweedle",
@@ -353,7 +376,8 @@
     ],
     "buyable": true,
     "verified": true,
-    "breedingTime": "PT4H"
+    "breedingTime": "PT4H",
+    "icon": "tweedle.webp"
   },
   {
     "id": "wubbox",
@@ -371,7 +395,8 @@
     ],
     "breedingTime": "P2D",
     "buyable": true,
-    "verified": true
+    "verified": true,
+    "icon": "wubbox.webp"
   },
   {
     "id": "yawstrich",
@@ -385,7 +410,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "P1DT4H"
+    "breedingTime": "P1DT4H",
+    "icon": "yawstrich.webp"
   },
   {
     "id": "yool",
@@ -399,7 +425,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "P1DT12H"
+    "breedingTime": "P1DT12H",
+    "icon": "yool.webp"
   },
   {
     "id": "bbliszard",
@@ -413,7 +440,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "P1DT11H"
+    "breedingTime": "P1DT11H",
+    "icon": "bbliszard.webp"
   },
   {
     "id": "cybop",
@@ -430,7 +458,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "PT8H"
+    "breedingTime": "PT8H",
+    "icon": "cybop.webp"
   },
   {
     "id": "dandidoo",
@@ -447,7 +476,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "PT8H"
+    "breedingTime": "PT8H",
+    "icon": "dandidoo.webp"
   },
   {
     "id": "drumpler",
@@ -464,7 +494,8 @@
     ],
     "breedingTime": "PT30M",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "drumpler.webp"
   },
   {
     "id": "furcorn",
@@ -481,7 +512,8 @@
     ],
     "breedingTime": "PT8H",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "furcorn.webp"
   },
   {
     "id": "fwog",
@@ -498,7 +530,8 @@
     ],
     "breedingTime": "PT30M",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "fwog.webp"
   },
   {
     "id": "maw",
@@ -515,7 +548,8 @@
     ],
     "breedingTime": "PT30M",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "maw.webp"
   },
   {
     "id": "oaktopus",
@@ -532,7 +566,8 @@
     ],
     "breedingTime": "PT8H",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "oaktopus.webp"
   },
   {
     "id": "pango",
@@ -549,7 +584,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "PT8H"
+    "breedingTime": "PT8H",
+    "icon": "pango.webp"
   },
   {
     "id": "quibble",
@@ -566,7 +602,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "PT8H"
+    "breedingTime": "PT8H",
+    "icon": "quibble.webp"
   },
   {
     "id": "shrubb",
@@ -583,7 +620,8 @@
     ],
     "breedingTime": "PT8H",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "shrubb.webp"
   },
   {
     "id": "bowgart",
@@ -600,7 +638,8 @@
     ],
     "breedingTime": "PT12H",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "bowgart.webp"
   },
   {
     "id": "clamble",
@@ -617,7 +656,8 @@
     ],
     "breedingTime": "PT12H",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "clamble.webp"
   },
   {
     "id": "congle",
@@ -634,7 +674,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "PT12H"
+    "breedingTime": "PT12H",
+    "icon": "congle.webp"
   },
   {
     "id": "pompom",
@@ -651,7 +692,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "PT12H"
+    "breedingTime": "PT12H",
+    "icon": "pompom.webp"
   },
   {
     "id": "pummel",
@@ -668,7 +710,8 @@
     ],
     "breedingTime": "PT12H",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "pummel.webp"
   },
   {
     "id": "reedling",
@@ -685,7 +728,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "PT12H"
+    "breedingTime": "PT12H",
+    "icon": "reedling.webp"
   },
   {
     "id": "scups",
@@ -702,7 +746,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "PT12H"
+    "breedingTime": "PT12H",
+    "icon": "scups.webp"
   },
   {
     "id": "spunge",
@@ -719,7 +764,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "PT12H"
+    "breedingTime": "PT12H",
+    "icon": "spunge.webp"
   },
   {
     "id": "t-rox",
@@ -736,7 +782,8 @@
     ],
     "breedingTime": "PT8H",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "t-rox.webp"
   },
   {
     "id": "thumpies",
@@ -753,7 +800,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "PT12H"
+    "breedingTime": "PT12H",
+    "icon": "thumpies.webp"
   },
   {
     "id": "deedge",
@@ -770,7 +818,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "PT24H"
+    "breedingTime": "PT24H",
+    "icon": "deedge.webp"
   },
   {
     "id": "entbrat",
@@ -787,7 +836,8 @@
     ],
     "breedingTime": "PT24H",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "entbrat.webp"
   },
   {
     "id": "quarrister",
@@ -804,7 +854,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "PT24H"
+    "breedingTime": "PT24H",
+    "icon": "quarrister.webp"
   },
   {
     "id": "riff",
@@ -821,7 +872,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "PT24H"
+    "breedingTime": "PT24H",
+    "icon": "riff.webp"
   },
   {
     "id": "shellbeat",
@@ -838,7 +890,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "PT24H"
+    "breedingTime": "PT24H",
+    "icon": "shellbeat.webp"
   },
   {
     "id": "epic-anglow",
@@ -853,7 +906,8 @@
     "buyable": false,
     "verified": true,
     "variantOf": "anglow",
-    "breedingTime": "P1DT17H13M"
+    "breedingTime": "P1DT17H13M",
+    "icon": "epic-anglow.webp"
   },
   {
     "id": "epic-blabbit",
@@ -868,7 +922,8 @@
     "buyable": false,
     "verified": true,
     "variantOf": "blabbit",
-    "breedingTime": "P1DT1H22M"
+    "breedingTime": "P1DT1H22M",
+    "icon": "epic-blabbit.webp"
   },
   {
     "id": "epic-gjoob",
@@ -883,7 +938,8 @@
     ],
     "breedingTime": "P1DT9H10M",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "epic-gjoob.webp"
   },
   {
     "id": "epic-ghazt",
@@ -898,7 +954,8 @@
     ],
     "breedingTime": "P1DT6H",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "epic-ghazt.webp"
   },
   {
     "id": "epic-grumpyre",
@@ -913,7 +970,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "P1DT4H"
+    "breedingTime": "P1DT4H",
+    "icon": "epic-grumpyre.webp"
   },
   {
     "id": "epic-hoola",
@@ -928,7 +986,8 @@
     "buyable": false,
     "verified": true,
     "variantOf": "hoola",
-    "breedingTime": "PT21H20M"
+    "breedingTime": "PT21H20M",
+    "icon": "epic-hoola.webp"
   },
   {
     "id": "epic-humbug",
@@ -943,7 +1002,8 @@
     "buyable": false,
     "verified": true,
     "variantOf": "humbug",
-    "breedingTime": "P1DT8H"
+    "breedingTime": "P1DT8H",
+    "icon": "epic-humbug.webp"
   },
   {
     "id": "epic-hyehehe",
@@ -958,7 +1018,8 @@
     "buyable": false,
     "verified": true,
     "variantOf": "hyehehe",
-    "breedingTime": "P1DT9H28M"
+    "breedingTime": "P1DT9H28M",
+    "icon": "epic-hyehehe.webp"
   },
   {
     "id": "epic-jeeode",
@@ -973,7 +1034,8 @@
     "buyable": false,
     "verified": true,
     "variantOf": "jeeode",
-    "breedingTime": "P1DT2H"
+    "breedingTime": "P1DT2H",
+    "icon": "epic-jeeode.webp"
   },
   {
     "id": "epic-mammott",
@@ -991,7 +1053,8 @@
     ],
     "breedingTime": "PT5H",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "epic-mammott.webp"
   },
   {
     "id": "epic-noggin",
@@ -1009,7 +1072,8 @@
     ],
     "breedingTime": "PT1H",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "epic-noggin.webp"
   },
   {
     "id": "epic-potbelly",
@@ -1027,7 +1091,8 @@
     ],
     "breedingTime": "PT9H",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "epic-potbelly.webp"
   },
   {
     "id": "epic-punkleton",
@@ -1042,7 +1107,8 @@
     ],
     "breedingTime": "P1DT7H10M",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "epic-punkleton.webp"
   },
   {
     "id": "epic-reebro",
@@ -1057,7 +1123,8 @@
     "buyable": false,
     "verified": true,
     "variantOf": "reebro",
-    "breedingTime": "P1DT10H"
+    "breedingTime": "P1DT10H",
+    "icon": "epic-reebro.webp"
   },
   {
     "id": "epic-strombonin",
@@ -1072,7 +1139,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "P1DT10H30M"
+    "breedingTime": "P1DT10H30M",
+    "icon": "epic-strombonin.webp"
   },
   {
     "id": "epic-toe-jammer",
@@ -1090,7 +1158,8 @@
     ],
     "breedingTime": "PT3H",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "epic-toe-jammer.webp"
   },
   {
     "id": "epic-tweedle",
@@ -1108,7 +1177,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "PT11H"
+    "breedingTime": "PT11H",
+    "icon": "epic-tweedle.webp"
   },
   {
     "id": "epic-wubbox",
@@ -1126,7 +1196,8 @@
       "earth"
     ],
     "buyable": true,
-    "verified": true
+    "verified": true,
+    "icon": "epic-wubbox.webp"
   },
   {
     "id": "epic-yawstrich",
@@ -1141,7 +1212,8 @@
     "buyable": false,
     "verified": true,
     "variantOf": "yawstrich",
-    "breedingTime": "P1DT14H23M"
+    "breedingTime": "P1DT14H23M",
+    "icon": "epic-yawstrich.webp"
   },
   {
     "id": "epic-yool",
@@ -1156,7 +1228,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "P1DT1H12M"
+    "breedingTime": "P1DT1H12M",
+    "icon": "epic-yool.webp"
   },
   {
     "id": "rare-anglow",
@@ -1171,7 +1244,8 @@
     "buyable": false,
     "verified": true,
     "variantOf": "anglow",
-    "breedingTime": "P1DT17H15M"
+    "breedingTime": "P1DT17H15M",
+    "icon": "rare-anglow.webp"
   },
   {
     "id": "rare-blabbit",
@@ -1186,7 +1260,8 @@
     "buyable": false,
     "verified": true,
     "variantOf": "blabbit",
-    "breedingTime": "P1DT7H45M"
+    "breedingTime": "P1DT7H45M",
+    "icon": "rare-blabbit.webp"
   },
   {
     "id": "rare-gjoob",
@@ -1201,7 +1276,8 @@
     ],
     "breedingTime": "PT22H30M",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "rare-gjoob.webp"
   },
   {
     "id": "rare-ghazt",
@@ -1216,7 +1292,8 @@
     ],
     "breedingTime": "P1DT21H30M",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "rare-ghazt.webp"
   },
   {
     "id": "rare-grumpyre",
@@ -1231,7 +1308,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "P1DT21H30M"
+    "breedingTime": "P1DT21H30M",
+    "icon": "rare-grumpyre.webp"
   },
   {
     "id": "rare-hoola",
@@ -1246,7 +1324,8 @@
     "buyable": false,
     "verified": true,
     "variantOf": "hoola",
-    "breedingTime": "P1DT7H45M"
+    "breedingTime": "P1DT7H45M",
+    "icon": "rare-hoola.webp"
   },
   {
     "id": "rare-humbug",
@@ -1261,7 +1340,8 @@
     "buyable": false,
     "verified": true,
     "variantOf": "humbug",
-    "breedingTime": "P1DT21H30M"
+    "breedingTime": "P1DT21H30M",
+    "icon": "rare-humbug.webp"
   },
   {
     "id": "rare-hyehehe",
@@ -1276,7 +1356,8 @@
     "buyable": false,
     "verified": true,
     "variantOf": "hyehehe",
-    "breedingTime": "P1DT11H"
+    "breedingTime": "P1DT11H",
+    "icon": "rare-hyehehe.webp"
   },
   {
     "id": "rare-jeeode",
@@ -1291,7 +1372,8 @@
     "buyable": false,
     "verified": true,
     "variantOf": "jeeode",
-    "breedingTime": "P1DT21H30M"
+    "breedingTime": "P1DT21H30M",
+    "icon": "rare-jeeode.webp"
   },
   {
     "id": "rare-mammott",
@@ -1309,7 +1391,8 @@
     ],
     "breedingTime": "PT6H",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "rare-mammott.webp"
   },
   {
     "id": "rare-noggin",
@@ -1327,7 +1410,8 @@
     ],
     "breedingTime": "PT6H",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "rare-noggin.webp"
   },
   {
     "id": "rare-potbelly",
@@ -1345,7 +1429,8 @@
     ],
     "breedingTime": "PT6H",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "rare-potbelly.webp"
   },
   {
     "id": "rare-punkleton",
@@ -1360,7 +1445,8 @@
     ],
     "breedingTime": "P1DT7H45M",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "rare-punkleton.webp"
   },
   {
     "id": "rare-reebro",
@@ -1375,7 +1461,8 @@
     "buyable": false,
     "verified": true,
     "variantOf": "reebro",
-    "breedingTime": "P1DT21H30M"
+    "breedingTime": "P1DT21H30M",
+    "icon": "rare-reebro.webp"
   },
   {
     "id": "rare-strombonin",
@@ -1390,7 +1477,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "P1DT4H45M"
+    "breedingTime": "P1DT4H45M",
+    "icon": "rare-strombonin.webp"
   },
   {
     "id": "rare-toe-jammer",
@@ -1408,7 +1496,8 @@
     ],
     "breedingTime": "PT6H",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "rare-toe-jammer.webp"
   },
   {
     "id": "rare-tweedle",
@@ -1426,7 +1515,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "PT6H"
+    "breedingTime": "PT6H",
+    "icon": "rare-tweedle.webp"
   },
   {
     "id": "rare-wubbox",
@@ -1445,7 +1535,8 @@
     ],
     "breedingTime": "PT14H",
     "buyable": true,
-    "verified": true
+    "verified": true,
+    "icon": "rare-wubbox.webp"
   },
   {
     "id": "rare-yawstrich",
@@ -1460,7 +1551,8 @@
     "buyable": false,
     "verified": true,
     "variantOf": "yawstrich",
-    "breedingTime": "P1DT11H"
+    "breedingTime": "P1DT11H",
+    "icon": "rare-yawstrich.webp"
   },
   {
     "id": "rare-yool",
@@ -1475,7 +1567,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "P1DT7H45M"
+    "breedingTime": "P1DT7H45M",
+    "icon": "rare-yool.webp"
   },
   {
     "id": "epic-cybop",
@@ -1493,7 +1586,8 @@
     "buyable": false,
     "verified": true,
     "variantOf": "cybop",
-    "breedingTime": "PT23H"
+    "breedingTime": "PT23H",
+    "icon": "epic-cybop.webp"
   },
   {
     "id": "epic-dandidoo",
@@ -1511,7 +1605,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "P1DT5H"
+    "breedingTime": "P1DT5H",
+    "icon": "epic-dandidoo.webp"
   },
   {
     "id": "epic-drumpler",
@@ -1529,7 +1624,8 @@
     ],
     "breedingTime": "PT15H",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "epic-drumpler.webp"
   },
   {
     "id": "epic-furcorn",
@@ -1547,7 +1643,8 @@
     ],
     "breedingTime": "PT17H",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "epic-furcorn.webp"
   },
   {
     "id": "epic-fwog",
@@ -1565,7 +1662,8 @@
     ],
     "breedingTime": "PT7H",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "epic-fwog.webp"
   },
   {
     "id": "epic-maw",
@@ -1583,7 +1681,8 @@
     ],
     "breedingTime": "PT13H",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "epic-maw.webp"
   },
   {
     "id": "epic-oaktopus",
@@ -1601,7 +1700,8 @@
     ],
     "breedingTime": "P1DT7H",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "epic-oaktopus.webp"
   },
   {
     "id": "epic-pango",
@@ -1619,7 +1719,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "P1DT3H"
+    "breedingTime": "P1DT3H",
+    "icon": "epic-pango.webp"
   },
   {
     "id": "epic-quibble",
@@ -1637,7 +1738,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "PT21H"
+    "breedingTime": "PT21H",
+    "icon": "epic-quibble.webp"
   },
   {
     "id": "epic-shrubb",
@@ -1655,7 +1757,8 @@
     ],
     "breedingTime": "PT19H",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "epic-shrubb.webp"
   },
   {
     "id": "rare-cybop",
@@ -1673,7 +1776,8 @@
     "buyable": false,
     "verified": true,
     "variantOf": "cybop",
-    "breedingTime": "PT10H30M"
+    "breedingTime": "PT10H30M",
+    "icon": "rare-cybop.webp"
   },
   {
     "id": "rare-dandidoo",
@@ -1691,7 +1795,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "PT10H30M"
+    "breedingTime": "PT10H30M",
+    "icon": "rare-dandidoo.webp"
   },
   {
     "id": "rare-drumpler",
@@ -1709,7 +1814,8 @@
     ],
     "breedingTime": "PT1H7M30S",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "rare-drumpler.webp"
   },
   {
     "id": "rare-furcorn",
@@ -1727,7 +1833,8 @@
     ],
     "breedingTime": "PT10H30M",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "rare-furcorn.webp"
   },
   {
     "id": "rare-fwog",
@@ -1745,7 +1852,8 @@
     ],
     "breedingTime": "PT1H15M",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "rare-fwog.webp"
   },
   {
     "id": "rare-maw",
@@ -1763,7 +1871,8 @@
     ],
     "breedingTime": "PT1H7M30S",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "rare-maw.webp"
   },
   {
     "id": "rare-oaktopus",
@@ -1781,7 +1890,8 @@
     ],
     "breedingTime": "PT10H30M",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "rare-oaktopus.webp"
   },
   {
     "id": "rare-pango",
@@ -1799,7 +1909,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "PT10H30M"
+    "breedingTime": "PT10H30M",
+    "icon": "rare-pango.webp"
   },
   {
     "id": "rare-quibble",
@@ -1817,7 +1928,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "PT10H30M"
+    "breedingTime": "PT10H30M",
+    "icon": "rare-quibble.webp"
   },
   {
     "id": "rare-shrubb",
@@ -1835,7 +1947,8 @@
     ],
     "breedingTime": "PT10H30M",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "rare-shrubb.webp"
   },
   {
     "id": "epic-bowgart",
@@ -1853,7 +1966,8 @@
     ],
     "breedingTime": "P1DT5H",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "epic-bowgart.webp"
   },
   {
     "id": "epic-clamble",
@@ -1871,7 +1985,8 @@
     ],
     "breedingTime": "PT21H",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "epic-clamble.webp"
   },
   {
     "id": "epic-congle",
@@ -1889,7 +2004,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "PT23H"
+    "breedingTime": "PT23H",
+    "icon": "epic-congle.webp"
   },
   {
     "id": "epic-pompom",
@@ -1907,7 +2023,8 @@
     "buyable": false,
     "verified": true,
     "variantOf": "pompom",
-    "breedingTime": "P1DT3H"
+    "breedingTime": "P1DT3H",
+    "icon": "epic-pompom.webp"
   },
   {
     "id": "epic-pummel",
@@ -1925,7 +2042,8 @@
     ],
     "breedingTime": "P1DT7H",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "epic-pummel.webp"
   },
   {
     "id": "epic-reedling",
@@ -1943,7 +2061,8 @@
     "buyable": false,
     "verified": true,
     "variantOf": "reedling",
-    "breedingTime": "PT17H"
+    "breedingTime": "PT17H",
+    "icon": "epic-reedling.webp"
   },
   {
     "id": "epic-scups",
@@ -1961,7 +2080,8 @@
     "buyable": false,
     "verified": true,
     "variantOf": "scups",
-    "breedingTime": "P1DT13H"
+    "breedingTime": "P1DT13H",
+    "icon": "epic-scups.webp"
   },
   {
     "id": "epic-spunge",
@@ -1979,7 +2099,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "P1DT1H"
+    "breedingTime": "P1DT1H",
+    "icon": "epic-spunge.webp"
   },
   {
     "id": "epic-t-rox",
@@ -1997,7 +2118,8 @@
     ],
     "breedingTime": "PT19H",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "epic-t-rox.webp"
   },
   {
     "id": "epic-thumpies",
@@ -2015,7 +2137,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "P1DT9H"
+    "breedingTime": "P1DT9H",
+    "icon": "epic-thumpies.webp"
   },
   {
     "id": "rare-bowgart",
@@ -2033,7 +2156,8 @@
     ],
     "breedingTime": "PT15H30M",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "rare-bowgart.webp"
   },
   {
     "id": "rare-clamble",
@@ -2051,7 +2175,8 @@
     ],
     "breedingTime": "PT15H30M",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "rare-clamble.webp"
   },
   {
     "id": "rare-congle",
@@ -2069,7 +2194,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "PT15H30M"
+    "breedingTime": "PT15H30M",
+    "icon": "rare-congle.webp"
   },
   {
     "id": "rare-pompom",
@@ -2087,7 +2213,8 @@
     "buyable": false,
     "verified": true,
     "variantOf": "pompom",
-    "breedingTime": "PT15H30M"
+    "breedingTime": "PT15H30M",
+    "icon": "rare-pompom.webp"
   },
   {
     "id": "rare-pummel",
@@ -2105,7 +2232,8 @@
     ],
     "breedingTime": "PT15H30M",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "rare-pummel.webp"
   },
   {
     "id": "rare-reedling",
@@ -2123,7 +2251,8 @@
     "buyable": false,
     "verified": true,
     "variantOf": "reedling",
-    "breedingTime": "PT15H30M"
+    "breedingTime": "PT15H30M",
+    "icon": "rare-reedling.webp"
   },
   {
     "id": "rare-scups",
@@ -2141,7 +2270,8 @@
     "buyable": false,
     "verified": true,
     "variantOf": "scups",
-    "breedingTime": "PT15H30M"
+    "breedingTime": "PT15H30M",
+    "icon": "rare-scups.webp"
   },
   {
     "id": "rare-spunge",
@@ -2159,7 +2289,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "PT15H30M"
+    "breedingTime": "PT15H30M",
+    "icon": "rare-spunge.webp"
   },
   {
     "id": "rare-t-rox",
@@ -2177,7 +2308,8 @@
     ],
     "breedingTime": "PT10H30M",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "rare-t-rox.webp"
   },
   {
     "id": "rare-thumpies",
@@ -2195,7 +2327,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "PT15H30M"
+    "breedingTime": "PT15H30M",
+    "icon": "rare-thumpies.webp"
   },
   {
     "id": "epic-deedge",
@@ -2213,7 +2346,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "P1DT17H"
+    "breedingTime": "P1DT17H",
+    "icon": "epic-deedge.webp"
   },
   {
     "id": "epic-entbrat",
@@ -2231,7 +2365,8 @@
     ],
     "breedingTime": "P1DT21H",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "epic-entbrat.webp"
   },
   {
     "id": "epic-quarrister",
@@ -2249,7 +2384,8 @@
     "buyable": true,
     "verified": true,
     "variantOf": "quarrister",
-    "breedingTime": "P1DT11H"
+    "breedingTime": "P1DT11H",
+    "icon": "epic-quarrister.webp"
   },
   {
     "id": "epic-riff",
@@ -2267,7 +2403,8 @@
     "buyable": true,
     "verified": true,
     "variantOf": "riff",
-    "breedingTime": "P1DT15H"
+    "breedingTime": "P1DT15H",
+    "icon": "epic-riff.webp"
   },
   {
     "id": "epic-shellbeat",
@@ -2285,7 +2422,8 @@
     "buyable": true,
     "verified": true,
     "variantOf": "shellbeat",
-    "breedingTime": "P1DT19H"
+    "breedingTime": "P1DT19H",
+    "icon": "epic-shellbeat.webp"
   },
   {
     "id": "rare-deedge",
@@ -2303,7 +2441,8 @@
     ],
     "buyable": false,
     "verified": true,
-    "breedingTime": "P1DT6H30M"
+    "breedingTime": "P1DT6H30M",
+    "icon": "rare-deedge.webp"
   },
   {
     "id": "rare-entbrat",
@@ -2321,7 +2460,8 @@
     ],
     "breedingTime": "P1DT6H30M",
     "buyable": false,
-    "verified": true
+    "verified": true,
+    "icon": "rare-entbrat.webp"
   },
   {
     "id": "rare-quarrister",
@@ -2339,7 +2479,8 @@
     "buyable": false,
     "verified": true,
     "variantOf": "quarrister",
-    "breedingTime": "P1DT6H30M"
+    "breedingTime": "P1DT6H30M",
+    "icon": "rare-quarrister.webp"
   },
   {
     "id": "rare-riff",
@@ -2357,7 +2498,8 @@
     "buyable": false,
     "verified": true,
     "variantOf": "riff",
-    "breedingTime": "P1DT6H30M"
+    "breedingTime": "P1DT6H30M",
+    "icon": "rare-riff.webp"
   },
   {
     "id": "rare-shellbeat",
@@ -2375,6 +2517,7 @@
     "buyable": false,
     "verified": true,
     "variantOf": "shellbeat",
-    "breedingTime": "P1DT6H30M"
+    "breedingTime": "P1DT6H30M",
+    "icon": "rare-shellbeat.webp"
   }
 ]

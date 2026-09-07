@@ -59,7 +59,12 @@ export default function App() {
         {target ? (
           <section className="target" aria-label="Currently breeding">
             <div className="target-card">
-              <MonsterAvatar name={target.name} elements={target.elements} size="lg" />
+              <MonsterAvatar
+                name={target.name}
+                elements={target.elements}
+                icon={target.icon}
+                size="lg"
+              />
               <div className="target-info">
                 <p className="eyebrow">Breeding for</p>
                 <h2>{target.name}</h2>
@@ -175,7 +180,12 @@ export default function App() {
                       window.scrollTo({ top: 0, behavior: 'smooth' });
                     }}
                   >
-                    <MonsterAvatar name={monster.name} elements={monster.elements} size="sm" />
+                    <MonsterAvatar
+                      name={monster.name}
+                      elements={monster.elements}
+                      icon={monster.icon}
+                      size="sm"
+                    />
                     <span className="result-name">{monster.name}</span>
                     <span className="result-time">{formatDuration(monster.breedingTime)}</span>
                   </button>

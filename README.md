@@ -31,10 +31,11 @@ scope doesn't match, and an unreachable manifest.
 
 ## Credits
 
-Monster data comes from the [My Singing Monsters Wiki](https://mysingingmonsters.fandom.com),
-licensed [CC BY-SA](https://www.fandom.com/licensing). My Singing Monsters is a
-trademark of Big Blue Bubble; this is an unaffiliated fan project and ships no game
-artwork.
+Monster data and artwork come from the
+[My Singing Monsters Wiki](https://mysingingmonsters.fandom.com). Data is
+[CC BY-SA](https://www.fandom.com/licensing); the artwork is copyright Big Blue Bubble
+and is **not** covered by this repository's licence — see [NOTICE.md](NOTICE.md). This
+is an unaffiliated, non-commercial fan project.
 
 ## Docs
 

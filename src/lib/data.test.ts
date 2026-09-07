@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest';
+import { existsSync } from 'node:fs';
 import { combos, elements, islands, monsters } from '../data';
 import { elementOrder } from './indexes';
 
@@ -258,6 +259,21 @@ describe('island completeness', () => {
         expect(usable.length, `${m.id} has no combo on ${island}`).toBeGreaterThan(0);
       }
     }
+  });
+});
+
+describe('artwork', () => {
+  it('every declared icon file exists', () => {
+    for (const m of monsters) {
+      if (!m.icon) continue;
+      expect(existsSync(`public/icons/${m.icon}`), `${m.id} -> ${m.icon}`).toBe(true);
+    }
+  });
+
+  it('reports monsters with no art', () => {
+    const missing = monsters.filter((m) => !m.icon).map((m) => m.id);
+    // Not a failure: the avatar falls back to element slices. Just keep it visible.
+    console.info(`monsters without art: ${missing.length}`);
   });
 });
 

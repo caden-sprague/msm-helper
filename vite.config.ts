@@ -11,6 +11,12 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
+      workbox: {
+        // The default glob omits webp, which would leave every monster icon out
+        // of the offline bundle.
+        globPatterns: ['**/*.{js,css,html,ico,png,svg,webp,webmanifest}'],
+        maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
+      },
       includeAssets: ['favicon.svg', 'apple-touch-icon.png'],
       manifest: {
         name: 'MSM Helper',

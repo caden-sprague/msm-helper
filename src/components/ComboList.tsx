@@ -6,17 +6,19 @@ function Parent({
   name,
   elements,
   time,
+  icon,
   mirrored = false,
 }: {
   name: string;
   elements: string[];
   time?: string;
+  icon?: string;
   /** The right-hand parent reads inward, so the pair balances around the "+". */
   mirrored?: boolean;
 }) {
   return (
     <div className={mirrored ? 'parent is-mirrored' : 'parent'}>
-      <MonsterAvatar name={name} elements={elements as never} size="sm" />
+      <MonsterAvatar name={name} elements={elements as never} icon={icon} size="sm" />
       <span className="parent-text">
         <span className="parent-name">{name}</span>
         {time && <span className="parent-time">{formatDuration(time)}</span>}
@@ -35,11 +37,17 @@ function ComboRow({ resolved }: { resolved: ResolvedCombo }) {
     <li className={rank === 1 ? 'combo is-best' : 'combo'}>
       {badge && <span className={`combo-badge rank-${rank}`}>{badge}</span>}
       <div className="combo-pair">
-        <Parent name={a.name} elements={a.elements} time={a.breedingTime} />
+        <Parent name={a.name} elements={a.elements} time={a.breedingTime} icon={a.icon} />
         <span className="combo-plus" aria-hidden="true">
           +
         </span>
-        <Parent name={b.name} elements={b.elements} time={b.breedingTime} mirrored />
+        <Parent
+          name={b.name}
+          elements={b.elements}
+          time={b.breedingTime}
+          icon={b.icon}
+          mirrored
+        />
       </div>
       {advice && <p className="combo-advice">{advice}</p>}
     </li>
